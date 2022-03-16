@@ -1,8 +1,11 @@
 @import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:300);
 
 body {
-    font-family: 'Alegreya Sans', sans-serif;
+    
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
 }
+
 
 /* Sticky footer position and size
 -------------------------------------------------- */
