@@ -1,3 +1,4 @@
+
 let college_card_container = document.getElementsByClassName('college_card_container')[0];
 college_data.forEach((element, index) => {
     let div = document.createElement('div');
@@ -10,4 +11,5 @@ college_data.forEach((element, index) => {
       <a href="#" id = "${index}"class="btn btn-primary college_card_button" >Go somewhere</a>
       </div>`;
     college_card_container.appendChild(div);
+
 })
