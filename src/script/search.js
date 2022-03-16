@@ -1,0 +1,20 @@
+let search_bar_homepage=document.getElementsByClassName('search-bar-homepage')[0];
+let search_data_array;
+
+function match_search(key_to_search,elm){
+    return (elm.name.toLowerCase().includes(key_to_search)||elm.address.toLowerCase().includes(key_to_search)||elm.known_as.toLowerCase().includes(key_to_search)||elm.year_established.toLowerCase().includes(key_to_search)||elm.location.toLowerCase().includes(key_to_search))||(elm.name.toUpperCase().includes(key_to_search)||elm.address.toUpperCase().includes(key_to_search)||elm.known_as.toUpperCase().includes(key_to_search)||elm.year_established.toUpperCase().includes(key_to_search)||elm.location.toUpperCase().includes(key_to_search));
+}
+search_bar_homepage.addEventListener('input', ()=>{
+    let key_to_search=search_bar_homepage.value;
+    if(key_to_search!=''){
+        search_data_array=college_data.filter((elm)=>{
+            return match_search(key_to_search,elm);
+        })
+        
+    }else search_data_array=college_data;
+    college_card_container.innerHTML='';
+    if(search_data_array.length==0){
+        college_card_container.innerHTML="<b>No Result Found</b>"
+    }else fill_cards(search_data_array,college_card_container);
+
+})
