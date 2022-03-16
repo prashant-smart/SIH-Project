@@ -17,5 +17,4 @@ collge_Data.forEach((elm)=>{
  
     `;
     cardcontainer.appendChild(div_html);
-    console.log(elm);
 })
