@@ -1,0 +1,18 @@
+.card{
+    width: 18rem;
+    height: auto;
+    margin: 21px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.card-body {
+    text-align: center;
+    padding:2px;
+    
+}
+.card-img-top{
+    width: 100%;
+    aspect-ratio: 1;
+}
