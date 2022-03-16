@@ -6,20 +6,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="src/style/college_detail.css">
 </head>
 
 <body>
 
-    <div>
-        <div>
-            <div>
-                <img>
+    <div class="college_detail_body">
+        <div class="college_detail_header">
+            <div class="college_detail_header_logo">
+                <img src="https://img.collegepravesh.com/2016/06/IIT-Bhubaneswar-Logo.png" height="175px" width="175px">
             </div>
             <div>
-                <img>
+                <p class="college_detail_header_name" id="college_detail_header_name">College ka pyaara sa naam</p>
+                <p class="college_detail_header_address" id="college_detail_header_address">College ka address</p>
             </div>
         </div>
+        <table class="college_detail_table">
+            <tbody>
+                <tr>
+                    <td>Name</td>
+                    <td id="college_name">College name here!</td>
+                </tr>
+                <tr>
+                    <td>Address</td>
+                    <td id="college_address">College address here!</td>
+                </tr>
+                <tr>
+                    <td>Location</td>
+                    <td id="college_location">College location here!</td>
+                </tr>
+                <tr>
+                    <td>Known as</td>
+                    <td id="college_known_as">College known as here!</td>
+                </tr>
+                <tr>
+                    <td>Type</td>
+                    <td id="college_type">College type here!</td>
+                </tr>
+                <tr>
+                    <td>Year Established</td>
+                    <td id="college_year_established">College year esatblished here!</td>
+                </tr>
+                <tr>
+                    <td>Fees</td>
+                    <td id="college_fees">College fees here!</td>
+                </tr>
+            </tbody>
+        </table>
+
     </div>
+
 
 </body>
 <script src="src/data/college_db.js"></script>

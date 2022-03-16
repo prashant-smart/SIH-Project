@@ -1,0 +1,40 @@
+.college_detail_body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.college_detail_header {
+    width: 100%;
+    background-color: rgb(40, 50, 59);
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.college_detail_header_logo {
+    background-color: white;
+    margin-top: 2rem;
+    display: inline-block;
+}
+
+.college_detail_header_name {
+    text-align: center;
+    font-size: 2rem;
+    margin: 0px;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+    color: white;
+}
+
+.college_detail_header_address {
+    text-align: center;
+    font-size: 1rem;
+    margin: 0px;
+    padding-top: 0.5rem;
+    padding-bottom: 2rem;
+    color: white;
+}
+
+tr td {
+    padding: 1rem;
+}
