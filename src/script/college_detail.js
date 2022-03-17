@@ -16,3 +16,4 @@ document.getElementById("college_fees").innerHTML = fees;
 
 document.getElementById("college_detail_header_name").innerHTML = data.name;
 document.getElementById("college_detail_header_address").innerHTML = data.address;
+document.getElementById("college_detail_header_image").src = data.logo_url;
