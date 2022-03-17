@@ -4,11 +4,12 @@
 }
 
 .college_detail_header {
-    width: 100%;
     background-color: rgb(40, 50, 59);
     text-align: center;
     margin: 0px;
     padding: 0px;
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 .college_detail_header_logo {

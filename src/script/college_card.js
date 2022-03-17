@@ -1,6 +1,6 @@
 let college_card_container = document.getElementsByClassName('college_card_container')[0];
 let search_bar_homepage = document.getElementsByClassName('search-bar-homepage')[0];
-window.onload = function () {
+window.onload = function() {
     search_bar_homepage.value = '';
 }
 
@@ -10,13 +10,13 @@ function fill_cards(array, container) {
         div.className = 'college_card'
         div.innerHTML =
             `<div class="college_card_body">
+            <img class="college_card_photo_image" src="${element.image_url}" alt="Card image cap">
         <img class="college_card_logo_image" src="${element.logo_url}" alt="Card image cap">
-          <h5 class="college_card_name" >${element.name}</h5>
+          <h5 class="college_card_name">${element.name}</h5>
           <p class="college_card_location" >${element.location}</p>
-          <a href="src/component/college_detail.html" id = "${element.id}"class="btn btn-primary college_card_button" onclick="btnClicked(this.id)">Go somewhere</a>
+          <a href="src/component/college_detail.html" id = "${element.id}"class="btn btn-primary college_card_button" onclick="btnClicked(this.id)">Know more</a>
           </div>`;
         container.appendChild(div);
-
     })
 }
 
