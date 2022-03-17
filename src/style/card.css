@@ -6,6 +6,10 @@
     width: 100vw;
 }
 
+.college_card:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: box-shadow 400ms;
+}
 .college_card {
     width: 18rem;
     height: auto;

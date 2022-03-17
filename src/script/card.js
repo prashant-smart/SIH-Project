@@ -1,7 +1,11 @@
 let college_card_container = document.getElementsByClassName('college_card_container')[0];
+let search_bar_homepage = document.getElementsByClassName('search-bar-homepage')[0];
+window.onload = function () {
+    search_bar_homepage.value = '';
+}
 
 function fill_cards(array, container) {
-    array.forEach((element, index) => {
+    array.forEach((element) => {
         let div = document.createElement('div');
         div.className = 'college_card'
         div.innerHTML =
@@ -9,7 +13,7 @@ function fill_cards(array, container) {
         <img class="college_card_logo_image" src="${element.logo_url}" alt="Card image cap">
           <h5 class="college_card_name" >${element.name}</h5>
           <p class="college_card_location" >${element.location}</p>
-          <a href="college_detail.html" id = "${index}"class="btn btn-primary college_card_button" onclick="btnClicked(this.id)">Go somewhere</a>
+          <a href="src/component/college_detail.html" id = "${element.id}"class="btn btn-primary college_card_button" onclick="btnClicked(this.id)">Go somewhere</a>
           </div>`;
         container.appendChild(div);
 
