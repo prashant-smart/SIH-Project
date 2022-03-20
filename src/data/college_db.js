@@ -12,7 +12,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2016/06/IIT-Bhubaneswar-Logo.png",
     fees: "₹1,15,259",
     website_url: "http://www.iitbbs.ac.in/",
-    image_url: "http://www.iitbbs.ac.in/",
+    image_url: "https://img.collegepravesh.com/2015/12/IIT-Bhubaneswar.jpg",
   },
   {
     id: 1,
@@ -27,7 +27,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2015/09/IIT-Bombay-Logo.png",
     fees: "",
     website_url: "http://www.iitb.ac.in/",
-    image_url: "http://www.iitb.ac.in/",
+    image_url: "https://img.collegepravesh.com/2013/06/IIT-Bombay.jpg",
   },
   {
     id: 2,
@@ -42,7 +42,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2013/06/IIT-MANDI-LOGO.jpg",
     fees: "₹1,12,150",
     website_url: "http://www.iitmandi.ac.in/",
-    image_url: "http://www.iitmandi.ac.in/",
+    image_url: "https://img.collegepravesh.com/2018/08/IIT-Mandi.jpg",
   },
   {
     id: 3,
@@ -57,7 +57,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2018/08/IIT-Delhi-Logo.png",
     fees: "₹1,16,450",
     website_url: "http://www.iitd.ac.in/",
-    image_url: "http://www.iitd.ac.in/",
+    image_url: "https://img.collegepravesh.com/2018/08/IIT-Delhi.jpg",
   },
   {
     id: 4,
@@ -72,7 +72,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2014/10/IIT-Indore-Logo.png",
     fees: "",
     website_url: "http://www.iiti.ac.in/",
-    image_url: "http://www.iiti.ac.in/",
+    image_url: "https://img.collegepravesh.com/2015/06/IIT-Indore.jpg",
   },
   {
     id: 5,
@@ -87,7 +87,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2015/09/IIT-Kharagpur-Logo.png",
     fees: "₹1,13,063",
     website_url: "http://www.iitkgp.ac.in/",
-    image_url: "http://www.iitkgp.ac.in/",
+    image_url: "https://img.collegepravesh.com/2018/08/IIT-Kharagpur.jpg",
   },
   {
     id: 6,
@@ -102,7 +102,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2013/06/IIT-HYDERABAD-LOGO.png",
     fees: "",
     website_url: "http://www.iith.ac.in/",
-    image_url: "http://www.iith.ac.in/",
+    image_url: "https://img.collegepravesh.com/2015/06/IIT-Hyderabad.jpg",
   },
   {
     id: 7,
@@ -117,7 +117,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2014/10/IIT-Jodhpur-Logo.png",
     fees: "",
     website_url: "http://www.iitj.ac.in/",
-    image_url: "http://www.iitj.ac.in/",
+    image_url: "https://img.collegepravesh.com/2013/06/IIT-JODHPUR.jpg",
   },
   {
     id: 8,
@@ -132,7 +132,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2015/10/IIT-Kanpur-Logo.png",
     fees: "₹1,14,425",
     website_url: "http://www.iitk.ac.in/",
-    image_url: "http://www.iitk.ac.in/",
+    image_url: "https://img.collegepravesh.com/2013/06/IIT-Kanpur.jpg",
   },
   {
     id: 9,
@@ -147,7 +147,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2015/10/IIT-Madras-Logo.png",
     fees: "₹1,15,584",
     website_url: "http://www.iitm.ac.in/",
-    image_url: "http://www.iitm.ac.in/",
+    image_url: "https://img.collegepravesh.com/2018/08/IIT-Madras.jpg",
   },
   {
     id: 10,
@@ -162,7 +162,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2014/10/IIT-Gandhinagar-Logo.png",
     fees: "",
     website_url: "http://www.iitgn.ac.in/",
-    image_url: "http://www.iitgn.ac.in/",
+    image_url: "https://img.collegepravesh.com/2015/06/IIT-GN.jpg",
   },
   {
     id: 11,
@@ -176,7 +176,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2014/10/IIT-Patna-Logo.png",
     fees: "₹1,18,369",
     website_url: "http://www.iitp.ac.in/",
-    image_url: "http://www.iitp.ac.in/",
+    image_url: "https://img.collegepravesh.com/2015/06/IIT-Patna.jpg",
   },
   {
     id: 12,
@@ -191,7 +191,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2018/08/IIT-Roorkee-Logo.png",
     fees: "₹1,14,250",
     website_url: "http://www.iitr.ac.in/",
-    image_url: "http://www.iitr.ac.in/",
+    image_url: "https://img.collegepravesh.com/2013/06/IIT-Roorkee.jpg",
   },
   {
     id: 13,
@@ -206,7 +206,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2015/09/IITISM-Logo.jpg",
     fees: "₹1,22,300 ",
     website_url: "https://www.iitism.ac.in/",
-    image_url: "https://www.iitism.ac.in/",
+    image_url: "https://img.collegepravesh.com/2013/06/ISM-Dhanbad.jpg",
   },
   {
     id: 14,
@@ -221,7 +221,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2014/10/IIT-Ropar-Logo.png",
     fees: "₹1,10,650",
     website_url: "http://www.iitrpr.ac.in/",
-    image_url: "http://www.iitrpr.ac.in/",
+    image_url: "https://img.collegepravesh.com/2013/06/IIT-Ropar.jpg",
   },
   {
     id: 15,
@@ -236,7 +236,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2015/09/IIT-BHU-Logo.png",
     fees: "",
     website_url: "http://www.iitbhu.ac.in/",
-    image_url: "http://www.iitbhu.ac.in/",
+    image_url: "https://img.collegepravesh.com/2013/06/IIT-BHU.jpg",
   },
   {
     id: 16,
@@ -251,7 +251,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2015/02/IIT-Guwahati-Logo.png",
     fees: "₹1,12,650",
     website_url: "http://www.iitg.ac.in/",
-    image_url: "http://www.iitg.ac.in/",
+    image_url: "https://img.collegepravesh.com/2015/06/IIT-Guwahati.jpg",
   },
   {
     id: 17,
@@ -266,7 +266,8 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2016/06/IIT-Bhilai-Logo.png",
     fees: "₹1,19,800",
     website_url: "https://www.iitbhilai.ac.in/",
-    image_url: "https://www.iitbhilai.ac.in/",
+    image_url:
+      "https://img.collegepravesh.com/2016/06/IIT-Bhilai-GEC-Campus.jpg",
   },
   {
     id: 18,
@@ -281,7 +282,8 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2017/12/IIT-Goa-Logo.png",
     fees: "₹1,11,669",
     website_url: "http://www.iitgoa.ac.in/",
-    image_url: "http://www.iitgoa.ac.in/",
+    image_url:
+      "https://img.collegepravesh.com/2016/09/IIT-Goa-Transit-Campus.jpg",
   },
   {
     id: 19,
@@ -296,7 +298,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2015/10/IIT-Palakkad-Logo.png",
     fees: "₹1,13,850",
     website_url: "http://iitpkd.ac.in/",
-    image_url: "http://iitpkd.ac.in/",
+    image_url: "https://img.collegepravesh.com/2015/06/IIT-Palakkad.jpg",
   },
   {
     id: 20,
@@ -311,7 +313,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2015/10/IIT-Tirupati-Logo.jpg",
     fees: "₹1,15,400",
     website_url: "http://iittp.ac.in/",
-    image_url: "http://iittp.ac.in/",
+    image_url: "https://img.collegepravesh.com/2021/09/IIT-Tirupati.jpg",
   },
   {
     id: 21,
@@ -326,7 +328,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2016/06/IIT-Jammu-Logo.png",
     fees: "",
     website_url: "http://iitjammu.ac.in/",
-    image_url: "http://iitjammu.ac.in/",
+    image_url: "https://img.collegepravesh.com/2018/04/IIT-Jammu.jpg",
   },
   {
     id: 22,
@@ -341,7 +343,8 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2018/04/IIT-Dharwad-Logo.png",
     fees: "",
     website_url: "http://iitdh.ac.in/",
-    image_url: "http://iitdh.ac.in/",
+    image_url:
+      "https://img.collegepravesh.com/2016/06/IIT-Dharwad-WALMI-Campus.jpg",
   },
   {
     id: 23,
@@ -356,7 +359,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2015/08/NIT-Jalandhar-Logo.png",
     fees: "",
     website_url: "http://www.nitj.ac.in/",
-    image_url: "http://www.nitj.ac.in/",
+    image_url: "https://img.collegepravesh.com/2014/09/NIT-JALANDHAR.jpg",
   },
   {
     id: 24,
@@ -371,7 +374,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2014/05/MNIT-Jaipur-Logo.png",
     fees: "₹98,365",
     website_url: "http://www.mnit.ac.in/",
-    image_url: "http://www.mnit.ac.in/",
+    image_url: "https://img.collegepravesh.com/2013/06/MNIT-Jaipur.jpg",
   },
   {
     id: 25,
@@ -386,7 +389,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2015/08/MANIT-Logo.png",
     fees: "",
     website_url: "http://www.manit.ac.in/",
-    image_url: "http://www.manit.ac.in/",
+    image_url: "https://img.collegepravesh.com/2014/05/MANIT-BHOPAL.jpg",
   },
   {
     id: 26,
@@ -401,7 +404,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2015/08/MNNIT-Allahabad-Logo.png",
     fees: "",
     website_url: "http://www.mnnit.ac.in/",
-    image_url: "http://www.mnnit.ac.in/",
+    image_url: "https://img.collegepravesh.com/2013/06/MNNIT-Allahabad.jpg",
   },
   {
     id: 27,
@@ -416,7 +419,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2015/09/NIT-Agartala-Logo.jpg",
     fees: "",
     website_url: "http://www.nita.ac.in/",
-    image_url: "http://www.nita.ac.in/",
+    image_url: "https://img.collegepravesh.com/2015/09/NIT-Agartala.jpg",
   },
   {
     id: 28,
@@ -431,7 +434,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2015/09/NIT-Calicut-Logo.png",
     fees: "",
     website_url: "http://www.nitc.ac.in/",
-    image_url: "http://www.nitc.ac.in/",
+    image_url: "https://img.collegepravesh.com/2013/08/NIT-Calicut.jpg",
   },
   {
     id: 29,
@@ -446,7 +449,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2015/09/NIT-Delhi-Logo.png",
     fees: "₹1,01,200 ",
     website_url: "http://www.nitdelhi.ac.in/",
-    image_url: "http://www.nitdelhi.ac.in/",
+    image_url: "https://img.collegepravesh.com/2015/09/NIT-Delhi.jpg",
   },
   {
     id: 30,
@@ -461,7 +464,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2013/06/NIT-Durgapur-Logo.png",
     fees: "",
     website_url: "http://www.nitdgp.ac.in/",
-    image_url: "http://www.nitdgp.ac.in/",
+    image_url: "https://img.collegepravesh.com/2014/05/NIT-Durgapur.jpg",
   },
   {
     id: 31,
@@ -475,7 +478,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2013/06/NIT-Goa-Logo.png",
     fees: "",
     website_url: "http://www.nitgoa.ac.in/",
-    image_url: "http://www.nitgoa.ac.in/",
+    image_url: "https://img.collegepravesh.com/2013/06/NIT-GOA.jpg",
   },
   {
     id: 32,
@@ -490,7 +493,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2013/06/NIT-Hamirpur-Logo.jpg",
     fees: "",
     website_url: "http://www.nith.ac.in/",
-    image_url: "http://www.nith.ac.in/",
+    image_url: "https://img.collegepravesh.com/2013/06/NIT-Hamirpur1.jpg",
   },
   {
     id: 33,
@@ -505,7 +508,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2013/07/NIT-SURATHKAL-LOGO.png",
     fees: "₹85,815 ",
     website_url: "http://www.nitk.ac.in/",
-    image_url: "http://www.nitk.ac.in/",
+    image_url: "https://img.collegepravesh.com/2014/04/NIT-Karnataka.jpg",
   },
   {
     id: 34,
@@ -520,7 +523,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2015/09/NIT-Meghalaya-Logo.png",
     fees: "",
     website_url: "http://www.nitm.ac.in/",
-    image_url: "http://www.nitm.ac.in/",
+    image_url: "https://img.collegepravesh.com/2016/09/NIT_Meghalaya.jpg",
   },
   {
     id: 35,
@@ -535,7 +538,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2013/06/NIT-NAGALAND-LOGO.jpg",
     fees: "",
     website_url: "https://nitnagaland.ac.in/",
-    image_url: "https://nitnagaland.ac.in/",
+    image_url: "https://img.collegepravesh.com/2014/05/NIT-Nagaland.jpg",
   },
   {
     id: 36,
@@ -550,7 +553,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2016/09/NITP-Logo.png",
     fees: "₹98,700 ",
     website_url: "http://www.nitp.ac.in/",
-    image_url: "http://www.nitp.ac.in/",
+    image_url: "https://img.collegepravesh.com/2014/06/NIT-Patna.jpg",
   },
   {
     id: 37,
@@ -565,7 +568,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2016/09/NIT-Puducherry-Logo.png",
     fees: "",
     website_url: "http://www.nitpy.ac.in/",
-    image_url: "http://www.nitpy.ac.in/",
+    image_url: "https://img.collegepravesh.com/2019/06/NIT-Puducherry.jpg",
   },
   {
     id: 38,
@@ -580,7 +583,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2014/05/NIT-Raipur-Logo.png",
     fees: "",
     website_url: "http://www.nitrr.ac.in/",
-    image_url: "http://www.nitrr.ac.in/",
+    image_url: "https://img.collegepravesh.com/2013/06/NIT-RAIPUR.jpg",
   },
   {
     id: 39,
@@ -595,7 +598,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2019/05/NIT-Sikkim-Logo.png",
     fees: "",
     website_url: "http://www.nitsikkim.ac.in/",
-    image_url: "http://www.nitsikkim.ac.in/",
+    image_url: "https://img.collegepravesh.com/2013/07/NIT-SIKKIM1.jpg",
   },
   {
     id: 40,
@@ -611,7 +614,8 @@ let college_data = [
       "https://img.collegepravesh.com/2015/09/NIT-Arunachal-Pradesh-logo1.png",
     fees: "",
     website_url: "https://www.nitap.ac.in/",
-    image_url: "https://www.nitap.ac.in/",
+    image_url:
+      "https://img.collegepravesh.com/2018/06/NIT-Arunachal-Pradesh.jpg",
   },
   {
     id: 41,
@@ -626,7 +630,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2014/05/NIT-Jamshedpur-logo.png",
     fees: "",
     website_url: "http://www.nitjsr.ac.in/",
-    image_url: "http://www.nitjsr.ac.in/",
+    image_url: "https://img.collegepravesh.com/2016/10/NIT-Jamshedpur.jpg",
   },
   {
     id: 42,
@@ -641,7 +645,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2014/02/NIT-Kurukshetra-Logo.png",
     fees: "₹87,700",
     website_url: "http://www.nitkkr.ac.in/",
-    image_url: "http://www.nitkkr.ac.in/",
+    image_url: "https://img.collegepravesh.com/2014/04/NIT-Kurukshetra.jpg",
   },
   {
     id: 43,
@@ -656,7 +660,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2015/09/NIT-Manipur-Logo.jpg",
     fees: "",
     website_url: "http://www.nitmanipur.ac.in/",
-    image_url: "http://www.nitmanipur.ac.in/",
+    image_url: "https://img.collegepravesh.com/2013/06/NIT-MANIPUR.jpg",
   },
   {
     id: 44,
@@ -671,7 +675,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2014/07/NIT-Mizoram-Logo.png",
     fees: "",
     website_url: "http://www.nitmz.ac.in/",
-    image_url: "http://www.nitmz.ac.in/",
+    image_url: "https://img.collegepravesh.com/2020/07/NIT-Mizoram.jpg",
   },
   {
     id: 45,
@@ -686,7 +690,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2013/06/NIT-ROURKELA-LOGO.jpg",
     fees: "",
     website_url: "https://www.nitrkl.ac.in/",
-    image_url: "https://www.nitrkl.ac.in/",
+    image_url: "https://img.collegepravesh.com/2013/07/NIT-ROURKELA.jpg",
   },
   {
     id: 46,
@@ -700,7 +704,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2015/09/NIT-Silchar-Logo.png",
     fees: "",
     website_url: "http://www.nits.ac.in/",
-    image_url: "http://www.nits.ac.in/",
+    image_url: "https://img.collegepravesh.com/2020/07/NIT-Silchar.jpg",
   },
   {
     id: 47,
@@ -715,7 +719,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2015/09/NIT-Srinagar-Logo.png",
     fees: "",
     website_url: "https://nitsri.ac.in/",
-    image_url: "https://nitsri.ac.in/",
+    image_url: "https://img.collegepravesh.com/2013/07/NIT-SRINAGAR.jpg",
   },
   {
     id: 48,
@@ -730,7 +734,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2014/03/NITT-Logo.png",
     fees: "",
     website_url: "http://www.nitt.edu/",
-    image_url: "http://www.nitt.edu/",
+    image_url: "https://img.collegepravesh.com/2018/06/NIT-Trichy.jpg",
   },
   {
     id: 49,
@@ -745,7 +749,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2014/08/NIT-Uttarakhand-Logo.png",
     fees: "₹88,310",
     website_url: "http://www.nituk.ac.in/",
-    image_url: "http://www.nituk.ac.in/",
+    image_url: "https://img.collegepravesh.com/2013/07/NIT-UTTARAKHAND.jpg",
   },
   {
     id: 50,
@@ -760,7 +764,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2015/08/NIT-Warangal-Logo.png",
     fees: "",
     website_url: "https://www.nitw.ac.in/",
-    image_url: "https://www.nitw.ac.in/",
+    image_url: "https://img.collegepravesh.com/2013/06/NIT-WARANGAL.jpg",
   },
   {
     id: 51,
@@ -775,7 +779,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2015/09/SVNIT-Surat-Logo.png",
     fees: "",
     website_url: "http://www.svnit.ac.in/",
-    image_url: "http://www.svnit.ac.in/",
+    image_url: "https://img.collegepravesh.com/2014/05/SVNIT.jpg",
   },
   {
     id: 52,
@@ -790,7 +794,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2018/01/VNIT-Nagpur-Logo.png",
     fees: "",
     website_url: "http://www.vnit.ac.in/",
-    image_url: "http://www.vnit.ac.in/",
+    image_url: "https://img.collegepravesh.com/2014/02/VNIT.jpg",
   },
   {
     id: 53,
@@ -806,7 +810,7 @@ let college_data = [
       "https://img.collegepravesh.com/2015/10/NIT-Andhra-Pradesh-Logo.png",
     fees: "",
     website_url: "http://www.nitandhra.ac.in/",
-    image_url: "http://www.nitandhra.ac.in/",
+    image_url: "https://img.collegepravesh.com/2016/10/NIT-Andhra-Pradesh.jpg",
   },
   {
     id: 54,
@@ -822,7 +826,7 @@ let college_data = [
       "https://img.collegepravesh.com/2014/06/IIITM-Gwalior-Logo-e1406741979820.png",
     fees: "",
     website_url: "http://www.iiitm.ac.in/",
-    image_url: "http://www.iiitm.ac.in/",
+    image_url: "https://img.collegepravesh.com/2020/07/IIITM-Gwalior.jpg",
   },
   {
     id: 55,
@@ -837,7 +841,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2020/08/IIIT-Kota-Logo.png",
     fees: "",
     website_url: "http://www.iiitkota.ac.in/",
-    image_url: "http://www.iiitkota.ac.in/",
+    image_url: "https://img.collegepravesh.com/2016/10/IIIT-Kota.png",
   },
   {
     id: 56,
@@ -852,7 +856,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2016/10/IIIT-Guwahati-Logo.png",
     fees: "",
     website_url: "http://www.iiitg.ac.in/",
-    image_url: "http://www.iiitg.ac.in/",
+    image_url: "https://img.collegepravesh.com/2018/12/IIIT-Guwahati.jpg",
   },
   {
     id: 57,
@@ -867,7 +871,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2015/11/IIIT-Kalyani-logo.jpeg",
     fees: "",
     website_url: "http://iiitkalyani.ac.in/",
-    image_url: "http://iiitkalyani.ac.in/",
+    image_url: "https://img.collegepravesh.com/2017/07/IIIT-Kalyani.jpg",
   },
   {
     id: 58,
@@ -882,7 +886,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2019/06/IIIT-Sonepat-Logo.png",
     fees: "₹82,555",
     website_url: "http://www.iiitsonepat.ac.in/",
-    image_url: "http://www.iiitsonepat.ac.in/",
+    image_url: "https://img.collegepravesh.com/2019/06/IIIT-Sonepat.png",
   },
   {
     id: 59,
@@ -897,7 +901,8 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2015/11/IIIT-Una-Logo.png",
     fees: "₹1,03,900",
     website_url: "http://iiitu.ac.in/",
-    image_url: "http://iiitu.ac.in/",
+    image_url:
+      "https://img.collegepravesh.com/2019/07/IIIT-Una-Transit-Campus-II.jpg",
   },
   {
     id: 60,
@@ -912,7 +917,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2015/11/IIIT-Chittoor-Logo.jpg",
     fees: "",
     website_url: "http://www.iiits.ac.in/",
-    image_url: "http://www.iiits.ac.in/",
+    image_url: "https://img.collegepravesh.com/2018/01/IIIT-Sri-City.jpg",
   },
   {
     id: 61,
@@ -927,7 +932,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2016/10/IIIT-Vadodara-Logo.png",
     fees: "",
     website_url: "http://www.iiitvadodara.ac.in/",
-    image_url: "http://www.iiitvadodara.ac.in/",
+    image_url: "https://img.collegepravesh.com/2014/06/IIIT-Vadodara.jpg",
   },
   {
     id: 62,
@@ -942,7 +947,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2015/11/IIIT-Allahabad-Logo.png",
     fees: "",
     website_url: "https://iiita.ac.in/",
-    image_url: "https://iiita.ac.in/",
+    image_url: "https://img.collegepravesh.com/2016/10/IIIT-Allahabad.jpg",
   },
   {
     id: 63,
@@ -958,7 +963,7 @@ let college_data = [
       "https://img.collegepravesh.com/2015/11/IIITDM-Kancheepuram-Logo.png",
     fees: "",
     website_url: "http://www.iiitdm.ac.in/",
-    image_url: "http://www.iiitdm.ac.in/",
+    image_url: "https://img.collegepravesh.com/2014/11/IIITDM.jpg",
   },
   {
     id: 64,
@@ -973,7 +978,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2014/06/IIITDM-Jabalpur-Logo.jpg",
     fees: "",
     website_url: "http://www.iiitdmj.ac.in/",
-    image_url: "http://www.iiitdmj.ac.in/",
+    image_url: "https://img.collegepravesh.com/2016/10/IIITDM-Jabalpur.jpg",
   },
   {
     id: 65,
@@ -988,7 +993,8 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2015/11/IIIT-Manipur-Logo.png",
     fees: "",
     website_url: "http://iiitmanipur.ac.in/",
-    image_url: "http://iiitmanipur.ac.in/",
+    image_url:
+      "https://img.collegepravesh.com/2018/06/IIIT-Manipur-Transit-Campus.jpg",
   },
   {
     id: 66,
@@ -1003,7 +1009,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2017/07/IIIT-Srirangam-Logo.png",
     fees: "",
     website_url: "http://www.iiitt.ac.in/",
-    image_url: "http://www.iiitt.ac.in/",
+    image_url: "https://img.collegepravesh.com/2021/11/IIIT-Trichy.jpg",
   },
   {
     id: 67,
@@ -1018,7 +1024,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2019/12/IIIT-Lucknow-Logo.png",
     fees: "",
     website_url: "https://iiitl.ac.in/",
-    image_url: "https://iiitl.ac.in/",
+    image_url: "https://img.collegepravesh.com/2021/11/IIIT-Lucknow.jpg",
   },
   {
     id: 68,
@@ -1033,7 +1039,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2015/11/IIIT-Dharwad-Logo.png",
     fees: "",
     website_url: "https://www.iiitdwd.ac.in/",
-    image_url: "https://www.iiitdwd.ac.in/",
+    image_url: "https://img.collegepravesh.com/2021/11/IIIT-Dharwad.jpg",
   },
   {
     id: 69,
@@ -1048,7 +1054,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2018/06/IIITDM-Kurnool-Logo.png",
     fees: "",
     website_url: "http://iiitk.ac.in/",
-    image_url: "http://iiitk.ac.in/",
+    image_url: "https://img.collegepravesh.com/2018/06/IIITDM-Kurnool.jpg",
   },
   {
     id: 70,
@@ -1063,7 +1069,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2016/10/IIIT-Kottayam-logo.jpg",
     fees: "",
     website_url: "http://www.iiitkottayam.ac.in/",
-    image_url: "http://www.iiitkottayam.ac.in/",
+    image_url: "https://img.collegepravesh.com/2019/05/IIIT-Kottayam.jpg",
   },
   {
     id: 71,
@@ -1078,7 +1084,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2016/10/IIIT-Ranchi-Logo.png",
     fees: "",
     website_url: "https://iiitranchi.ac.in/",
-    image_url: "https://iiitranchi.ac.in/",
+    image_url: "https://img.collegepravesh.com/2016/10/IIIT-Ranchi.png",
   },
   {
     id: 72,
@@ -1093,7 +1099,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2016/10/IIIT-Nagpur-Logo.jpg",
     fees: "",
     website_url: "http://iiitn.ac.in/",
-    image_url: "http://iiitn.ac.in/",
+    image_url: "https://img.collegepravesh.com/2021/11/IIIT-Nagpur.jpg",
   },
   {
     id: 73,
@@ -1108,7 +1114,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2016/10/IIIT-Pune-Logo.png",
     fees: "",
     website_url: "https://iiitp.ac.in/",
-    image_url: "https://iiitp.ac.in/",
+    image_url: "https://img.collegepravesh.com/2019/07/IIIT-Pune.png",
   },
   {
     id: 74,
@@ -1124,7 +1130,7 @@ let college_data = [
       "https://img.collegepravesh.com/2016/11/Assam-University-Logo.png",
     fees: "",
     website_url: "http://www.aus.ac.in/TSSOT/",
-    image_url: "http://www.aus.ac.in/TSSOT/",
+    image_url: "https://img.collegepravesh.com/2016/11/Assam-University.jpg",
   },
   {
     id: 75,
@@ -1138,7 +1144,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2015/10/BIT-Mesra-Logo.png",
     fees: "",
     website_url: "https://www.bitmesra.ac.in/",
-    image_url: "https://www.bitmesra.ac.in/",
+    image_url: "https://img.collegepravesh.com/2014/02/BIT-Mesra.jpg",
   },
   {
     id: 76,
@@ -1153,7 +1159,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2016/11/GKV-Haridwar-Logo.jpg",
     fees: "",
     website_url: "http://gkv.ac.in/?page_id=380",
-    image_url: "http://gkv.ac.in/?page_id=380",
+    image_url: "https://img.collegepravesh.com/2016/11/GKV-Haridwar.jpg",
   },
   {
     id: 77,
@@ -1168,7 +1174,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2016/03/IIEST-Shibpur-Logo.png",
     fees: "",
     website_url: "http://www.iiests.ac.in/",
-    image_url: "http://www.iiests.ac.in/",
+    image_url: "https://img.collegepravesh.com/2016/03/IIEST-Shibpur.jpg",
   },
   {
     id: 78,
@@ -1184,7 +1190,7 @@ let college_data = [
       "https://img.collegepravesh.com/2016/11/IITRAM-Ahmedabad-Logo.jpg",
     fees: "",
     website_url: "http://iitram.ac.in/",
-    image_url: "http://iitram.ac.in/",
+    image_url: "https://img.collegepravesh.com/2016/11/IITRAM-Ahmedabad.jpg",
   },
   {
     id: 79,
@@ -1200,7 +1206,7 @@ let college_data = [
       "https://img.collegepravesh.com/2016/11/JKIAPT-Allahabad-Logo.jpg",
     fees: "",
     website_url: "http://www.jkinstitute.ac.in/",
-    image_url: "http://www.jkinstitute.ac.in/",
+    image_url: "https://img.collegepravesh.com/2016/11/JKIAPT-Allahabad.jpg",
   },
   {
     id: 80,
@@ -1215,7 +1221,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2015/09/BITS-Pilani-Logo.png",
     fees: "",
     website_url: "http://www.bits-pilani.ac.in/",
-    image_url: "http://www.bits-pilani.ac.in/",
+    image_url: "https://img.collegepravesh.com/2019/08/BITS-Pilani.jpg",
   },
   {
     id: 81,
@@ -1230,7 +1236,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2015/09/BITS-Pilani-Logo.png",
     fees: "",
     website_url: "http://www.bits-pilani.ac.in/goa/",
-    image_url: "http://www.bits-pilani.ac.in/goa/",
+    image_url: "https://img.collegepravesh.com/2019/08/BITS-Goa.jpg",
   },
   {
     id: 82,
@@ -1245,7 +1251,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2015/09/BITS-Pilani-Logo.png",
     fees: "",
     website_url: "http://www.bits-pilani.ac.in/hyderabad",
-    image_url: "http://www.bits-pilani.ac.in/hyderabad",
+    image_url: "https://img.collegepravesh.com/2019/08/BITS-Hyderabad.jpg",
   },
   {
     id: 83,
@@ -1260,7 +1266,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2015/10/NSUT-Delhi-Logo.png",
     fees: "",
     website_url: "http://www.nsut.ac.in/",
-    image_url: "http://www.nsut.ac.in/",
+    image_url: "https://img.collegepravesh.com/2014/04/NSIT.jpg",
   },
   {
     id: 84,
@@ -1275,7 +1281,8 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2015/10/DTU-Logo.png",
     fees: "",
     website_url: "http://dtu.ac.in/",
-    image_url: "http://dtu.ac.in/",
+    image_url:
+      "https://img.collegepravesh.com/2015/02/Delhi-Technological-University.jpg",
   },
   {
     id: 85,
@@ -1290,7 +1297,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2015/12/IGDTUW-Logo.png",
     fees: "",
     website_url: "http://www.igdtuw.ac.in/",
-    image_url: "http://www.igdtuw.ac.in/",
+    image_url: "https://img.collegepravesh.com/2015/12/IGDTUW.jpg",
   },
   {
     id: 86,
@@ -1305,7 +1312,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2014/06/IIITD-Logo.jpg",
     fees: "₹2,01,100 ",
     website_url: "http://www.iiitd.ac.in/",
-    image_url: "http://www.iiitd.ac.in/",
+    image_url: "https://img.collegepravesh.com/2014/06/IIIT-Delhi.jpg",
   },
   {
     id: 87,
@@ -1320,7 +1327,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2014/06/DAIICT-Logo.jpg",
     fees: "",
     website_url: "https://www.daiict.ac.in/",
-    image_url: "https://www.daiict.ac.in/",
+    image_url: "https://img.collegepravesh.com/2014/06/DAIICT.jpg",
   },
   {
     id: 88,
@@ -1335,7 +1342,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2018/04/TIET-Patiala-Logo.png",
     fees: "",
     website_url: "http://www.thapar.edu/",
-    image_url: "http://www.thapar.edu/",
+    image_url: "https://img.collegepravesh.com/2014/12/Thapar-University.jpg",
   },
   {
     id: 89,
@@ -1350,7 +1357,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2015/09/IIIT-Hyderabad-Logo.png",
     fees: "₹2,16,275 (Boys)\\\\n₹2,15,150 (Girls)",
     website_url: "https://www.iiit.ac.in/",
-    image_url: "https://www.iiit.ac.in/",
+    image_url: "https://img.collegepravesh.com/2014/02/IIIT-Hyderbad.jpg",
   },
   {
     id: 90,
@@ -1365,7 +1372,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2014/11/IIIT-Bangalore-Logo.png",
     fees: "",
     website_url: "http://www.iiitb.ac.in/",
-    image_url: "http://www.iiitb.ac.in/",
+    image_url: "https://img.collegepravesh.com/2014/11/IIIT-Bangalore.jpg",
   },
   {
     id: 91,
@@ -1380,7 +1387,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2015/12/LNMIIT_Logo.png",
     fees: "",
     website_url: "http://www.lnmiit.ac.in/",
-    image_url: "http://www.lnmiit.ac.in/",
+    image_url: "https://img.collegepravesh.com/2015/12/LNMIIT.jpg",
   },
   {
     id: 92,
@@ -1395,7 +1402,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2015/12/IIsc-Logo.jpg",
     fees: "",
     website_url: "http://www.iisc.ac.in/",
-    image_url: "http://www.iisc.ac.in/",
+    image_url: "https://img.collegepravesh.com/2015/12/IISc.jpg",
   },
   {
     id: 93,
@@ -1410,7 +1417,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2015/12/JIIT-Noida-Logo.png",
     fees: "",
     website_url: "http://www.jiit.ac.in/",
-    image_url: "http://www.jiit.ac.in/",
+    image_url: "https://img.collegepravesh.com/2015/12/JIIT-Noida.jpg",
   },
   {
     id: 94,
@@ -1425,7 +1432,8 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2015/12/JIIT-Noida-Logo.png",
     fees: "",
     website_url: "http://www.jiit.ac.in/",
-    image_url: "http://www.jiit.ac.in/",
+    image_url:
+      "https://img.collegepravesh.com/2015/12/JIIT-Noida-Sector-128.jpg",
   },
   {
     id: 95,
@@ -1440,7 +1448,7 @@ let college_data = [
       "https://img.collegepravesh.com/2015/12/Vellore-Institute-of-Technology-Logo.png",
     fees: "",
     website_url: "http://www.vit.ac.in/",
-    image_url: "http://www.vit.ac.in/",
+    image_url: "https://img.collegepravesh.com/2015/12/VIT-Vellore.jpg",
   },
   {
     id: 96,
@@ -1456,7 +1464,7 @@ let college_data = [
       "https://img.collegepravesh.com/2015/12/Vellore-Institute-of-Technology-Logo.png",
     fees: "",
     website_url: "http://chennai.vit.ac.in/",
-    image_url: "http://chennai.vit.ac.in/",
+    image_url: "https://img.collegepravesh.com/2015/12/VIT-Chennai.jpg",
   },
   {
     id: 97,
@@ -1471,7 +1479,8 @@ let college_data = [
       "https://img.collegepravesh.com/2015/12/Jamia-Millia-Islamia-Logo.png",
     fees: "",
     website_url: "http://jmi.ac.in/",
-    image_url: "http://jmi.ac.in/",
+    image_url:
+      "https://img.collegepravesh.com/2015/12/Jamia-Millia-Islamia.jpg",
   },
   {
     id: 98,
@@ -1486,7 +1495,8 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2015/12/IIST-Logo.jpg",
     fees: "",
     website_url: "https://www.iist.ac.in/",
-    image_url: "https://www.iist.ac.in/",
+    image_url:
+      "https://img.collegepravesh.com/2015/12/IIST-Thiruvananthapuram.jpg",
   },
   {
     id: 99,
@@ -1502,7 +1512,7 @@ let college_data = [
       "https://img.collegepravesh.com/2016/01/Nirma-University-logo.png",
     fees: "",
     website_url: "https://technology.nirmauni.ac.in/",
-    image_url: "https://technology.nirmauni.ac.in/",
+    image_url: "https://img.collegepravesh.com/2016/01/ITNU-Ahmedabad.jpg",
   },
   {
     id: 100,
@@ -1518,8 +1528,7 @@ let college_data = [
     fees: "",
     website_url:
       "https://amu.ac.in/colleges/zakir-husain-college-of-engineering-and-technology",
-    image_url:
-      "https://amu.ac.in/colleges/zakir-husain-college-of-engineering-and-technology",
+    image_url: "https://img.collegepravesh.com/2016/01/ZHCET-Aligarh.jpg",
   },
   {
     id: 101,
@@ -1534,7 +1543,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2016/02/IISER-Pune.png",
     fees: "₹45,817",
     website_url: "http://www.iiserpune.ac.in/",
-    image_url: "http://www.iiserpune.ac.in/",
+    image_url: "https://img.collegepravesh.com/2016/02/IISER-Pune.jpg",
   },
   {
     id: 102,
@@ -1549,7 +1558,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2016/02/IISER-Mohali-Logo.png",
     fees: "",
     website_url: "http://www.iisermohali.ac.in/",
-    image_url: "http://www.iisermohali.ac.in/",
+    image_url: "https://img.collegepravesh.com/2016/02/IISER-Mohali.jpg",
   },
   {
     id: 103,
@@ -1564,7 +1573,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2016/02/IISER-Bhopal-Logo.png",
     fees: "",
     website_url: "https://www.iiserb.ac.in/",
-    image_url: "https://www.iiserb.ac.in/",
+    image_url: "https://img.collegepravesh.com/2016/02/IISER-Bhopal.jpg",
   },
   {
     id: 104,
@@ -1579,7 +1588,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2016/02/IISER-Kolkata-Logo.png",
     fees: "₹41,100",
     website_url: "http://www.iiserkol.ac.in/",
-    image_url: "http://www.iiserkol.ac.in/",
+    image_url: "https://img.collegepravesh.com/2016/02/IISER-Kolkata.jpg",
   },
   {
     id: 105,
@@ -1594,7 +1603,8 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2016/02/IISER-TVM-Logo.png",
     fees: "₹38,885",
     website_url: "http://www.iisertvm.ac.in/",
-    image_url: "http://www.iisertvm.ac.in/",
+    image_url:
+      "https://img.collegepravesh.com/2019/05/IISER-Thiruvananthapuram.jpg",
   },
   {
     id: 106,
@@ -1609,7 +1619,8 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2016/12/IISER-Tirupati-Logo.png",
     fees: "₹44,160 ",
     website_url: "http://www.iisertirupati.ac.in/",
-    image_url: "http://www.iisertirupati.ac.in/",
+    image_url:
+      "https://img.collegepravesh.com/2016/02/Sree-Rama-Engineering-College.jpg",
   },
   {
     id: 107,
@@ -1624,7 +1635,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2016/02/IISER-Berhampur-Logo.png",
     fees: "",
     website_url: "http://www.iiserbpr.ac.in/",
-    image_url: "http://www.iiserbpr.ac.in/",
+    image_url: "https://img.collegepravesh.com/2022/03/IISER-Berhampur.png",
   },
   {
     id: 108,
@@ -1639,7 +1650,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2022/02/UPES-Dehradun-Logo.png",
     fees: "",
     website_url: "https://www.upes.ac.in/",
-    image_url: "https://www.upes.ac.in/",
+    image_url: "https://img.collegepravesh.com/2016/02/UPES-Dehradun.jpg",
   },
   {
     id: 109,
@@ -1655,7 +1666,7 @@ let college_data = [
       "https://img.collegepravesh.com/2016/02/NISER-Bhubaneswar-Logo.png",
     fees: "",
     website_url: "http://www.niser.ac.in/",
-    image_url: "http://www.niser.ac.in/",
+    image_url: "https://img.collegepravesh.com/2016/03/NISER-Bhubaneswar.jpg",
   },
   {
     id: 110,
@@ -1671,7 +1682,7 @@ let college_data = [
       "https://img.collegepravesh.com/2016/05/IIIT_Bhubaneswar_Logo.png",
     fees: "",
     website_url: "http://www.iiit-bh.ac.in/",
-    image_url: "http://www.iiit-bh.ac.in/",
+    image_url: "https://img.collegepravesh.com/2016/05/IIIT-Bhubaneswar.jpg",
   },
   {
     id: 111,
@@ -1686,7 +1697,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2019/08/HBTU-Kanpur-Logo.png",
     fees: "",
     website_url: "http://hbtu.ac.in/",
-    image_url: "http://hbtu.ac.in/",
+    image_url: "https://img.collegepravesh.com/2016/01/HBTI-Kanpur.jpg",
   },
   {
     id: 112,
@@ -1702,7 +1713,7 @@ let college_data = [
       "https://img.collegepravesh.com/2016/01/Jadavpur-University-Logo.png",
     fees: "",
     website_url: "http://www.jaduniv.edu.in/",
-    image_url: "http://www.jaduniv.edu.in/",
+    image_url: "https://img.collegepravesh.com/2016/01/Jadavpur-University.jpg",
   },
   {
     id: 113,
@@ -1717,7 +1728,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2016/05/IET-Lucknow-Logo.jpg",
     fees: "",
     website_url: "https://www.ietlucknow.ac.in/",
-    image_url: "https://www.ietlucknow.ac.in/",
+    image_url: "https://img.collegepravesh.com/2016/05/IET-Lucknow-660x330.jpg",
   },
   {
     id: 114,
@@ -1731,7 +1742,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2015/11/PEC-Logo.png",
     fees: "",
     website_url: "http://www.pec.ac.in/",
-    image_url: "http://www.pec.ac.in/",
+    image_url: "https://img.collegepravesh.com/2014/07/PEC-Chandigarh.jpg",
   },
   {
     id: 115,
@@ -1746,7 +1757,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2016/05/UIET-Chandigarh-Logo.png",
     fees: "",
     website_url: "http://uiet.puchd.ac.in/",
-    image_url: "http://uiet.puchd.ac.in/",
+    image_url: "https://img.collegepravesh.com/2016/05/UIET-Chandigarh.jpg",
   },
   {
     id: 116,
@@ -1761,7 +1772,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2017/08/CUSAT-Logo.png",
     fees: "",
     website_url: "https://www.cusat.ac.in/",
-    image_url: "https://www.cusat.ac.in/",
+    image_url: "https://img.collegepravesh.com/2019/05/SOE-CUSAT.jpg",
   },
   {
     id: 117,
@@ -1776,7 +1787,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2018/10/MAHE-Logo.png",
     fees: "",
     website_url: "https://manipal.edu/mit.html",
-    image_url: "https://manipal.edu/mit.html",
+    image_url: "https://img.collegepravesh.com/2016/03/MIT-Manipal.jpg",
   },
   {
     id: 118,
@@ -1791,7 +1802,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2016/03/JNTUH-Logo.png",
     fees: "",
     website_url: "http://jntuhceh.ac.in/",
-    image_url: "http://jntuhceh.ac.in/",
+    image_url: "https://img.collegepravesh.com/2016/03/JNTU-COE-Hyderabad.jpg",
   },
   {
     id: 119,
@@ -1806,7 +1817,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2016/01/COEP-Logo.png",
     fees: "",
     website_url: "http://www.coep.org.in/",
-    image_url: "http://www.coep.org.in/",
+    image_url: "https://img.collegepravesh.com/2016/01/COEP-Pune-660x330.jpg",
   },
   {
     id: 120,
@@ -1821,7 +1832,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2016/01/VJTI-Mumbai-Logo.png",
     fees: "",
     website_url: "http://www.vjti.ac.in/",
-    image_url: "http://www.vjti.ac.in/",
+    image_url: "https://img.collegepravesh.com/2016/01/VJTI.jpg",
   },
   {
     id: 121,
@@ -1836,7 +1847,7 @@ let college_data = [
       "https://img.collegepravesh.com/2015/12/Vellore-Institute-of-Technology-Logo.png",
     fees: "",
     website_url: "http://vitap.ac.in/",
-    image_url: "http://vitap.ac.in/",
+    image_url: "https://img.collegepravesh.com/2017/02/VIT-AP-campus.jpg",
   },
   {
     id: 122,
@@ -1852,7 +1863,7 @@ let college_data = [
       "https://img.collegepravesh.com/2015/12/Vellore-Institute-of-Technology-Logo.png",
     fees: "",
     website_url: "http://vitbhopal.ac.in/",
-    image_url: "http://vitbhopal.ac.in/",
+    image_url: "https://img.collegepravesh.com/2017/02/VIT-Bhopal.jpg",
   },
   {
     id: 123,
@@ -1867,7 +1878,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2015/09/GGSIPU-Logo.png",
     fees: "",
     website_url: "http://www.ipu.ac.in/usict/",
-    image_url: "http://www.ipu.ac.in/usict/",
+    image_url: "https://img.collegepravesh.com/2017/02/USICT-Delhi.jpg",
   },
   {
     id: 124,
@@ -1882,7 +1893,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2018/03/MAIT-Delhi-Logo.png",
     fees: "",
     website_url: "https://www.mait.ac.in/",
-    image_url: "https://www.mait.ac.in/",
+    image_url: "https://img.collegepravesh.com/2018/09/MAIT-Delhi.jpg",
   },
   {
     id: 125,
@@ -1898,7 +1909,7 @@ let college_data = [
       "https://img.collegepravesh.com/2016/05/Bharati-Vidyapeeth-Logo.jpg",
     fees: "",
     website_url: "http://bvcoend.ac.in/",
-    image_url: "http://bvcoend.ac.in/",
+    image_url: "https://img.collegepravesh.com/2017/07/BVCOE-Delhi.jpg",
   },
   {
     id: 126,
@@ -1913,7 +1924,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2016/01/NIEC-Logo.png",
     fees: "",
     website_url: "http://www.niecdelhi.ac.in/",
-    image_url: "http://www.niecdelhi.ac.in/",
+    image_url: "https://img.collegepravesh.com/2016/01/NIEC-Delhi.jpg",
   },
   {
     id: 127,
@@ -1928,7 +1939,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2016/01/GTBIT-Logo.png",
     fees: "",
     website_url: "http://www.gtbit.org/",
-    image_url: "http://www.gtbit.org/",
+    image_url: "https://img.collegepravesh.com/2016/01/GTBIT-Delhi.jpg",
   },
   {
     id: 128,
@@ -1943,7 +1954,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2017/02/MSIT-Logo.png",
     fees: "",
     website_url: "http://www.msit.in/",
-    image_url: "http://www.msit.in/",
+    image_url: "https://img.collegepravesh.com/2017/02/MSIT-Delhi.jpg",
   },
   {
     id: 129,
@@ -1958,7 +1969,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2017/02/BPIT-Delhi-Logo.png",
     fees: "",
     website_url: "http://www.bpitindia.com/",
-    image_url: "http://www.bpitindia.com/",
+    image_url: "https://img.collegepravesh.com/2017/02/BPIT-Delhi.jpg",
   },
   {
     id: 130,
@@ -1973,7 +1984,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2016/06/RVCE-Logo.png",
     fees: "",
     website_url: "https://www.rvce.edu.in/",
-    image_url: "https://www.rvce.edu.in/",
+    image_url: "https://img.collegepravesh.com/2016/06/RVCE.jpg",
   },
   {
     id: 131,
@@ -1988,7 +1999,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2017/02/BMSCE-Logo.png",
     fees: "",
     website_url: "http://bmsce.ac.in/",
-    image_url: "http://bmsce.ac.in/",
+    image_url: "https://img.collegepravesh.com/2017/02/BMSCE-Bangalore.jpg",
   },
   {
     id: 132,
@@ -2003,7 +2014,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2017/02/RIT-Bangalore-Logo.png",
     fees: "",
     website_url: "http://www.msrit.edu/",
-    image_url: "http://www.msrit.edu/",
+    image_url: "https://img.collegepravesh.com/2017/02/MSRIT-Bangalore.jpg",
   },
   {
     id: 133,
@@ -2018,7 +2029,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2017/02/PES-University-logo.jpg",
     fees: "",
     website_url: "http://pes.edu/",
-    image_url: "http://pes.edu/",
+    image_url: "https://img.collegepravesh.com/2017/02/PESU-Bangalore.jpg",
   },
   {
     id: 134,
@@ -2033,7 +2044,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2017/02/PES-University-logo.jpg",
     fees: "",
     website_url: "http://pesitsouth.pes.edu/",
-    image_url: "http://pesitsouth.pes.edu/",
+    image_url: "https://img.collegepravesh.com/2017/02/PESIT-BCS.jpg",
   },
   {
     id: 135,
@@ -2049,7 +2060,7 @@ let college_data = [
       "https://img.collegepravesh.com/2017/02/BMSITM-Bangalore-Logo.png",
     fees: "",
     website_url: "https://bmsit.ac.in/",
-    image_url: "https://bmsit.ac.in/",
+    image_url: "https://img.collegepravesh.com/2017/02/BMSIT-Bangalore.jpg",
   },
   {
     id: 136,
@@ -2065,7 +2076,7 @@ let college_data = [
       "https://img.collegepravesh.com/2017/02/Bangalore-University-Logo.png",
     fees: "",
     website_url: "http://bangaloreuniversity.ac.in/engineering-uvce/",
-    image_url: "http://bangaloreuniversity.ac.in/engineering-uvce/",
+    image_url: "https://img.collegepravesh.com/2017/02/UVCE-Bangalore.jpg",
   },
   {
     id: 137,
@@ -2080,7 +2091,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2017/02/Sir-MVIT-Logo.jpg",
     fees: "",
     website_url: "http://www.sirmvit.edu/",
-    image_url: "http://www.sirmvit.edu/",
+    image_url: "https://img.collegepravesh.com/2017/02/Sir-MVIT.jpg",
   },
   {
     id: 138,
@@ -2095,7 +2106,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2017/02/MVJCE-Bangalore-Logo.png",
     fees: "",
     website_url: "http://www.mvjce.edu.in/",
-    image_url: "http://www.mvjce.edu.in/",
+    image_url: "https://img.collegepravesh.com/2017/02/MVJCE-Bangalore.jpg",
   },
   {
     id: 139,
@@ -2110,7 +2121,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2017/02/NIE-Mysore-Logo.png",
     fees: "",
     website_url: "http://www.nie.ac.in/",
-    image_url: "http://www.nie.ac.in/",
+    image_url: "https://img.collegepravesh.com/2017/02/NIE-Mysore.jpg",
   },
   {
     id: 140,
@@ -2125,7 +2136,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2017/02/KGEC-Kalyani-Logo.png",
     fees: "",
     website_url: "https://www.kgec.edu.in/",
-    image_url: "https://www.kgec.edu.in/",
+    image_url: "https://img.collegepravesh.com/2017/02/KGEC-Kalyani.jpg",
   },
   {
     id: 141,
@@ -2140,7 +2151,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2017/02/PICT-Logo.jpg",
     fees: "",
     website_url: "https://pict.edu/",
-    image_url: "https://pict.edu/",
+    image_url: "https://img.collegepravesh.com/2017/02/PICT-Pune.jpg",
   },
   {
     id: 142,
@@ -2156,7 +2167,7 @@ let college_data = [
       "https://img.collegepravesh.com/2018/12/JCB-UST-YMCA-Faridabad-Logo.png",
     fees: "",
     website_url: "https://jcboseust.ac.in/",
-    image_url: "https://jcboseust.ac.in/",
+    image_url: "https://img.collegepravesh.com/2017/03/YMCA-UST-Faridabad.jpg",
   },
   {
     id: 143,
@@ -2171,7 +2182,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2017/04/AIT-Pune-Logo.png",
     fees: "",
     website_url: "https://www.aitpune.com/",
-    image_url: "https://www.aitpune.com/",
+    image_url: "https://img.collegepravesh.com/2017/04/AIT-Pune.jpg",
   },
   {
     id: 144,
@@ -2186,7 +2197,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2018/11/WCE-Sangli-Logo.png",
     fees: "",
     website_url: "http://www.walchandsangli.ac.in/",
-    image_url: "http://www.walchandsangli.ac.in/",
+    image_url: "https://img.collegepravesh.com/2017/05/WCE-Sangli.jpg",
   },
   {
     id: 145,
@@ -2201,7 +2212,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2017/02/BIT-Bangalore-Logo.png",
     fees: "",
     website_url: "http://bit-bangalore.edu.in/",
-    image_url: "http://bit-bangalore.edu.in/",
+    image_url: "https://img.collegepravesh.com/2017/02/BIT-Bangalore.jpg",
   },
   {
     id: 146,
@@ -2216,7 +2227,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2017/05/SPCE-Mumbai-Logo.png",
     fees: "",
     website_url: "http://www.spce.ac.in/",
-    image_url: "http://www.spce.ac.in/",
+    image_url: "https://img.collegepravesh.com/2017/05/SPCE-Mumbai.jpg",
   },
   {
     id: 147,
@@ -2231,7 +2242,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2017/05/DJSCE-Mumbai-Logo.png",
     fees: "",
     website_url: "http://djsce.ac.in/",
-    image_url: "http://djsce.ac.in/",
+    image_url: "https://img.collegepravesh.com/2017/05/DJSCE-Mumbai.jpg",
   },
   {
     id: 148,
@@ -2246,7 +2257,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2017/05/VIT-Pune-Logo.png",
     fees: "",
     website_url: "http://vit.edu/",
-    image_url: "http://vit.edu/",
+    image_url: "https://img.collegepravesh.com/2017/05/VIT-Pune.jpg",
   },
   {
     id: 149,
@@ -2261,7 +2272,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2017/05/MIT-WPU-Logo.png",
     fees: "",
     website_url: "https://mitwpu.edu.in/",
-    image_url: "https://mitwpu.edu.in/",
+    image_url: "https://img.collegepravesh.com/2017/05/MIT-Pune.jpg",
   },
   {
     id: 150,
@@ -2276,7 +2287,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2017/05/SGSITS-Indore-Logo.png",
     fees: "",
     website_url: "http://www.sgsits.ac.in/",
-    image_url: "http://www.sgsits.ac.in/",
+    image_url: "https://img.collegepravesh.com/2017/05/SGSITS-Indore.png",
   },
   {
     id: 151,
@@ -2291,7 +2302,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2017/05/IET-DAVV-Indore-Logo.png",
     fees: "",
     website_url: "http://www.ietdavv.edu.in/",
-    image_url: "http://www.ietdavv.edu.in/",
+    image_url: "https://img.collegepravesh.com/2017/05/IET-DAVV-Indore.jpg",
   },
   {
     id: 152,
@@ -2306,7 +2317,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2017/06/IIIT-Bhagalpur-Logo.png",
     fees: "",
     website_url: "http://iiitbh.ac.in/",
-    image_url: "http://iiitbh.ac.in/",
+    image_url: "https://img.collegepravesh.com/2018/06/IIIT-Bhagalpur.jpg",
   },
   {
     id: 153,
@@ -2321,7 +2332,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2017/06/IIIT-Bhopal-Logo.png",
     fees: "",
     website_url: "https://iiitbhopal.ac.in/",
-    image_url: "https://iiitbhopal.ac.in/",
+    image_url: "https://img.collegepravesh.com/2018/06/IIIT-Bhopal.png",
   },
   {
     id: 154,
@@ -2336,7 +2347,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2017/06/IIIT-Surat-Logo.jpg",
     fees: "",
     website_url: "http://www.iiitsurat.ac.in/",
-    image_url: "http://www.iiitsurat.ac.in/",
+    image_url: "https://img.collegepravesh.com/2017/06/IIIT-Surat.png",
   },
   {
     id: 155,
@@ -2352,7 +2363,7 @@ let college_data = [
       "https://img.collegepravesh.com/2017/09/DSPM-IIIT-Naya-Raipur-Logo.png",
     fees: "",
     website_url: "https://iiitnr.ac.in/",
-    image_url: "https://iiitnr.ac.in/",
+    image_url: "https://img.collegepravesh.com/2017/06/IIIT-Naya-Raipur.jpg",
   },
   {
     id: 156,
@@ -2367,7 +2378,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2017/08/RGIPT-Amethi-Logo.png",
     fees: "",
     website_url: "http://rgipt.ac.in/",
-    image_url: "http://rgipt.ac.in/",
+    image_url: "https://img.collegepravesh.com/2017/08/RGIPT-Amethi.jpg",
   },
   {
     id: 157,
@@ -2382,7 +2393,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2017/11/CET-Trivandrum-Logo.jpg",
     fees: "",
     website_url: "http://cet.ac.in/",
-    image_url: "http://cet.ac.in/",
+    image_url: "https://img.collegepravesh.com/2017/11/CET-Trivandrum.jpg",
   },
   {
     id: 158,
@@ -2397,7 +2408,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2018/05/ICT-Mumbai-Logo.png",
     fees: "",
     website_url: "http://www.ictmumbai.edu.in/",
-    image_url: "http://www.ictmumbai.edu.in/",
+    image_url: "https://img.collegepravesh.com/2018/05/ICT-Mumbai.jpg",
   },
   {
     id: 159,
@@ -2412,7 +2423,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2018/07/IIIT-Agartala-Logo.png",
     fees: "",
     website_url: "https://www.iiitagartala.ac.in/",
-    image_url: "https://www.iiitagartala.ac.in/",
+    image_url: "https://img.collegepravesh.com/2018/07/IIIT-Agartala.png",
   },
   {
     id: 160,
@@ -2427,7 +2438,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2018/07/JNU-Delhi-Logo.png",
     fees: "₹75,500 ",
     website_url: "https://www.jnu.ac.in/se",
-    image_url: "https://www.jnu.ac.in/se",
+    image_url: "https://img.collegepravesh.com/2018/07/JNU-Delhi.jpg",
   },
   {
     id: 161,
@@ -2443,7 +2454,8 @@ let college_data = [
       "https://img.collegepravesh.com/2017/12/Amity-University-Logo.png",
     fees: "",
     website_url: "http://amity.edu/aset/",
-    image_url: "http://amity.edu/aset/",
+    image_url:
+      "https://img.collegepravesh.com/2017/12/Amity-University-Noida.jpg",
   },
   {
     id: 162,
@@ -2459,7 +2471,8 @@ let college_data = [
       "https://img.collegepravesh.com/2017/12/Amity-University-Logo.png",
     fees: "",
     website_url: "http://amity.edu/ase/",
-    image_url: "http://amity.edu/ase/",
+    image_url:
+      "https://img.collegepravesh.com/2017/12/Amity-University-Noida.jpg",
   },
   {
     id: 163,
@@ -2474,7 +2487,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2015/10/NSUT-Delhi-Logo.png",
     fees: "",
     website_url: "http://nsuteastcampus.aiactr.ac.in/",
-    image_url: "http://nsuteastcampus.aiactr.ac.in/",
+    image_url: "https://img.collegepravesh.com/2018/09/AIACTR-Delhi.jpg",
   },
   {
     id: 164,
@@ -2489,7 +2502,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2018/10/SJCE-Mysore-Logo.png",
     fees: "",
     website_url: "https://sjce.ac.in/",
-    image_url: "https://sjce.ac.in/",
+    image_url: "https://img.collegepravesh.com/2018/10/SJCE-Mysore.jpg",
   },
   {
     id: 165,
@@ -2504,7 +2517,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2018/10/SIT-Tumkur-Logo.png",
     fees: "",
     website_url: "http://www.sit.ac.in/",
-    image_url: "http://www.sit.ac.in/",
+    image_url: "https://img.collegepravesh.com/2018/10/SIT-Tumkur.jpg",
   },
   {
     id: 166,
@@ -2520,7 +2533,7 @@ let college_data = [
       "https://img.collegepravesh.com/2018/10/KLE-Tech-University-Logo.png",
     fees: "",
     website_url: "https://www.kletech.ac.in/",
-    image_url: "https://www.kletech.ac.in/",
+    image_url: "https://img.collegepravesh.com/2018/10/KLE-Tech-University.jpg",
   },
   {
     id: 167,
@@ -2535,7 +2548,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2018/10/DSI-Bangalore-Logo.png",
     fees: "",
     website_url: "http://www.dsce.edu.in/",
-    image_url: "http://www.dsce.edu.in/",
+    image_url: "https://img.collegepravesh.com/2018/10/DSCE-Bangalore.jpg",
   },
   {
     id: 168,
@@ -2550,7 +2563,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2018/10/TKMCE-Kollam-Logo.png",
     fees: "",
     website_url: "http://tkmce.ac.in/",
-    image_url: "http://tkmce.ac.in/",
+    image_url: "https://img.collegepravesh.com/2018/10/TKMCE-Kollam.jpg",
   },
   {
     id: 169,
@@ -2565,7 +2578,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2018/10/GEC-Thrissur-Logo.png",
     fees: "",
     website_url: "http://gectcr.ac.in/",
-    image_url: "http://gectcr.ac.in/",
+    image_url: "https://img.collegepravesh.com/2018/10/GEC-Thrissur.jpg",
   },
   {
     id: 170,
@@ -2580,7 +2593,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2018/10/MEC-Kochi-Logo.png",
     fees: "",
     website_url: "http://www.mec.ac.in/",
-    image_url: "http://www.mec.ac.in/",
+    image_url: "https://img.collegepravesh.com/2018/10/MEC-Thrikkakara.jpg",
   },
   {
     id: 171,
@@ -2595,7 +2608,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2018/11/SPIT-Mumbai-Logo.png",
     fees: "",
     website_url: "https://www.spit.ac.in/",
-    image_url: "https://www.spit.ac.in/",
+    image_url: "https://img.collegepravesh.com/2018/11/SPIT-Mumbai.jpg",
   },
   {
     id: 172,
@@ -2610,7 +2623,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2018/11/KJSCE-Somaiya-Logo.png",
     fees: "",
     website_url: "https://kjsce.somaiya.edu/kjsce/",
-    image_url: "https://kjsce.somaiya.edu/kjsce/",
+    image_url: "https://img.collegepravesh.com/2018/11/KJSCE-Mumbai.jpg",
   },
   {
     id: 173,
@@ -2625,7 +2638,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2018/11/JEC-Jabalpur-Logo.png",
     fees: "",
     website_url: "https://www.jecjabalpur.ac.in/",
-    image_url: "https://www.jecjabalpur.ac.in/",
+    image_url: "https://img.collegepravesh.com/2018/11/JEC-Jabalpur.png",
   },
   {
     id: 174,
@@ -2640,7 +2653,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2018/11/MITS-Gwalior-Logo.jpg",
     fees: "",
     website_url: "http://mitsgwalior.in/",
-    image_url: "http://mitsgwalior.in/",
+    image_url: "https://img.collegepravesh.com/2018/11/MITS-Gwalior.jpg",
   },
   {
     id: 175,
@@ -2655,7 +2668,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2018/11/IEM-Kolkata-Logo.png",
     fees: "",
     website_url: "https://iem.edu.in/",
-    image_url: "https://iem.edu.in/",
+    image_url: "https://img.collegepravesh.com/2018/11/IEM-Kolkata.jpg",
   },
   {
     id: 176,
@@ -2670,7 +2683,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2018/12/IIPE-Vizag-Logo.png",
     fees: "",
     website_url: "https://iipe.ac.in/",
-    image_url: "https://iipe.ac.in/",
+    image_url: "https://img.collegepravesh.com/2018/12/IIPE-Vizag.jpg",
   },
   {
     id: 177,
@@ -2686,7 +2699,7 @@ let college_data = [
       "https://img.collegepravesh.com/2019/01/SSB-UICET-Chandigarh-Logo.png",
     fees: "",
     website_url: "http://www.cet.puchd.ac.in/",
-    image_url: "http://www.cet.puchd.ac.in/",
+    image_url: "https://img.collegepravesh.com/2019/01/UICET-Chandigarh.jpg",
   },
   {
     id: 178,
@@ -2701,7 +2714,8 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2020/05/IIIT-Raichur-Logo.png",
     fees: "",
     website_url: "https://iiitr.ac.in/",
-    image_url: "https://iiitr.ac.in/",
+    image_url:
+      "https://img.collegepravesh.com/2021/11/IIIT-Raichur-Transit-Campus.jpg",
   },
   {
     id: 179,
@@ -2716,7 +2730,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2019/10/MKSSS-CCEW-Pune-Logo.png",
     fees: "",
     website_url: "https://www.cumminscollege.org/",
-    image_url: "https://www.cumminscollege.org/",
+    image_url: "https://img.collegepravesh.com/2019/10/MKSSS-CCEW-Pune.jpg",
   },
   {
     id: 180,
@@ -2731,7 +2745,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2019/11/HIT-Kolkata-Logo.png",
     fees: "",
     website_url: "https://www.heritageit.edu/",
-    image_url: "https://www.heritageit.edu/",
+    image_url: "https://img.collegepravesh.com/2019/11/HIT-Kolkata.jpg",
   },
   {
     id: 181,
@@ -2747,7 +2761,8 @@ let college_data = [
       "https://img.collegepravesh.com/2020/03/University-of-Calcutta-Logo.png",
     fees: "",
     website_url: "https://www.caluniv.ac.in/",
-    image_url: "https://www.caluniv.ac.in/",
+    image_url:
+      "https://img.collegepravesh.com/2020/03/University-of-Calcutta.jpg",
   },
   {
     id: 182,
@@ -2762,7 +2777,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2020/10/IIITV-ICD-Diu-Logo.png",
     fees: "",
     website_url: "http://diu.iiitvadodara.ac.in/",
-    image_url: "http://diu.iiitvadodara.ac.in/",
+    image_url: "https://img.collegepravesh.com/2020/10/IIITV-ICD-Diu.jpg",
   },
   {
     id: 183,
@@ -2777,7 +2792,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2015/10/NSUT-Delhi-Logo.png",
     fees: "",
     website_url: "http://www.gecdelhi.ac.in/",
-    image_url: "http://www.gecdelhi.ac.in/",
+    image_url: "https://img.collegepravesh.com/2020/10/CBPGEC-Delhi.jpg",
   },
   {
     id: 184,
@@ -2792,7 +2807,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2021/06/UCE-Hyderabad-Logo.png",
     fees: "",
     website_url: "http://www.uceou.edu/",
-    image_url: "http://www.uceou.edu/",
+    image_url: "https://img.collegepravesh.com/2021/06/UCEOU-Hyderabad.jpg",
   },
   {
     id: 185,
@@ -2807,7 +2822,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2021/06/CBIT-Hyderabad-Logo.png",
     fees: "",
     website_url: "https://www.cbit.ac.in/",
-    image_url: "https://www.cbit.ac.in/",
+    image_url: "https://img.collegepravesh.com/2021/06/CBIT-Hyderabad.jpg",
   },
   {
     id: 186,
@@ -2822,7 +2837,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2021/06/VCE-Hyderabad-Logo.png",
     fees: "",
     website_url: "https://www.vce.ac.in/",
-    image_url: "https://www.vce.ac.in/",
+    image_url: "https://img.collegepravesh.com/2021/06/VCE-Hyderabad.jpg",
   },
   {
     id: 187,
@@ -2838,7 +2853,7 @@ let college_data = [
       "https://img.collegepravesh.com/2021/06/VNR-VJIET-Hyderabad-Logo.png",
     fees: "",
     website_url: "http://www.vnrvjiet.ac.in/",
-    image_url: "http://www.vnrvjiet.ac.in/",
+    image_url: "https://img.collegepravesh.com/2021/06/VNR-VJIET-Hyderabad.jpg",
   },
   {
     id: 188,
@@ -2853,7 +2868,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2021/06/GRIET-Hyderabad-Logo.png",
     fees: "",
     website_url: "http://www.griet.ac.in/",
-    image_url: "http://www.griet.ac.in/",
+    image_url: "https://img.collegepravesh.com/2021/06/GRIET-Hyderabad.jpg",
   },
   {
     id: 189,
@@ -2869,7 +2884,7 @@ let college_data = [
       "https://img.collegepravesh.com/2021/06/CVRCE-Ibrahimpatnam-Logo.png",
     fees: "",
     website_url: "http://cvr.ac.in/",
-    image_url: "http://cvr.ac.in/",
+    image_url: "https://img.collegepravesh.com/2021/06/CVRCE-Ibrahimpatnam.jpg",
   },
   {
     id: 190,
@@ -2886,8 +2901,7 @@ let college_data = [
     fees: "",
     website_url:
       "https://www.andhrauniversity.edu.in/college/college-of-engineering/engineering-home.html",
-    image_url:
-      "https://www.andhrauniversity.edu.in/college/college-of-engineering/engineering-home.html",
+    image_url: "https://img.collegepravesh.com/2021/07/AUCE-Visakhapatnam.jpg",
   },
   {
     id: 191,
@@ -2902,7 +2916,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2017/08/JNTU-Kakinada-Logo.png",
     fees: "",
     website_url: "https://www.jntucek.ac.in/",
-    image_url: "https://www.jntucek.ac.in/",
+    image_url: "https://img.collegepravesh.com/2021/07/UCEK-JNTU-Kakinada.jpg",
   },
   {
     id: 192,
@@ -2917,7 +2931,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2021/07/SVUCE-Tirupati-Logo.png",
     fees: "",
     website_url: "https://svuce.edu.in/",
-    image_url: "https://svuce.edu.in/",
+    image_url: "https://img.collegepravesh.com/2021/07/SVU-Tirupati.jpg",
   },
   {
     id: 193,
@@ -2932,7 +2946,8 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2015/09/GGSIPU-Logo.png",
     fees: "",
     website_url: "http://ipu.ac.in/eastcampusmain.php",
-    image_url: "http://ipu.ac.in/eastcampusmain.php",
+    image_url:
+      "https://img.collegepravesh.com/2021/07/USAR-Delhi-GGSIPU-East.png",
   },
   {
     id: 194,
@@ -2947,7 +2962,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2021/07/BIT-Sindri-Logo.png",
     fees: "",
     website_url: "https://www.bitsindri.ac.in/",
-    image_url: "https://www.bitsindri.ac.in/",
+    image_url: "https://img.collegepravesh.com/2021/07/BIT-Sindri.jpg",
   },
   {
     id: 195,
@@ -2962,7 +2977,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2017/11/SRMIST-Logo.png",
     fees: "",
     website_url: "https://www.srmist.edu.in/",
-    image_url: "https://www.srmist.edu.in/",
+    image_url: "https://img.collegepravesh.com/2021/03/SRM-University.jpg",
   },
   {
     id: 196,
@@ -2978,7 +2993,7 @@ let college_data = [
       "https://img.collegepravesh.com/2021/04/Amrita-Vishwa-Vidyapeetham-Logo.png",
     fees: "",
     website_url: "https://www.amrita.edu/",
-    image_url: "https://www.amrita.edu/",
+    image_url: "https://img.collegepravesh.com/2021/07/ASE-Coimbatore.jpg",
   },
   {
     id: 197,
@@ -2993,7 +3008,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2021/08/JGEC-Jalpaiguri-Logo.png",
     fees: "",
     website_url: "https://jgec.ac.in/",
-    image_url: "https://jgec.ac.in/",
+    image_url: "https://img.collegepravesh.com/2021/08/JGEC-Jalpaiguri.jpg",
   },
   {
     id: 198,
@@ -3008,7 +3023,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2021/08/MAKAUT-Kolkata-Logo.png",
     fees: "",
     website_url: "https://makautwb.ac.in/",
-    image_url: "https://makautwb.ac.in/",
+    image_url: "https://img.collegepravesh.com/2021/08/MAKAUT-Kolkata.jpg",
   },
   {
     id: 199,
@@ -3023,7 +3038,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2018/10/MAHE-Logo.png",
     fees: "",
     website_url: "https://manipal.edu/mitblr.html",
-    image_url: "https://manipal.edu/mitblr.html",
+    image_url: "https://img.collegepravesh.com/2021/08/MIT-Bengaluru.png",
   },
   {
     id: 200,
@@ -3038,7 +3053,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2021/11/UOH-Hyderabad-Logo.png",
     fees: "",
     website_url: "https://scis.uohyd.ac.in/",
-    image_url: "https://scis.uohyd.ac.in/",
+    image_url: "https://img.collegepravesh.com/2021/11/SCIS-UOH-Hyderabad.jpg",
   },
   {
     id: 201,
@@ -3053,7 +3068,7 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2018/10/JSSSTU-Mysore-Logo.jpg",
     fees: "",
     website_url: "http://jssstuniv.in/",
-    image_url: "http://jssstuniv.in/",
+    image_url: "https://img.collegepravesh.com/2022/01/JSSSTU-Mysore.jpg",
   },
 ];
 
@@ -3076,7 +3091,7 @@ let college_data = [
 //     logo_url: elm.logo_url,
 //     fees: elm.fees,
 //     website_url: elm.website_url,
-//     image_url: elm.website_url,
+//     image_url: elm.image_url,
 
 //     };
 //     arr.push(obj);

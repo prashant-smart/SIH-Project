@@ -1,7 +1,8 @@
 let search_data_array;
-function match_search(key_to_search,elm){
+
+function match_search(key_to_search, elm) {
     key_to_search = key_to_search.toLowerCase();
-    return (elm.name.toLowerCase().includes(key_to_search)||elm.address.toLowerCase().includes(key_to_search)||elm.known_as.toLowerCase().includes(key_to_search)||elm.year_established.toLowerCase().includes(key_to_search)||elm.location.toLowerCase().includes(key_to_search))
+    return (elm.name.toLowerCase().includes(key_to_search) || elm.address.toLowerCase().includes(key_to_search) || elm.known_as.toLowerCase().includes(key_to_search) || elm.year_established.toLowerCase().includes(key_to_search) || elm.location.toLowerCase().includes(key_to_search))
 }
 search_bar_homepage.addEventListener('input', () => {
     let key_to_search = search_bar_homepage.value;
