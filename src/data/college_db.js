@@ -1,6 +1,7 @@
 let college_data = [
   {
     id: 0,
+    geocode: { longitude: "NULL", latitude: "NULL" },
     name: "Indian Institute of Technology, Bhubaneswar",
     address:
       "Indian Institute of Technology, Argul Campus, Jatani, Khordha, Bhubaneswar, Odisha - 752050",
@@ -11,10 +12,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2016/06/IIT-Bhubaneswar-Logo.png",
     fees: "₹1,15,259",
     website_url: "http://www.iitbbs.ac.in/",
-    image_url: "https://img.collegepravesh.com/2015/12/IIT-Bhubaneswar.jpg",
+    image_url: "http://www.iitbbs.ac.in/",
   },
   {
     id: 1,
+    geocode: { longitude: 72.9133, latitude: 19.1334 },
     name: "Indian Institute of Technology, Bombay",
     address:
       "Indian Institute of Technology, Powai, Mumbai, Maharashtra - 400076",
@@ -25,10 +27,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2015/09/IIT-Bombay-Logo.png",
     fees: "",
     website_url: "http://www.iitb.ac.in/",
-    image_url: "https://img.collegepravesh.com/2013/06/IIT-Bombay.jpg",
+    image_url: "http://www.iitb.ac.in/",
   },
   {
     id: 2,
+    geocode: { longitude: 76.9861, latitude: 31.7754 },
     name: "Indian Institute of Technology, Mandi",
     address:
       "Indian Institute of Technology, VPO Kamand, Tehsil Sadar, Near Kataula, Parashar Road, Mandi, Himachal Pradesh - 175005",
@@ -39,10 +42,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2013/06/IIT-MANDI-LOGO.jpg",
     fees: "₹1,12,150",
     website_url: "http://www.iitmandi.ac.in/",
-    image_url: "https://img.collegepravesh.com/2018/08/IIT-Mandi.jpg",
+    image_url: "http://www.iitmandi.ac.in/",
   },
   {
     id: 3,
+    geocode: { longitude: 77.1928, latitude: 28.5457 },
     name: "Indian Institute of Technology, Delhi",
     address:
       "Indian Institute of Technology, Hauz Khas, New Delhi, Delhi - 110016",
@@ -53,10 +57,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2018/08/IIT-Delhi-Logo.png",
     fees: "₹1,16,450",
     website_url: "http://www.iitd.ac.in/",
-    image_url: "https://img.collegepravesh.com/2018/08/IIT-Delhi.jpg",
+    image_url: "http://www.iitd.ac.in/",
   },
   {
     id: 4,
+    geocode: { longitude: 75.9207, latitude: 22.5204 },
     name: "Indian Institute of Technology, Indore",
     address:
       "Indian Institute of Technology, Khandwa Road, Simrol, Indore, Madhya Pradesh - 453552",
@@ -67,10 +72,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2014/10/IIT-Indore-Logo.png",
     fees: "",
     website_url: "http://www.iiti.ac.in/",
-    image_url: "https://img.collegepravesh.com/2015/06/IIT-Indore.jpg",
+    image_url: "http://www.iiti.ac.in/",
   },
   {
     id: 5,
+    geocode: { longitude: 87.3105, latitude: 22.3149 },
     name: "Indian Institute of Technology, Kharagpur",
     address:
       "Indian Institute of Technology, Post Technology, Paschim Midnapur, Kharagpur, West Bengal - 721302",
@@ -81,10 +87,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2015/09/IIT-Kharagpur-Logo.png",
     fees: "₹1,13,063",
     website_url: "http://www.iitkgp.ac.in/",
-    image_url: "https://img.collegepravesh.com/2018/08/IIT-Kharagpur.jpg",
+    image_url: "http://www.iitkgp.ac.in/",
   },
   {
     id: 6,
+    geocode: { longitude: 78.123, latitude: 17.5947 },
     name: "Indian Institute of Technology, Hyderabad",
     address:
       "Indian Institute of Technology, Kandi, Sangareddy, Medak, Telangana - 502284",
@@ -95,10 +102,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2013/06/IIT-HYDERABAD-LOGO.png",
     fees: "",
     website_url: "http://www.iith.ac.in/",
-    image_url: "https://img.collegepravesh.com/2015/06/IIT-Hyderabad.jpg",
+    image_url: "http://www.iith.ac.in/",
   },
   {
     id: 7,
+    geocode: { longitude: 73.1135, latitude: 26.471 },
     name: "Indian Institute of Technology, Jodhpur",
     address:
       "Indian Institute of Technology, N.H. 65, Nagaur Road, Karwar, Jodhpur, Rajasthan - 342037",
@@ -109,10 +117,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2014/10/IIT-Jodhpur-Logo.png",
     fees: "",
     website_url: "http://www.iitj.ac.in/",
-    image_url: "https://img.collegepravesh.com/2013/06/IIT-JODHPUR.jpg",
+    image_url: "http://www.iitj.ac.in/",
   },
   {
     id: 8,
+    geocode: { longitude: 80.2329, latitude: 26.5123 },
     name: "Indian Institute of Technology, Kanpur",
     address:
       "Indian Institute of Technology, Kalyanpur, Kanpur, Uttar Pradesh - 208016",
@@ -123,10 +132,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2015/10/IIT-Kanpur-Logo.png",
     fees: "₹1,14,425",
     website_url: "http://www.iitk.ac.in/",
-    image_url: "https://img.collegepravesh.com/2013/06/IIT-Kanpur.jpg",
+    image_url: "http://www.iitk.ac.in/",
   },
   {
     id: 9,
+    geocode: { longitude: 80.2337, latitude: 12.9915 },
     name: "Indian Institute of Technology, Madras",
     address:
       "Indian Institute of Technology, Beside Adyar Cancer Institute, Sardar Patel Road, Adyar, Chennai, Tamil Nadu - 600036",
@@ -137,10 +147,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2015/10/IIT-Madras-Logo.png",
     fees: "₹1,15,584",
     website_url: "http://www.iitm.ac.in/",
-    image_url: "https://img.collegepravesh.com/2018/08/IIT-Madras.jpg",
+    image_url: "http://www.iitm.ac.in/",
   },
   {
     id: 10,
+    geocode: { longitude: 72.6842, latitude: 23.2114 },
     name: "Indian Institute of Technology, Gandhinagar",
     address:
       "Indian Institute of Technology, Palaj, Simkheda, Gandhinagar, Gujarat - 382355",
@@ -151,10 +162,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2014/10/IIT-Gandhinagar-Logo.png",
     fees: "",
     website_url: "http://www.iitgn.ac.in/",
-    image_url: "https://img.collegepravesh.com/2015/06/IIT-GN.jpg",
+    image_url: "http://www.iitgn.ac.in/",
   },
   {
     id: 11,
+    geocode: { longitude: 84.8512, latitude: 25.5357 },
     name: "Indian Institute of Technology, Patna",
     address: "Indian Institute of Technology, Bihta, Patna, Bihar - 801106",
     known_as: "IITP",
@@ -164,10 +176,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2014/10/IIT-Patna-Logo.png",
     fees: "₹1,18,369",
     website_url: "http://www.iitp.ac.in/",
-    image_url: "https://img.collegepravesh.com/2015/06/IIT-Patna.jpg",
+    image_url: "http://www.iitp.ac.in/",
   },
   {
     id: 12,
+    geocode: { longitude: 77.8965, latitude: 29.8649 },
     name: "Indian Institute of Technology, Roorkee",
     address:
       "Indian Institute of Technology, Roorkee-Haridwar Highway, Roorkee, Uttarakhand - 247667",
@@ -178,10 +191,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2018/08/IIT-Roorkee-Logo.png",
     fees: "₹1,14,250",
     website_url: "http://www.iitr.ac.in/",
-    image_url: "https://img.collegepravesh.com/2013/06/IIT-Roorkee.jpg",
+    image_url: "http://www.iitr.ac.in/",
   },
   {
     id: 13,
+    geocode: { longitude: 86.4412, latitude: 23.8143 },
     name: "Indian Institute of Technology (Indian School of Mines), Dhanbad",
     address:
       "Indian Institute of Technology (Indian School of Mines), Sardar Patel Nagar, Dhanbad, Jharkhand - 826004",
@@ -192,10 +206,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2015/09/IITISM-Logo.jpg",
     fees: "₹1,22,300 ",
     website_url: "https://www.iitism.ac.in/",
-    image_url: "https://img.collegepravesh.com/2013/06/ISM-Dhanbad.jpg",
+    image_url: "https://www.iitism.ac.in/",
   },
   {
     id: 14,
+    geocode: { longitude: 76.5378, latitude: 30.9762 },
     name: "Indian Institute of Technology, Ropar",
     address:
       "Indian Institute of Technology, Nangal Road, Rupnagar, Punjab - 140001",
@@ -206,10 +221,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2014/10/IIT-Ropar-Logo.png",
     fees: "₹1,10,650",
     website_url: "http://www.iitrpr.ac.in/",
-    image_url: "https://img.collegepravesh.com/2013/06/IIT-Ropar.jpg",
+    image_url: "http://www.iitrpr.ac.in/",
   },
   {
     id: 15,
+    geocode: { longitude: 82.9894, latitude: 25.2623 },
     name: "Indian Institute of Technology (Banaras Hindu University), Varanasi",
     address:
       "Indian Institute of Technology (Banaras Hindu University), Varanasi, Uttar Pradesh – 221005",
@@ -220,10 +236,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2015/09/IIT-BHU-Logo.png",
     fees: "",
     website_url: "http://www.iitbhu.ac.in/",
-    image_url: "https://img.collegepravesh.com/2013/06/IIT-BHU.jpg",
+    image_url: "http://www.iitbhu.ac.in/",
   },
   {
     id: 16,
+    geocode: { longitude: 91.6916, latitude: 26.1878 },
     name: "Indian Institute of Technology, Guwahati",
     address:
       "Indian Institute of Technology, Near Doul Gobinda Road, Amingaon, North Guwahati, Guwahati, Assam - 781039",
@@ -234,10 +251,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2015/02/IIT-Guwahati-Logo.png",
     fees: "₹1,12,650",
     website_url: "http://www.iitg.ac.in/",
-    image_url: "https://img.collegepravesh.com/2015/06/IIT-Guwahati.jpg",
+    image_url: "http://www.iitg.ac.in/",
   },
   {
     id: 17,
+    geocode: { longitude: 81.6596, latitude: 21.1628 },
     name: "Indian Institute of Technology, Bhilai",
     address:
       "IIT Bhilai, Government Engineering College Campus, Old Dhamtari Road, Sejbahar, Raipur, Chhattisgarh - 492015",
@@ -248,11 +266,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2016/06/IIT-Bhilai-Logo.png",
     fees: "₹1,19,800",
     website_url: "https://www.iitbhilai.ac.in/",
-    image_url:
-      "https://img.collegepravesh.com/2016/06/IIT-Bhilai-GEC-Campus.jpg",
+    image_url: "https://www.iitbhilai.ac.in/",
   },
   {
     id: 18,
+    geocode: { longitude: 73.9798, latitude: 15.4226 },
     name: "Indian Institute of Technology, Goa",
     address:
       "IIT Goa, Goa Engineering College Campus (Bhausaheb Bandodkar Technical Education Complex), Farmagudi, Ponda, Goa - 403401",
@@ -263,11 +281,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2017/12/IIT-Goa-Logo.png",
     fees: "₹1,11,669",
     website_url: "http://www.iitgoa.ac.in/",
-    image_url:
-      "https://img.collegepravesh.com/2016/09/IIT-Goa-Transit-Campus.jpg",
+    image_url: "http://www.iitgoa.ac.in/",
   },
   {
     id: 19,
+    geocode: { longitude: 76.8185, latitude: 10.8017 },
     name: "Indian Institute of Technology, Palakkad",
     address:
       "Indian Institute of Technology, Ahalia Integrated Campus, Kozhippara P. O, Palakkad, Kerala - 678557",
@@ -278,10 +296,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2015/10/IIT-Palakkad-Logo.png",
     fees: "₹1,13,850",
     website_url: "http://iitpkd.ac.in/",
-    image_url: "https://img.collegepravesh.com/2015/06/IIT-Palakkad.jpg",
+    image_url: "http://iitpkd.ac.in/",
   },
   {
     id: 20,
+    geocode: { longitude: 79.475, latitude: 13.6299 },
     name: "Indian Institute of Technology, Tirupati",
     address:
       "Indian Institute of Technology Tirupati, Yerpedu – Venkatagiri Road, Yerpedu Post, Chittoor District, Andhra Pradesh – 517619",
@@ -292,10 +311,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2015/10/IIT-Tirupati-Logo.jpg",
     fees: "₹1,15,400",
     website_url: "http://iittp.ac.in/",
-    image_url: "https://img.collegepravesh.com/2021/09/IIT-Tirupati.jpg",
+    image_url: "http://iittp.ac.in/",
   },
   {
     id: 21,
+    geocode: { longitude: 74.8962, latitude: 32.8036 },
     name: "Indian Institute of Technology, Jammu",
     address:
       "Indian Institute of Technology Jammu, Jagti, PO Nagrota, NH-44, Jammu, Jammu and Kashmir - 181221",
@@ -306,10 +326,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2016/06/IIT-Jammu-Logo.png",
     fees: "",
     website_url: "http://iitjammu.ac.in/",
-    image_url: "https://img.collegepravesh.com/2018/04/IIT-Jammu.jpg",
+    image_url: "http://iitjammu.ac.in/",
   },
   {
     id: 22,
+    geocode: { longitude: 74.926, latitude: 15.5188 },
     name: "Indian Institute of Technology, Dharwad",
     address:
       "Indian Institute of Technology Dharwad, WALMI Campus Belur Industrial Area, PB Road Post Mummigatti, Dharwad, Karnataka - 580011",
@@ -320,11 +341,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2018/04/IIT-Dharwad-Logo.png",
     fees: "",
     website_url: "http://iitdh.ac.in/",
-    image_url:
-      "https://img.collegepravesh.com/2016/06/IIT-Dharwad-WALMI-Campus.jpg",
+    image_url: "http://iitdh.ac.in/",
   },
   {
     id: 23,
+    geocode: { longitude: 75.5358, latitude: 31.3959 },
     name: "Dr. B R Ambedkar National Institute of Technology, Jalandhar",
     address:
       "Dr. B. R. Ambedkar National Institute of Technology, GT Road, Amritsar Bypass Road, Jalandhar, Punjab – 144011",
@@ -335,10 +356,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2015/08/NIT-Jalandhar-Logo.png",
     fees: "",
     website_url: "http://www.nitj.ac.in/",
-    image_url: "https://img.collegepravesh.com/2014/09/NIT-JALANDHAR.jpg",
+    image_url: "http://www.nitj.ac.in/",
   },
   {
     id: 24,
+    geocode: { longitude: 75.8108, latitude: 26.864 },
     name: "Malaviya National Institute of Technology, Jaipur",
     address:
       "Malaviya National Institute of Technology, Jawaharlal Nehru Marg, Malviya Nagar, Jaipur, Rajasthan – 302017",
@@ -349,10 +371,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2014/05/MNIT-Jaipur-Logo.png",
     fees: "₹98,365",
     website_url: "http://www.mnit.ac.in/",
-    image_url: "https://img.collegepravesh.com/2013/06/MNIT-Jaipur.jpg",
+    image_url: "http://www.mnit.ac.in/",
   },
   {
     id: 25,
+    geocode: { longitude: "NULL", latitude: "NULL" },
     name: "Maulana Azad National Institute of Technology, Bhopal",
     address:
       "Maulana Azad National Institute of Technology, Link Road Number 3, Bhopal, Madhya Pradesh - 462003",
@@ -363,10 +386,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2015/08/MANIT-Logo.png",
     fees: "",
     website_url: "http://www.manit.ac.in/",
-    image_url: "https://img.collegepravesh.com/2014/05/MANIT-BHOPAL.jpg",
+    image_url: "http://www.manit.ac.in/",
   },
   {
     id: 26,
+    geocode: { longitude: 81.8627, latitude: 25.4934 },
     name: "Motilal Nehru National Institute of Technology, Allahabad",
     address:
       "Motilal Nehru National Institute of Technology Allahabad, Prayagraj, Uttar Pradesh – 211004",
@@ -377,10 +401,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2015/08/MNNIT-Allahabad-Logo.png",
     fees: "",
     website_url: "http://www.mnnit.ac.in/",
-    image_url: "https://img.collegepravesh.com/2013/06/MNNIT-Allahabad.jpg",
+    image_url: "http://www.mnnit.ac.in/",
   },
   {
     id: 27,
+    geocode: { longitude: 91.4214, latitude: 23.8409 },
     name: "National Institute of Technology, Agartala",
     address:
       "National Institute of Technology, Barjala, Jirania, Agartala, Tripura - 799046",
@@ -391,10 +416,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2015/09/NIT-Agartala-Logo.jpg",
     fees: "",
     website_url: "http://www.nita.ac.in/",
-    image_url: "https://img.collegepravesh.com/2015/09/NIT-Agartala.jpg",
+    image_url: "http://www.nita.ac.in/",
   },
   {
     id: 28,
+    geocode: { longitude: 75.9336, latitude: 11.3216 },
     name: "National Institute of Technology, Calicut",
     address:
       "National Institute of Technology, Chathamangalam, Kozhikode, Kerala - 673601",
@@ -405,10 +431,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2015/09/NIT-Calicut-Logo.png",
     fees: "",
     website_url: "http://www.nitc.ac.in/",
-    image_url: "https://img.collegepravesh.com/2013/08/NIT-Calicut.jpg",
+    image_url: "http://www.nitc.ac.in/",
   },
   {
     id: 29,
+    geocode: { longitude: 77.1338, latitude: 28.8145 },
     name: "National Institute of Technology, Delhi",
     address:
       "National Institute of Technology, Institute of Applied Manpower Research (IAMR Campus), A-7, Institutional Area, Near Satyawadi Raja Harish Chandra Hospital, Narela, Delhi - 110040",
@@ -419,10 +446,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2015/09/NIT-Delhi-Logo.png",
     fees: "₹1,01,200 ",
     website_url: "http://www.nitdelhi.ac.in/",
-    image_url: "https://img.collegepravesh.com/2015/09/NIT-Delhi.jpg",
+    image_url: "http://www.nitdelhi.ac.in/",
   },
   {
     id: 30,
+    geocode: { longitude: 87.2931, latitude: 23.5477 },
     name: "National Institute of Technology, Durgapur",
     address:
       "National Institute of Technology, Mahatma Gandhi Avenue, Durgapur, West Bengal - 713209",
@@ -433,10 +461,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2013/06/NIT-Durgapur-Logo.png",
     fees: "",
     website_url: "http://www.nitdgp.ac.in/",
-    image_url: "https://img.collegepravesh.com/2014/05/NIT-Durgapur.jpg",
+    image_url: "http://www.nitdgp.ac.in/",
   },
   {
     id: 31,
+    geocode: { longitude: 73.9781, latitude: 15.4124 },
     name: "National Institute of Technology, Goa",
     address: "National Institute of Technology, Farmagudi, Ponda, Goa - 403401",
     known_as: "NITG",
@@ -446,10 +475,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2013/06/NIT-Goa-Logo.png",
     fees: "",
     website_url: "http://www.nitgoa.ac.in/",
-    image_url: "https://img.collegepravesh.com/2013/06/NIT-GOA.jpg",
+    image_url: "http://www.nitgoa.ac.in/",
   },
   {
     id: 32,
+    geocode: { longitude: 76.5274, latitude: 31.7084 },
     name: "National Institute of Technology, Hamirpur",
     address:
       "National Institute of Technology, Anu Road, Hamirpur, Himachal Pradesh - 177005",
@@ -460,10 +490,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2013/06/NIT-Hamirpur-Logo.jpg",
     fees: "",
     website_url: "http://www.nith.ac.in/",
-    image_url: "https://img.collegepravesh.com/2013/06/NIT-Hamirpur1.jpg",
+    image_url: "http://www.nith.ac.in/",
   },
   {
     id: 33,
+    geocode: { longitude: 74.7943, latitude: 13.0108 },
     name: "National Institute of Technology Karnataka, Surathkal",
     address:
       "National Institute of Technology Karnataka, Srinivasnagar PO, Surathkal, Mangalore, Karnataka - 575025",
@@ -474,10 +505,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2013/07/NIT-SURATHKAL-LOGO.png",
     fees: "₹85,815 ",
     website_url: "http://www.nitk.ac.in/",
-    image_url: "https://img.collegepravesh.com/2014/04/NIT-Karnataka.jpg",
+    image_url: "http://www.nitk.ac.in/",
   },
   {
     id: 34,
+    geocode: { longitude: 91.8947, latitude: 25.5739 },
     name: "National Institute of Technology, Meghalaya",
     address:
       "National Institute of Technology Meghalaya, Bijni Complex, Laitumkhrah, Shillong, Meghalaya - 793003",
@@ -488,10 +520,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2015/09/NIT-Meghalaya-Logo.png",
     fees: "",
     website_url: "http://www.nitm.ac.in/",
-    image_url: "https://img.collegepravesh.com/2016/09/NIT_Meghalaya.jpg",
+    image_url: "http://www.nitm.ac.in/",
   },
   {
     id: 35,
+    geocode: { longitude: 93.774, latitude: 25.7872 },
     name: "National Institute of Technology, Nagaland",
     address:
       "National Institute of Technology, Chumukedima, Dimapur, Nagaland - 797103",
@@ -502,10 +535,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2013/06/NIT-NAGALAND-LOGO.jpg",
     fees: "",
     website_url: "https://nitnagaland.ac.in/",
-    image_url: "https://img.collegepravesh.com/2014/05/NIT-Nagaland.jpg",
+    image_url: "https://nitnagaland.ac.in/",
   },
   {
     id: 36,
+    geocode: { longitude: 85.172, latitude: 25.6208 },
     name: "National Institute of Technology, Patna",
     address:
       "National Institute of Technology, Ashok Rajpath, Mahendru, Patna, Bihar - 800005",
@@ -516,10 +550,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2016/09/NITP-Logo.png",
     fees: "₹98,700 ",
     website_url: "http://www.nitp.ac.in/",
-    image_url: "https://img.collegepravesh.com/2014/06/NIT-Patna.jpg",
+    image_url: "http://www.nitp.ac.in/",
   },
   {
     id: 37,
+    geocode: { longitude: 79.8451, latitude: 10.9875 },
     name: "National Institute of Technology, Puducherry",
     address:
       "National Institute of Technology, Thiruvettakudy, Karaikal, Puducherry - 609609",
@@ -530,10 +565,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2016/09/NIT-Puducherry-Logo.png",
     fees: "",
     website_url: "http://www.nitpy.ac.in/",
-    image_url: "https://img.collegepravesh.com/2019/06/NIT-Puducherry.jpg",
+    image_url: "http://www.nitpy.ac.in/",
   },
   {
     id: 38,
+    geocode: { longitude: 81.605, latitude: 21.2497 },
     name: "National Institute of Technology, Raipur",
     address:
       "National Institute of Technology, Opposite Ayurvedic College, GE Road, Raipur, Chhattisgarh - 492010",
@@ -544,10 +580,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2014/05/NIT-Raipur-Logo.png",
     fees: "",
     website_url: "http://www.nitrr.ac.in/",
-    image_url: "https://img.collegepravesh.com/2013/06/NIT-RAIPUR.jpg",
+    image_url: "http://www.nitrr.ac.in/",
   },
   {
     id: 39,
+    geocode: { longitude: 88.3573, latitude: 27.2975 },
     name: "National Institute of Technology, Sikkim",
     address:
       "National Institute of Technology, Barfung Block, Ravangla Sub-Division, South Sikkim - 737139",
@@ -558,10 +595,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2019/05/NIT-Sikkim-Logo.png",
     fees: "",
     website_url: "http://www.nitsikkim.ac.in/",
-    image_url: "https://img.collegepravesh.com/2013/07/NIT-SIKKIM1.jpg",
+    image_url: "http://www.nitsikkim.ac.in/",
   },
   {
     id: 40,
+    geocode: { longitude: 93.7379, latitude: 27.1333 },
     name: "National Institute of Technology, Arunachal Pradesh",
     address:
       "National Institute of Technology, Yupia, Papum Pare, Arunachal Pradesh - 791113",
@@ -573,11 +611,11 @@ let college_data = [
       "https://img.collegepravesh.com/2015/09/NIT-Arunachal-Pradesh-logo1.png",
     fees: "",
     website_url: "https://www.nitap.ac.in/",
-    image_url:
-      "https://img.collegepravesh.com/2018/06/NIT-Arunachal-Pradesh.jpg",
+    image_url: "https://www.nitap.ac.in/",
   },
   {
     id: 41,
+    geocode: { longitude: 86.1441, latitude: 22.777 },
     name: "National Institute of Technology, Jamshedpur",
     address:
       "National Institute of Technology, P.O. RIT Jamshedpur, Jharkhand - 831014",
@@ -588,10 +626,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2014/05/NIT-Jamshedpur-logo.png",
     fees: "",
     website_url: "http://www.nitjsr.ac.in/",
-    image_url: "https://img.collegepravesh.com/2016/10/NIT-Jamshedpur.jpg",
+    image_url: "http://www.nitjsr.ac.in/",
   },
   {
     id: 42,
+    geocode: { longitude: 76.8155, latitude: 29.9476 },
     name: "National Institute of Technology, Kurukshetra",
     address:
       "National Institute of Technology, Thanesar, Kurukshetra, Haryana - 136119",
@@ -602,10 +641,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2014/02/NIT-Kurukshetra-Logo.png",
     fees: "₹87,700",
     website_url: "http://www.nitkkr.ac.in/",
-    image_url: "https://img.collegepravesh.com/2014/04/NIT-Kurukshetra.jpg",
+    image_url: "http://www.nitkkr.ac.in/",
   },
   {
     id: 43,
+    geocode: { longitude: 93.9127, latitude: 24.832 },
     name: "National Institute of Technology, Manipur",
     address:
       "National Institute of Technology, Langol, Imphal, Manipur - 795004",
@@ -616,10 +656,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2015/09/NIT-Manipur-Logo.jpg",
     fees: "",
     website_url: "http://www.nitmanipur.ac.in/",
-    image_url: "https://img.collegepravesh.com/2013/06/NIT-MANIPUR.jpg",
+    image_url: "http://www.nitmanipur.ac.in/",
   },
   {
     id: 44,
+    geocode: { longitude: 92.7257, latitude: 23.7483 },
     name: "National Institute of Technology, Mizoram",
     address:
       "National Institute of Technology, Chaltlang, Dawrkawn, Aizawl, Mizoram - 796012",
@@ -630,10 +671,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2014/07/NIT-Mizoram-Logo.png",
     fees: "",
     website_url: "http://www.nitmz.ac.in/",
-    image_url: "https://img.collegepravesh.com/2020/07/NIT-Mizoram.jpg",
+    image_url: "http://www.nitmz.ac.in/",
   },
   {
     id: 45,
+    geocode: { longitude: 84.901, latitude: 22.2531 },
     name: "National Institute of Technology, Rourkela",
     address:
       "National Institute of Technology, Jagda, Rourkela, Orissa – 769008",
@@ -644,10 +686,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2013/06/NIT-ROURKELA-LOGO.jpg",
     fees: "",
     website_url: "https://www.nitrkl.ac.in/",
-    image_url: "https://img.collegepravesh.com/2013/07/NIT-ROURKELA.jpg",
+    image_url: "https://www.nitrkl.ac.in/",
   },
   {
     id: 46,
+    geocode: { longitude: 92.7923, latitude: 24.7577 },
     name: "National Institute of Technology, Silchar",
     address: "National Institute of Technology, Cachar, Assam - 788010",
     known_as: "NITS",
@@ -657,10 +700,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2015/09/NIT-Silchar-Logo.png",
     fees: "",
     website_url: "http://www.nits.ac.in/",
-    image_url: "https://img.collegepravesh.com/2020/07/NIT-Silchar.jpg",
+    image_url: "http://www.nits.ac.in/",
   },
   {
     id: 47,
+    geocode: { longitude: 74.8375, latitude: 34.1252 },
     name: "National Institute of Technology, Srinagar",
     address:
       "National Institute of Technology, Hazratbal Road, Hazaratbal, Srinagar, Jammu and Kashmir - 190006",
@@ -671,10 +715,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2015/09/NIT-Srinagar-Logo.png",
     fees: "",
     website_url: "https://nitsri.ac.in/",
-    image_url: "https://img.collegepravesh.com/2013/07/NIT-SRINAGAR.jpg",
+    image_url: "https://nitsri.ac.in/",
   },
   {
     id: 48,
+    geocode: { longitude: 78.8132, latitude: 10.7589 },
     name: "National Institute of Technology, Tiruchirapalli",
     address:
       "National Institute of Technology, Tanjore Main Road, National Highway 67, Tiruchirappalli, Tamil Nadu - 620015",
@@ -685,10 +730,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2014/03/NITT-Logo.png",
     fees: "",
     website_url: "http://www.nitt.edu/",
-    image_url: "https://img.collegepravesh.com/2018/06/NIT-Trichy.jpg",
+    image_url: "http://www.nitt.edu/",
   },
   {
     id: 49,
+    geocode: { longitude: 78.767, latitude: 30.2184 },
     name: "National Institute of Technology, Uttarakhand",
     address:
       "National Institute of Technology, Government Polytechnic, Srinagar (Garhwal), Uttarakhand - 246174",
@@ -699,10 +745,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2014/08/NIT-Uttarakhand-Logo.png",
     fees: "₹88,310",
     website_url: "http://www.nituk.ac.in/",
-    image_url: "https://img.collegepravesh.com/2013/07/NIT-UTTARAKHAND.jpg",
+    image_url: "http://www.nituk.ac.in/",
   },
   {
     id: 50,
+    geocode: { longitude: 79.5308, latitude: 17.9835 },
     name: "National Institute of Technology, Warangal",
     address:
       "National Institute of Technology, Off Warangal-Hyderabad Highway, Warangal, Telangana - 506004",
@@ -713,10 +760,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2015/08/NIT-Warangal-Logo.png",
     fees: "",
     website_url: "https://www.nitw.ac.in/",
-    image_url: "https://img.collegepravesh.com/2013/06/NIT-WARANGAL.jpg",
+    image_url: "https://www.nitw.ac.in/",
   },
   {
     id: 51,
+    geocode: { longitude: 72.7833, latitude: 21.1663 },
     name: "Sardar Vallabhbhai National Institute of Technology, Surat",
     address:
       "Sardar Vallabhbhai National Institute of Technology, Ichchhanath, Surat, Gujarat - 395007",
@@ -727,10 +775,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2015/09/SVNIT-Surat-Logo.png",
     fees: "",
     website_url: "http://www.svnit.ac.in/",
-    image_url: "https://img.collegepravesh.com/2014/05/SVNIT.jpg",
+    image_url: "http://www.svnit.ac.in/",
   },
   {
     id: 52,
+    geocode: { longitude: 79.0515, latitude: 21.1232 },
     name: "Visvesvaraya National Institute of Technology, Nagpur",
     address:
       "Visvesvaraya National Institute of Technology, South Ambazari Road, Nagpur, Maharashtra - 440010",
@@ -741,10 +790,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2018/01/VNIT-Nagpur-Logo.png",
     fees: "",
     website_url: "http://www.vnit.ac.in/",
-    image_url: "https://img.collegepravesh.com/2014/02/VNIT.jpg",
+    image_url: "http://www.vnit.ac.in/",
   },
   {
     id: 53,
+    geocode: { longitude: 81.538, latitude: 16.8367 },
     name: "National Institute of Technology, Andhra Pradesh",
     address:
       "National Institute of Technology, Near National Highway No. 16, Kadakatla, Tadepalligudem, West Godavari District, Andhra Pradesh - 534101",
@@ -756,10 +806,11 @@ let college_data = [
       "https://img.collegepravesh.com/2015/10/NIT-Andhra-Pradesh-Logo.png",
     fees: "",
     website_url: "http://www.nitandhra.ac.in/",
-    image_url: "https://img.collegepravesh.com/2016/10/NIT-Andhra-Pradesh.jpg",
+    image_url: "http://www.nitandhra.ac.in/",
   },
   {
     id: 54,
+    geocode: { longitude: 78.1741, latitude: 26.2495 },
     name: "Indian Institute of Information Technology and Management, Gwalior",
     address:
       "ABV – Indian Institute of Information Technology and Management, Morena Link Road, Gwalior, Madhya Pradesh – 474015",
@@ -771,10 +822,11 @@ let college_data = [
       "https://img.collegepravesh.com/2014/06/IIITM-Gwalior-Logo-e1406741979820.png",
     fees: "",
     website_url: "http://www.iiitm.ac.in/",
-    image_url: "https://img.collegepravesh.com/2020/07/IIITM-Gwalior.jpg",
+    image_url: "http://www.iiitm.ac.in/",
   },
   {
     id: 55,
+    geocode: { longitude: 75.8108, latitude: 26.864 },
     name: "Indian Institute of Information Technology, Kota",
     address:
       "Indian Institute of Information Technology, 2nd Floor, Prabha Bhawan, MNIT Jaipur, Jawaharlal Nehru Marg, Jaipur, Rajasthan – 302017",
@@ -785,10 +837,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2020/08/IIIT-Kota-Logo.png",
     fees: "",
     website_url: "http://www.iiitkota.ac.in/",
-    image_url: "https://img.collegepravesh.com/2016/10/IIIT-Kota.png",
+    image_url: "http://www.iiitkota.ac.in/",
   },
   {
     id: 56,
+    geocode: { longitude: 91.562, latitude: 26.0812 },
     name: "Indian Institute of Information Technology, Guwahati",
     address:
       "Indian Institute of Information Technology, Bongara, Guwahati, Assam - 781015",
@@ -799,10 +852,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2016/10/IIIT-Guwahati-Logo.png",
     fees: "",
     website_url: "http://www.iiitg.ac.in/",
-    image_url: "https://img.collegepravesh.com/2018/12/IIIT-Guwahati.jpg",
+    image_url: "http://www.iiitg.ac.in/",
   },
   {
     id: 57,
+    geocode: { longitude: 88.4334, latitude: 22.9611 },
     name: "Indian Institute of Information Technology, Kalyani",
     address:
       "Indian Institute of Information Technology, Webel IT Park, Near Buddha Park, Kalyani, Nadia, West Bengal - 741235",
@@ -813,10 +867,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2015/11/IIIT-Kalyani-logo.jpeg",
     fees: "",
     website_url: "http://iiitkalyani.ac.in/",
-    image_url: "https://img.collegepravesh.com/2017/07/IIIT-Kalyani.jpg",
+    image_url: "http://iiitkalyani.ac.in/",
   },
   {
     id: 58,
+    geocode: { longitude: 77.1039, latitude: 28.9521 },
     name: "Indian Institute of Information Technology, Sonepat",
     address:
       "Indian Institute of Information Technology Sonepat, IIT Delhi Technopark, Rajiv Gandhi Education City, Rai, Sonipat, Haryana - 131028",
@@ -827,10 +882,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2019/06/IIIT-Sonepat-Logo.png",
     fees: "₹82,555",
     website_url: "http://www.iiitsonepat.ac.in/",
-    image_url: "https://img.collegepravesh.com/2019/06/IIIT-Sonepat.png",
+    image_url: "http://www.iiitsonepat.ac.in/",
   },
   {
     id: 59,
+    geocode: { longitude: "NULL", latitude: "NULL" },
     name: "Indian Institute of Information Technology, Una",
     address:
       "Indian Institute of Information Technology, Saloh, Una, Himachal Pradesh - 177209",
@@ -841,11 +897,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2015/11/IIIT-Una-Logo.png",
     fees: "₹1,03,900",
     website_url: "http://iiitu.ac.in/",
-    image_url:
-      "https://img.collegepravesh.com/2019/07/IIIT-Una-Transit-Campus-II.jpg",
+    image_url: "http://iiitu.ac.in/",
   },
   {
     id: 60,
+    geocode: { longitude: 80.0267, latitude: 13.5553 },
     name: "Indian Institute of Information Technology, Sri City",
     address:
       "Indian Institute of Information Technology, 630 Gnan Marg, Sri City, Satyavedu Mandal, Chittoor District, Andhra Pradesh - 517646",
@@ -856,10 +912,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2015/11/IIIT-Chittoor-Logo.jpg",
     fees: "",
     website_url: "http://www.iiits.ac.in/",
-    image_url: "https://img.collegepravesh.com/2018/01/IIIT-Sri-City.jpg",
+    image_url: "http://www.iiits.ac.in/",
   },
   {
     id: 61,
+    geocode: { longitude: 72.6504, latitude: 23.2592 },
     name: "Indian Institute of Information Technology, Vadodara",
     address:
       "Indian Institute Of Information Technology Vadodara, C/o, Block No.9 (IC Department), Government Engineering College, Sector-28, Gandhinagar, Gujarat - 382028",
@@ -870,10 +927,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2016/10/IIIT-Vadodara-Logo.png",
     fees: "",
     website_url: "http://www.iiitvadodara.ac.in/",
-    image_url: "https://img.collegepravesh.com/2014/06/IIIT-Vadodara.jpg",
+    image_url: "http://www.iiitvadodara.ac.in/",
   },
   {
     id: 62,
+    geocode: { longitude: 81.7708, latitude: 25.4303 },
     name: "Indian Institute of Information Technology, Allahabad",
     address:
       "Indian Institute of Information Technology, Devghat, Jhalwa, Allahabad, Uttar Pradesh - 211015",
@@ -884,10 +942,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2015/11/IIIT-Allahabad-Logo.png",
     fees: "",
     website_url: "https://iiita.ac.in/",
-    image_url: "https://img.collegepravesh.com/2016/10/IIIT-Allahabad.jpg",
+    image_url: "https://iiita.ac.in/",
   },
   {
     id: 63,
+    geocode: { longitude: 80.1373, latitude: 12.8379 },
     name: "Indian Institute of Information Technology Design & Manufacturing, Kancheepuram",
     address:
       "Indian Institute of Information Technology Design & Manufacturing, Melakottaiyur Village, Off Vandalur-Kelambakkam Road, Nellikuppam Road, Chennai, Tamil Nadu - 600127",
@@ -899,10 +958,11 @@ let college_data = [
       "https://img.collegepravesh.com/2015/11/IIITDM-Kancheepuram-Logo.png",
     fees: "",
     website_url: "http://www.iiitdm.ac.in/",
-    image_url: "https://img.collegepravesh.com/2014/11/IIITDM.jpg",
+    image_url: "http://www.iiitdm.ac.in/",
   },
   {
     id: 64,
+    geocode: { longitude: 80.0246, latitude: 23.1769 },
     name: "Indian Institute of Information Technology Design & Manufacturing, Jabalpur",
     address:
       "Pandit Dwarka Prasad Mishra Indian Institute of Information Technology Design & Manufacturing, Dumna Airport Road, Khamaria, Jabalpur, Madhya Pradesh - 482005",
@@ -913,10 +973,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2014/06/IIITDM-Jabalpur-Logo.jpg",
     fees: "",
     website_url: "http://www.iiitdmj.ac.in/",
-    image_url: "https://img.collegepravesh.com/2016/10/IIITDM-Jabalpur.jpg",
+    image_url: "http://www.iiitdmj.ac.in/",
   },
   {
     id: 65,
+    geocode: { longitude: 93.9384, latitude: 24.843 },
     name: "Indian Institute of Information Technology, Manipur",
     address:
       "Indian Institute of Information Technology, Transit Campus, Mantripukhri, Imphal, Manipur - 795002",
@@ -927,11 +988,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2015/11/IIIT-Manipur-Logo.png",
     fees: "",
     website_url: "http://iiitmanipur.ac.in/",
-    image_url:
-      "https://img.collegepravesh.com/2018/06/IIIT-Manipur-Transit-Campus.jpg",
+    image_url: "http://iiitmanipur.ac.in/",
   },
   {
     id: 66,
+    geocode: { longitude: 78.5938, latitude: 10.6698 },
     name: "Indian Institute of Information Technology, Tiruchirapalli",
     address:
       "Indian Institute of Information Technology, Sethurapatti, Trichy-Madurai Highway, Tiruchirappalli, Tamil Nadu - 620012",
@@ -942,10 +1003,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2017/07/IIIT-Srirangam-Logo.png",
     fees: "",
     website_url: "http://www.iiitt.ac.in/",
-    image_url: "https://img.collegepravesh.com/2021/11/IIIT-Trichy.jpg",
+    image_url: "http://www.iiitt.ac.in/",
   },
   {
     id: 67,
+    geocode: { longitude: 81.024, latitude: 26.8009 },
     name: "Indian Institute of Information Technology, Lucknow",
     address:
       "Indian Institute of Information Technology Lucknow, IT City, Chak Ganjaria, Mastemau, Lucknow, Uttar Pradesh - 226002",
@@ -956,10 +1018,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2019/12/IIIT-Lucknow-Logo.png",
     fees: "",
     website_url: "https://iiitl.ac.in/",
-    image_url: "https://img.collegepravesh.com/2021/11/IIIT-Lucknow.jpg",
+    image_url: "https://iiitl.ac.in/",
   },
   {
     id: 68,
+    geocode: { longitude: 75.0253, latitude: 15.3926 },
     name: "Indian Institute of Information Technology, Dharwad",
     address:
       "Indian Institute of Information Technology, Ittigatti Road, Near Sattur Colony, Dharwad, Karnataka - 580009",
@@ -970,10 +1033,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2015/11/IIIT-Dharwad-Logo.png",
     fees: "",
     website_url: "https://www.iiitdwd.ac.in/",
-    image_url: "https://img.collegepravesh.com/2021/11/IIIT-Dharwad.jpg",
+    image_url: "https://www.iiitdwd.ac.in/",
   },
   {
     id: 69,
+    geocode: { longitude: "NULL", latitude: "NULL" },
     name: "Indian Institute of Information Technology Design and Manufacturing, Kurnool",
     address:
       "Indian Institute of Information Technology Design and Manufacturing, Near Dinnedevarapadu Village, Jagannatha Gattu, Kurnool, Andhra Pradesh – 518007",
@@ -984,10 +1048,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2018/06/IIITDM-Kurnool-Logo.png",
     fees: "",
     website_url: "http://iiitk.ac.in/",
-    image_url: "https://img.collegepravesh.com/2018/06/IIITDM-Kurnool.jpg",
+    image_url: "http://iiitk.ac.in/",
   },
   {
     id: 70,
+    geocode: { longitude: 6.6501, latitude: 9.7552 },
     name: "Indian Institute of Information Technology, Kottayam",
     address:
       "Indian Institute of Information Technology Kottayam, Valavoor P.O, Pala, Kottayam, Kerala - 686635",
@@ -998,10 +1063,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2016/10/IIIT-Kottayam-logo.jpg",
     fees: "",
     website_url: "http://www.iiitkottayam.ac.in/",
-    image_url: "https://img.collegepravesh.com/2019/05/IIIT-Kottayam.jpg",
+    image_url: "http://www.iiitkottayam.ac.in/",
   },
   {
     id: 71,
+    geocode: { longitude: 85.374, latitude: 23.3158 },
     name: "Indian Institute of Information Technology, Ranchi",
     address:
       "Indian Institute of Information Technology Ranchi, Science and Technology Campus, Khojatoli, Namkum, Ranchi, Jharkhand - 834010",
@@ -1012,10 +1078,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2016/10/IIIT-Ranchi-Logo.png",
     fees: "",
     website_url: "https://iiitranchi.ac.in/",
-    image_url: "https://img.collegepravesh.com/2016/10/IIIT-Ranchi.png",
+    image_url: "https://iiitranchi.ac.in/",
   },
   {
     id: 72,
+    geocode: { longitude: 79.0269, latitude: 20.9501 },
     name: "Indian Institute of Information Technology, Nagpur",
     address:
       "Indian Institute of Information Technology, Survey No. 140, 141/1, behind Br. Sheshrao Wankhade Shetkari Sahkari Soot Girni, Waranga, Butibori, Nagpur, Maharashtra - 441108",
@@ -1026,10 +1093,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2016/10/IIIT-Nagpur-Logo.jpg",
     fees: "",
     website_url: "http://iiitn.ac.in/",
-    image_url: "https://img.collegepravesh.com/2021/11/IIIT-Nagpur.jpg",
+    image_url: "http://iiitn.ac.in/",
   },
   {
     id: 73,
+    geocode: { longitude: 73.9048, latitude: 18.4206 },
     name: "Indian Institute of Information Technology, Pune",
     address:
       "Indian Institute of Information Technology Pune Transit Campus, 2nd Floor, Trinity Academy of Engineering, Near Bopdev Ghat, Kondhwa Annexe, Yewalewadi, Pune, Maharashtra - 411048",
@@ -1040,10 +1108,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2016/10/IIIT-Pune-Logo.png",
     fees: "",
     website_url: "https://iiitp.ac.in/",
-    image_url: "https://img.collegepravesh.com/2019/07/IIIT-Pune.png",
+    image_url: "https://iiitp.ac.in/",
   },
   {
     id: 74,
+    geocode: { longitude: 92.752, latitude: 24.6801 },
     name: "Triguna Sen School of Technology, Assam University, Silchar",
     address:
       "Triguna Sen School of Technology, Assam University, Silchar, Cachar District, Assam - 788011",
@@ -1055,10 +1124,11 @@ let college_data = [
       "https://img.collegepravesh.com/2016/11/Assam-University-Logo.png",
     fees: "",
     website_url: "http://www.aus.ac.in/TSSOT/",
-    image_url: "https://img.collegepravesh.com/2016/11/Assam-University.jpg",
+    image_url: "http://www.aus.ac.in/TSSOT/",
   },
   {
     id: 75,
+    geocode: { longitude: 85.4399, latitude: 23.4123 },
     name: "Birla Institute of Technology, Mesra",
     address: "Birla Institute of Technology, Mesra, Ranchi, Jharkhand – 835215",
     known_as: "BIT Mesra",
@@ -1068,10 +1138,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2015/10/BIT-Mesra-Logo.png",
     fees: "",
     website_url: "https://www.bitmesra.ac.in/",
-    image_url: "https://img.collegepravesh.com/2014/02/BIT-Mesra.jpg",
+    image_url: "https://www.bitmesra.ac.in/",
   },
   {
     id: 76,
+    geocode: { longitude: 78.123, latitude: 29.92 },
     name: "Gurukula Kangri Vishwavidyalaya, Haridwar",
     address:
       "Gurukula Kangri Vishwavidayalaya, Jagjeetpur, Haridwar, Uttarakhand - 249404",
@@ -1082,10 +1153,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2016/11/GKV-Haridwar-Logo.jpg",
     fees: "",
     website_url: "http://gkv.ac.in/?page_id=380",
-    image_url: "https://img.collegepravesh.com/2016/11/GKV-Haridwar.jpg",
+    image_url: "http://gkv.ac.in/?page_id=380",
   },
   {
     id: 77,
+    geocode: { longitude: 88.306, latitude: 22.5554 },
     name: "Indian Institute of Engineering Science and Technology, Shibpur",
     address:
       "Indian Institute of Engineering Science and Technology, Shibpur, Botanic Garden, Howrah, West Bengal - 711103",
@@ -1096,10 +1168,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2016/03/IIEST-Shibpur-Logo.png",
     fees: "",
     website_url: "http://www.iiests.ac.in/",
-    image_url: "https://img.collegepravesh.com/2016/03/IIEST-Shibpur.jpg",
+    image_url: "http://www.iiests.ac.in/",
   },
   {
     id: 78,
+    geocode: { longitude: 72.6216, latitude: 23.0041 },
     name: "Institute of Infrastructure, Technology, Research and Management (IITRAM), Ahmedabad",
     address:
       "Institute of Infrastructure, Technology, Research and Management (IITRAM), Near Khokhara Circle, Maninagar (East), Ahmedabad, Gujarat - 380026",
@@ -1111,10 +1184,11 @@ let college_data = [
       "https://img.collegepravesh.com/2016/11/IITRAM-Ahmedabad-Logo.jpg",
     fees: "",
     website_url: "http://iitram.ac.in/",
-    image_url: "https://img.collegepravesh.com/2016/11/IITRAM-Ahmedabad.jpg",
+    image_url: "http://iitram.ac.in/",
   },
   {
     id: 79,
+    geocode: { longitude: 81.8523, latitude: 25.4592 },
     name: "J.K. Institute of Applied Physics and Technology, Allahabad",
     address:
       "J.K. Institute of Applied Physics and Technology, Science Faculty, University of Allahabad, Prayagraj (Allahabad), Uttar Pradesh - 211002",
@@ -1126,10 +1200,11 @@ let college_data = [
       "https://img.collegepravesh.com/2016/11/JKIAPT-Allahabad-Logo.jpg",
     fees: "",
     website_url: "http://www.jkinstitute.ac.in/",
-    image_url: "https://img.collegepravesh.com/2016/11/JKIAPT-Allahabad.jpg",
+    image_url: "http://www.jkinstitute.ac.in/",
   },
   {
     id: 80,
+    geocode: { longitude: 75.588, latitude: 28.3588 },
     name: "Birla Institute of Technology and Science, Pilani",
     address:
       "Birla Institute of Technology & Science, Pilani Campus, Vidya Vihar, Pilani, Rajasthan - 333031",
@@ -1140,10 +1215,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2015/09/BITS-Pilani-Logo.png",
     fees: "",
     website_url: "http://www.bits-pilani.ac.in/",
-    image_url: "https://img.collegepravesh.com/2019/08/BITS-Pilani.jpg",
+    image_url: "http://www.bits-pilani.ac.in/",
   },
   {
     id: 81,
+    geocode: { longitude: 73.8782, latitude: 15.3911 },
     name: "Birla Institute of Technology and Science, Goa",
     address:
       "Birla Institute of Technology & Science, Pilani - K K Birla Goa Campus, NH -17B, Zuarinagar, Goa - 403726",
@@ -1154,10 +1230,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2015/09/BITS-Pilani-Logo.png",
     fees: "",
     website_url: "http://www.bits-pilani.ac.in/goa/",
-    image_url: "https://img.collegepravesh.com/2019/08/BITS-Goa.jpg",
+    image_url: "http://www.bits-pilani.ac.in/goa/",
   },
   {
     id: 82,
+    geocode: { longitude: 78.5718, latitude: 17.5449 },
     name: "Birla Institute of Technology and Science, Hyderabad",
     address:
       "Birla Institute of Technology & Science, Pilani - Hyderabad Campus, Jawahar Nagar, Shameerpet Mandal, Hyderabad, Telangana - 500078",
@@ -1168,10 +1245,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2015/09/BITS-Pilani-Logo.png",
     fees: "",
     website_url: "http://www.bits-pilani.ac.in/hyderabad",
-    image_url: "https://img.collegepravesh.com/2019/08/BITS-Hyderabad.jpg",
+    image_url: "http://www.bits-pilani.ac.in/hyderabad",
   },
   {
     id: 83,
+    geocode: { longitude: 77.038, latitude: 28.61 },
     name: "Netaji Subhas University of Technology, Delhi",
     address:
       "Netaji Subhas University of Technology, Azad Hind Fauj Marg, Sector 3, Dwarka, New Delhi – 110078",
@@ -1182,10 +1260,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2015/10/NSUT-Delhi-Logo.png",
     fees: "",
     website_url: "http://www.nsut.ac.in/",
-    image_url: "https://img.collegepravesh.com/2014/04/NSIT.jpg",
+    image_url: "http://www.nsut.ac.in/",
   },
   {
     id: 84,
+    geocode: { longitude: 77.1184, latitude: 28.7495 },
     name: "Delhi Technological University",
     address:
       "Delhi Technological University, Shahbad Daulatpur, Main Bawana Road, Delhi - 110042",
@@ -1196,11 +1275,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2015/10/DTU-Logo.png",
     fees: "",
     website_url: "http://dtu.ac.in/",
-    image_url:
-      "https://img.collegepravesh.com/2015/02/Delhi-Technological-University.jpg",
+    image_url: "http://dtu.ac.in/",
   },
   {
     id: 85,
+    geocode: { longitude: 77.2324, latitude: 28.6653 },
     name: "Indira Gandhi Delhi Technical University for Women",
     address:
       "Indira Gandhi Delhi Technical University for Women, Kashmere Gate, New Delhi - 110006",
@@ -1211,10 +1290,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2015/12/IGDTUW-Logo.png",
     fees: "",
     website_url: "http://www.igdtuw.ac.in/",
-    image_url: "https://img.collegepravesh.com/2015/12/IGDTUW.jpg",
+    image_url: "http://www.igdtuw.ac.in/",
   },
   {
     id: 86,
+    geocode: { longitude: 77.2731, latitude: 28.5455 },
     name: "Indraprastha Institute of Information Technology, Delhi",
     address:
       "Indraprastha Institute of Information Technology, Okhla Industrial Estate, Phase III, Near Govind Puri Metro Station, New Delhi - 110020",
@@ -1225,10 +1305,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2014/06/IIITD-Logo.jpg",
     fees: "₹2,01,100 ",
     website_url: "http://www.iiitd.ac.in/",
-    image_url: "https://img.collegepravesh.com/2014/06/IIIT-Delhi.jpg",
+    image_url: "http://www.iiitd.ac.in/",
   },
   {
     id: 87,
+    geocode: { longitude: 72.6289, latitude: 23.1885 },
     name: "Dhirubhai Ambani Institute of Information and Communication Technology",
     address:
       "Dhirubhai Ambani Institute of Information and Communication Technology, Near Indroda Circle, Gandhinagar, Gujarat – 382007",
@@ -1239,10 +1320,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2014/06/DAIICT-Logo.jpg",
     fees: "",
     website_url: "https://www.daiict.ac.in/",
-    image_url: "https://img.collegepravesh.com/2014/06/DAIICT.jpg",
+    image_url: "https://www.daiict.ac.in/",
   },
   {
     id: 88,
+    geocode: { longitude: 76.3647, latitude: 30.3564 },
     name: "Thapar Institute of Engineering and Technology, Patiala",
     address:
       "Thapar Institute of Engineering and Technology, P.O Box 32, Patiala, Punjab - 147004",
@@ -1253,10 +1335,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2018/04/TIET-Patiala-Logo.png",
     fees: "",
     website_url: "http://www.thapar.edu/",
-    image_url: "https://img.collegepravesh.com/2014/12/Thapar-University.jpg",
+    image_url: "http://www.thapar.edu/",
   },
   {
     id: 89,
+    geocode: { longitude: 78.3498, latitude: 17.4449 },
     name: "International Institute of Information Technology, Hyderabad",
     address:
       "International Institute of Information Technology, Gachibowli, Hyderabad, Telangana - 500032",
@@ -1265,12 +1348,13 @@ let college_data = [
     year_established: "1998",
     location: "Hyderabad, Telangana",
     logo_url: "https://img.collegepravesh.com/2015/09/IIIT-Hyderabad-Logo.png",
-    fees: "₹2,16,275 (Boys)\\n₹2,15,150 (Girls)",
+    fees: "₹2,16,275 (Boys)\\\\n₹2,15,150 (Girls)",
     website_url: "https://www.iiit.ac.in/",
-    image_url: "https://img.collegepravesh.com/2014/02/IIIT-Hyderbad.jpg",
+    image_url: "https://www.iiit.ac.in/",
   },
   {
     id: 90,
+    geocode: { longitude: 77.6632, latitude: 12.845 },
     name: "International Institute of Information Technology, Bangalore",
     address:
       "International Institute of Information Technology, 26/C, Electronics City, Hosur Road, Bangalore, Karnataka - 560100",
@@ -1281,10 +1365,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2014/11/IIIT-Bangalore-Logo.png",
     fees: "",
     website_url: "http://www.iiitb.ac.in/",
-    image_url: "https://img.collegepravesh.com/2014/11/IIIT-Bangalore.jpg",
+    image_url: "http://www.iiitb.ac.in/",
   },
   {
     id: 91,
+    geocode: { longitude: 75.9235, latitude: 26.9363 },
     name: "LNM Institute of Information Technology",
     address:
       "The LNM Institute of Information Technology, Rupa ki Nangal, Post-Sumel, Via-Jamdoli, Jaipur, Rajasthan - 302031",
@@ -1295,10 +1380,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2015/12/LNMIIT_Logo.png",
     fees: "",
     website_url: "http://www.lnmiit.ac.in/",
-    image_url: "https://img.collegepravesh.com/2015/12/LNMIIT.jpg",
+    image_url: "http://www.lnmiit.ac.in/",
   },
   {
     id: 92,
+    geocode: { longitude: 77.5671, latitude: 13.0219 },
     name: "Indian Institute of Science, Bangalore",
     address:
       "Indian Institute of Science, C V Raman Ave, Devasandra Layout, Bengaluru, Karnataka - 560012",
@@ -1309,10 +1395,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2015/12/IIsc-Logo.jpg",
     fees: "",
     website_url: "http://www.iisc.ac.in/",
-    image_url: "https://img.collegepravesh.com/2015/12/IISc.jpg",
+    image_url: "http://www.iisc.ac.in/",
   },
   {
     id: 93,
+    geocode: { longitude: 77.3721, latitude: 28.6297 },
     name: "Jaypee Institute of Information Technology (Sector-62 Campus), Noida",
     address:
       "Jaypee Institute of Information Technology, A-10, Sector-62, Noida, Uttar Pradesh - 201309",
@@ -1323,10 +1410,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2015/12/JIIT-Noida-Logo.png",
     fees: "",
     website_url: "http://www.jiit.ac.in/",
-    image_url: "https://img.collegepravesh.com/2015/12/JIIT-Noida.jpg",
+    image_url: "http://www.jiit.ac.in/",
   },
   {
     id: 94,
+    geocode: { longitude: 77.3654, latitude: 28.5191 },
     name: "Jaypee Institute of Information Technology (Sector-128 Campus), Noida",
     address:
       "Jaypee Institute of Information Technology, Sector-128, Jaypee Wish Town Village, Sultanpur, Noida, Uttar Pradesh - 201304",
@@ -1337,11 +1425,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2015/12/JIIT-Noida-Logo.png",
     fees: "",
     website_url: "http://www.jiit.ac.in/",
-    image_url:
-      "https://img.collegepravesh.com/2015/12/JIIT-Noida-Sector-128.jpg",
+    image_url: "http://www.jiit.ac.in/",
   },
   {
     id: 95,
+    geocode: { longitude: 79.1559, latitude: 12.9692 },
     name: "Vellore Institute of Technology, Vellore",
     address: "Vellore Institute of Technology, Vellore, Tamil Nadu - 632014",
     known_as: "VIT Vellore",
@@ -1352,10 +1440,11 @@ let college_data = [
       "https://img.collegepravesh.com/2015/12/Vellore-Institute-of-Technology-Logo.png",
     fees: "",
     website_url: "http://www.vit.ac.in/",
-    image_url: "https://img.collegepravesh.com/2015/12/VIT-Vellore.jpg",
+    image_url: "http://www.vit.ac.in/",
   },
   {
     id: 96,
+    geocode: { longitude: 80.1534, latitude: 12.8406 },
     name: "Vellore Institute of Technology (Chennai Campus)",
     address:
       "Vellore Institute of Technology (Chennai Campus), Vandalur - Kelambakkam Road, Chennai, Tamil Nadu - 600127",
@@ -1367,10 +1456,11 @@ let college_data = [
       "https://img.collegepravesh.com/2015/12/Vellore-Institute-of-Technology-Logo.png",
     fees: "",
     website_url: "http://chennai.vit.ac.in/",
-    image_url: "https://img.collegepravesh.com/2015/12/VIT-Chennai.jpg",
+    image_url: "http://chennai.vit.ac.in/",
   },
   {
     id: 97,
+    geocode: { longitude: 77.2795, latitude: 28.5602 },
     name: "Faculty of Engineering and Technology, Jamia Millia Islamia, Delhi",
     address: "Jamia Millia Islamia, Jamia Nagar, Okhla, New Delhi - 110025",
     known_as: "JMI Delhi",
@@ -1381,11 +1471,11 @@ let college_data = [
       "https://img.collegepravesh.com/2015/12/Jamia-Millia-Islamia-Logo.png",
     fees: "",
     website_url: "http://jmi.ac.in/",
-    image_url:
-      "https://img.collegepravesh.com/2015/12/Jamia-Millia-Islamia.jpg",
+    image_url: "http://jmi.ac.in/",
   },
   {
     id: 98,
+    geocode: { longitude: 7.0338, latitude: 8.6265 },
     name: "Indian Institute of Space Science and Technology, Thiruvananthapuram",
     address:
       "Indian Institute of Space Science and Technology (Dept. of Space, Govt. of India), Valiamala, Thiruvananthapuram, Kerala - 695547",
@@ -1396,11 +1486,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2015/12/IIST-Logo.jpg",
     fees: "",
     website_url: "https://www.iist.ac.in/",
-    image_url:
-      "https://img.collegepravesh.com/2015/12/IIST-Thiruvananthapuram.jpg",
+    image_url: "https://www.iist.ac.in/",
   },
   {
     id: 99,
+    geocode: { longitude: "NULL", latitude: "NULL" },
     name: "Institute of Technology, Nirma University",
     address:
       "Institute of Technology, Nirma University, Sarkhej-Gandhinagar Highway, Chandlodia, Gota, Ahmedabad, Gujarat - 382481",
@@ -1412,10 +1502,11 @@ let college_data = [
       "https://img.collegepravesh.com/2016/01/Nirma-University-logo.png",
     fees: "",
     website_url: "https://technology.nirmauni.ac.in/",
-    image_url: "https://img.collegepravesh.com/2016/01/ITNU-Ahmedabad.jpg",
+    image_url: "https://technology.nirmauni.ac.in/",
   },
   {
     id: 100,
+    geocode: { longitude: "NULL", latitude: "NULL" },
     name: "Zakir Husain College of Engineering & Technology, Aligarh",
     address:
       "Zakir Husain College of Engineering & Technology, Aligarh Muslim University, Aligarh, Uttar Pradesh - 202002",
@@ -1427,10 +1518,12 @@ let college_data = [
     fees: "",
     website_url:
       "https://amu.ac.in/colleges/zakir-husain-college-of-engineering-and-technology",
-    image_url: "https://img.collegepravesh.com/2016/01/ZHCET-Aligarh.jpg",
+    image_url:
+      "https://amu.ac.in/colleges/zakir-husain-college-of-engineering-and-technology",
   },
   {
     id: 101,
+    geocode: { longitude: 73.808, latitude: 18.5474 },
     name: "Indian Institute of Science Education and Research, Pune",
     address:
       "Indian Institute of Science Education and Research, Dr. Homi Bhabha Road, Pashan, Pune, Maharashtra - 411008",
@@ -1441,10 +1534,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2016/02/IISER-Pune.png",
     fees: "₹45,817",
     website_url: "http://www.iiserpune.ac.in/",
-    image_url: "https://img.collegepravesh.com/2016/02/IISER-Pune.jpg",
+    image_url: "http://www.iiserpune.ac.in/",
   },
   {
     id: 102,
+    geocode: { longitude: 76.73, latitude: 30.665 },
     name: "Indian Institute of Science Education and Research, Mohali",
     address:
       "Indian Institute of Science Education and Research, Knowledge city, Sector 81, SAS Nagar, Manauli, Mohali, Punjab - 140306",
@@ -1455,10 +1549,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2016/02/IISER-Mohali-Logo.png",
     fees: "",
     website_url: "http://www.iisermohali.ac.in/",
-    image_url: "https://img.collegepravesh.com/2016/02/IISER-Mohali.jpg",
+    image_url: "http://www.iisermohali.ac.in/",
   },
   {
     id: 103,
+    geocode: { longitude: "NULL", latitude: "NULL" },
     name: "Indian Institute of Science Education and Research, Bhopal",
     address:
       "Indian Institute of Science Education and Research, Bhopal Bypass Road, Bhauri, Bhopal, Madhya Pradesh - 462066",
@@ -1469,10 +1564,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2016/02/IISER-Bhopal-Logo.png",
     fees: "",
     website_url: "https://www.iiserb.ac.in/",
-    image_url: "https://img.collegepravesh.com/2016/02/IISER-Bhopal.jpg",
+    image_url: "https://www.iiserb.ac.in/",
   },
   {
     id: 104,
+    geocode: { longitude: 88.5245, latitude: 22.9638 },
     name: "Indian Institute of Science Education and Research, Kolkata",
     address:
       "Indian Institute of Science Education And Research, Mohanpur, Kolkata, West Bengal - 741246",
@@ -1483,10 +1579,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2016/02/IISER-Kolkata-Logo.png",
     fees: "₹41,100",
     website_url: "http://www.iiserkol.ac.in/",
-    image_url: "https://img.collegepravesh.com/2016/02/IISER-Kolkata.jpg",
+    image_url: "http://www.iiserkol.ac.in/",
   },
   {
     id: 105,
+    geocode: { longitude: 7.1353, latitude: 8.6824 },
     name: "Indian Institute of Science Education and Research, Thiruvananthapuram",
     address:
       "Indian Institute of Science Education and Research Thiruvananthapuram, Maruthamala PO, Vithura, Thiruvananthapuram, Kerala - 695551",
@@ -1497,11 +1594,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2016/02/IISER-TVM-Logo.png",
     fees: "₹38,885",
     website_url: "http://www.iisertvm.ac.in/",
-    image_url:
-      "https://img.collegepravesh.com/2019/05/IISER-Thiruvananthapuram.jpg",
+    image_url: "http://www.iisertvm.ac.in/",
   },
   {
     id: 106,
+    geocode: { longitude: 79.4872, latitude: 13.6586 },
     name: "Indian Institute of Science Education and Research, Tirupati",
     address:
       "Indian Institute of Science Education and Research, Jangalapalli Village, Yerpedu Mandal, Tirupati, Andhra Pradesh - 517641",
@@ -1512,11 +1609,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2016/12/IISER-Tirupati-Logo.png",
     fees: "₹44,160 ",
     website_url: "http://www.iisertirupati.ac.in/",
-    image_url:
-      "https://img.collegepravesh.com/2016/02/Sree-Rama-Engineering-College.jpg",
+    image_url: "http://www.iisertirupati.ac.in/",
   },
   {
     id: 107,
+    geocode: { longitude: 84.8275, latitude: 19.3105 },
     name: "Indian Institute of Science Education and Research, Berhampur",
     address:
       "Indian Institute of Science Education and Research Berhampur, Laudigam Village Road, Laudigam, Odisha - 760003",
@@ -1527,10 +1624,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2016/02/IISER-Berhampur-Logo.png",
     fees: "",
     website_url: "http://www.iiserbpr.ac.in/",
-    image_url: "https://img.collegepravesh.com/2022/03/IISER-Berhampur.png",
+    image_url: "http://www.iiserbpr.ac.in/",
   },
   {
     id: 108,
+    geocode: { longitude: "NULL", latitude: "NULL" },
     name: "School of Engineering - UPES, Dehradun",
     address:
       "School of Engineering - UPES, Bidholi, Via Prem Nagar, Dehradun, Uttarakhand - 248007",
@@ -1541,10 +1639,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2022/02/UPES-Dehradun-Logo.png",
     fees: "",
     website_url: "https://www.upes.ac.in/",
-    image_url: "https://img.collegepravesh.com/2016/02/UPES-Dehradun.jpg",
+    image_url: "https://www.upes.ac.in/",
   },
   {
     id: 109,
+    geocode: { longitude: 85.6861, latitude: 20.1718 },
     name: "National Institute of Science Education and Research, Bhubaneswar",
     address:
       "National Institute of Science Education and Research Bhubaneswar, P.O. Jatni, Khurda, Odisha - 752050",
@@ -1556,10 +1655,11 @@ let college_data = [
       "https://img.collegepravesh.com/2016/02/NISER-Bhubaneswar-Logo.png",
     fees: "",
     website_url: "http://www.niser.ac.in/",
-    image_url: "https://img.collegepravesh.com/2016/03/NISER-Bhubaneswar.jpg",
+    image_url: "http://www.niser.ac.in/",
   },
   {
     id: 110,
+    geocode: { longitude: 85.7434, latitude: 20.2947 },
     name: "International Institute of Information Technology, Bhubaneswar",
     address:
       "International Institute of Information Technology Bhubaneswar, Gothapatna, PO: Malipada, Bhubaneswar, Odisha - 751033",
@@ -1571,10 +1671,11 @@ let college_data = [
       "https://img.collegepravesh.com/2016/05/IIIT_Bhubaneswar_Logo.png",
     fees: "",
     website_url: "http://www.iiit-bh.ac.in/",
-    image_url: "https://img.collegepravesh.com/2016/05/IIIT-Bhubaneswar.jpg",
+    image_url: "http://www.iiit-bh.ac.in/",
   },
   {
     id: 111,
+    geocode: { longitude: 80.3074, latitude: 26.4935 },
     name: "Harcourt Butler Technical University, Kanpur",
     address:
       "Harcourt Butler Technical University, Nawabganj, Kanpur, Uttar Pradesh - 208002",
@@ -1585,10 +1686,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2019/08/HBTU-Kanpur-Logo.png",
     fees: "",
     website_url: "http://hbtu.ac.in/",
-    image_url: "https://img.collegepravesh.com/2016/01/HBTI-Kanpur.jpg",
+    image_url: "http://hbtu.ac.in/",
   },
   {
     id: 112,
+    geocode: { longitude: 88.3714, latitude: 22.4988 },
     name: "Jadavpur University, Kolkata",
     address:
       "Jadavpur University, 188, Raja S.C. Mallick Rd, Kolkata, West Bengal - 700032",
@@ -1600,10 +1702,11 @@ let college_data = [
       "https://img.collegepravesh.com/2016/01/Jadavpur-University-Logo.png",
     fees: "",
     website_url: "http://www.jaduniv.edu.in/",
-    image_url: "https://img.collegepravesh.com/2016/01/Jadavpur-University.jpg",
+    image_url: "http://www.jaduniv.edu.in/",
   },
   {
     id: 113,
+    geocode: { longitude: 80.9419, latitude: 26.9143 },
     name: "Institute of Engineering & Technology, Lucknow",
     address:
       "Institute of Engineering and Technology, Sitapur Road, Lucknow, Uttar Pradesh - 226021",
@@ -1614,10 +1717,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2016/05/IET-Lucknow-Logo.jpg",
     fees: "",
     website_url: "https://www.ietlucknow.ac.in/",
-    image_url: "https://img.collegepravesh.com/2016/05/IET-Lucknow-660x330.jpg",
+    image_url: "https://www.ietlucknow.ac.in/",
   },
   {
     id: 114,
+    geocode: { longitude: 76.787, latitude: 30.7673 },
     name: "Punjab Engineering College, Chandigarh",
     address: "Punjab Engineering College, Sector-12, Chandigarh - 160012",
     known_as: "PEC Chandigarh",
@@ -1627,10 +1731,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2015/11/PEC-Logo.png",
     fees: "",
     website_url: "http://www.pec.ac.in/",
-    image_url: "https://img.collegepravesh.com/2014/07/PEC-Chandigarh.jpg",
+    image_url: "http://www.pec.ac.in/",
   },
   {
     id: 115,
+    geocode: { longitude: 76.7571, latitude: 30.7481 },
     name: "University Institute of Engineering and Technology, Panjab University, Chandigarh",
     address:
       "University Institute of Engineering and Technology, South Campus, Panjab University, Sector 25, Chandigarh - 160014",
@@ -1641,10 +1746,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2016/05/UIET-Chandigarh-Logo.png",
     fees: "",
     website_url: "http://uiet.puchd.ac.in/",
-    image_url: "https://img.collegepravesh.com/2016/05/UIET-Chandigarh.jpg",
+    image_url: "http://uiet.puchd.ac.in/",
   },
   {
     id: 116,
+    geocode: { longitude: 76.3282, latitude: 10.0443 },
     name: "Cochin University of Science and Technology, Kochi",
     address:
       "Cochin University of Science and Technology, Pipeline Road, Thrikkakara, South Kalamassery, Ernakulam, Kerala - 682022",
@@ -1655,10 +1761,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2017/08/CUSAT-Logo.png",
     fees: "",
     website_url: "https://www.cusat.ac.in/",
-    image_url: "https://img.collegepravesh.com/2019/05/SOE-CUSAT.jpg",
+    image_url: "https://www.cusat.ac.in/",
   },
   {
     id: 117,
+    geocode: { longitude: 74.7928, latitude: 13.3525 },
     name: "Manipal Institute of Technology",
     address:
       "Manipal Institute of Technology, Manipal Academy of Higher Education, Madhav Nagar, Manipal, Karnataka - 576104",
@@ -1669,10 +1776,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2018/10/MAHE-Logo.png",
     fees: "",
     website_url: "https://manipal.edu/mit.html",
-    image_url: "https://img.collegepravesh.com/2016/03/MIT-Manipal.jpg",
+    image_url: "https://manipal.edu/mit.html",
   },
   {
     id: 118,
+    geocode: { longitude: 78.3914, latitude: 17.4933 },
     name: "JNTUH College of Engineering, Hyderabad",
     address:
       "JNTUH College of Engineering, Kukatpally, Hyderabad, Telangana - 500085",
@@ -1683,10 +1791,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2016/03/JNTUH-Logo.png",
     fees: "",
     website_url: "http://jntuhceh.ac.in/",
-    image_url: "https://img.collegepravesh.com/2016/03/JNTU-COE-Hyderabad.jpg",
+    image_url: "http://jntuhceh.ac.in/",
   },
   {
     id: 119,
+    geocode: { longitude: 73.8565, latitude: 18.5294 },
     name: "College of Engineering, Pune",
     address:
       "College of Engineering Pune, Wellesely Rd, Shivajinagar, Pune, Maharashtra - 411005",
@@ -1697,10 +1806,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2016/01/COEP-Logo.png",
     fees: "",
     website_url: "http://www.coep.org.in/",
-    image_url: "https://img.collegepravesh.com/2016/01/COEP-Pune-660x330.jpg",
+    image_url: "http://www.coep.org.in/",
   },
   {
     id: 120,
+    geocode: { longitude: 72.8561, latitude: 19.0222 },
     name: "Veermata Jijabai Technological Institute, Mumbai",
     address:
       "Veermata Jijabai Technological Institute, H R Mahajani Marg, Matunga East, Mumbai, Maharashtra - 400019",
@@ -1711,10 +1821,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2016/01/VJTI-Mumbai-Logo.png",
     fees: "",
     website_url: "http://www.vjti.ac.in/",
-    image_url: "https://img.collegepravesh.com/2016/01/VJTI.jpg",
+    image_url: "http://www.vjti.ac.in/",
   },
   {
     id: 121,
+    geocode: { longitude: 80.5007, latitude: 16.4963 },
     name: "VIT-AP University, Andhra Pradesh",
     address: "VIT-AP University, Inavolu, Amaravati, Andhra Pradesh - 522237",
     known_as: "VIT-AP University",
@@ -1725,10 +1836,11 @@ let college_data = [
       "https://img.collegepravesh.com/2015/12/Vellore-Institute-of-Technology-Logo.png",
     fees: "",
     website_url: "http://vitap.ac.in/",
-    image_url: "https://img.collegepravesh.com/2017/02/VIT-AP-campus.jpg",
+    image_url: "http://vitap.ac.in/",
   },
   {
     id: 122,
+    geocode: { longitude: 76.8513, latitude: 23.0774 },
     name: "VIT Bhopal University, Madhya Pradesh",
     address:
       "VIT Bhopal University, Bhopal-Indore National Highway, Kothrikalan, Sehore, Madhya Pradesh - 466114",
@@ -1740,10 +1852,11 @@ let college_data = [
       "https://img.collegepravesh.com/2015/12/Vellore-Institute-of-Technology-Logo.png",
     fees: "",
     website_url: "http://vitbhopal.ac.in/",
-    image_url: "https://img.collegepravesh.com/2017/02/VIT-Bhopal.jpg",
+    image_url: "http://vitbhopal.ac.in/",
   },
   {
     id: 123,
+    geocode: { longitude: 77.0222, latitude: 28.5951 },
     name: "University School of Information, Communication & Technology, Delhi",
     address:
       "University School of Information, Communication & Technology, Guru Gobind Singh Indraprastha University, Sector-16C, Dwarka, New Delhi - 110078",
@@ -1754,10 +1867,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2015/09/GGSIPU-Logo.png",
     fees: "",
     website_url: "http://www.ipu.ac.in/usict/",
-    image_url: "https://img.collegepravesh.com/2017/02/USICT-Delhi.jpg",
+    image_url: "http://www.ipu.ac.in/usict/",
   },
   {
     id: 124,
+    geocode: { longitude: 77.0661, latitude: 28.7197 },
     name: "Maharaja Agrasen Institute of Technology, Delhi",
     address:
       "Maharaja Agrasen Institute of Technology, PSP Area, Plot No. 1, Sector 22, Rohini, New Delhi, Delhi - 110086",
@@ -1768,10 +1882,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2018/03/MAIT-Delhi-Logo.png",
     fees: "",
     website_url: "https://www.mait.ac.in/",
-    image_url: "https://img.collegepravesh.com/2018/09/MAIT-Delhi.jpg",
+    image_url: "https://www.mait.ac.in/",
   },
   {
     id: 125,
+    geocode: { longitude: 77.1132, latitude: 28.6759 },
     name: "Bharati Vidyapeeth's College of Engineering, New Delhi",
     address:
       "Bharati Vidyapeeth's College of Engineering, A-4, Paschim Vihar, Rohtak Road, New Delhi - 110063",
@@ -1783,10 +1898,11 @@ let college_data = [
       "https://img.collegepravesh.com/2016/05/Bharati-Vidyapeeth-Logo.jpg",
     fees: "",
     website_url: "http://bvcoend.ac.in/",
-    image_url: "https://img.collegepravesh.com/2017/07/BVCOE-Delhi.jpg",
+    image_url: "http://bvcoend.ac.in/",
   },
   {
     id: 126,
+    geocode: { longitude: "NULL", latitude: "NULL" },
     name: "Dr. Akhilesh Das Gupta Institute of Technology and Management, Delhi",
     address:
       "Dr. Akhilesh Das Gupta Institute of Technology and Management (formerly Northern India Engineering College), FC-26, Shastri Park, New Delhi - 110053",
@@ -1797,10 +1913,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2016/01/NIEC-Logo.png",
     fees: "",
     website_url: "http://www.niecdelhi.ac.in/",
-    image_url: "https://img.collegepravesh.com/2016/01/NIEC-Delhi.jpg",
+    image_url: "http://www.niecdelhi.ac.in/",
   },
   {
     id: 127,
+    geocode: { longitude: 77.1164, latitude: 28.6317 },
     name: "Guru Tegh Bahadur Institute of Technology, Delhi",
     address:
       "Guru Tegh Bahadur Institute of Technology, G-8 Area, Rajouri Garden, New Delhi - 110064",
@@ -1811,10 +1928,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2016/01/GTBIT-Logo.png",
     fees: "",
     website_url: "http://www.gtbit.org/",
-    image_url: "https://img.collegepravesh.com/2016/01/GTBIT-Delhi.jpg",
+    image_url: "http://www.gtbit.org/",
   },
   {
     id: 128,
+    geocode: { longitude: 77.0925, latitude: 28.6207 },
     name: "Maharaja Surajmal Institute of Technology, Delhi",
     address:
       "Maharaja Surajmal Institute of Technology, C-4, Janak Puri, New Delhi, Delhi - 110058",
@@ -1825,10 +1943,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2017/02/MSIT-Logo.png",
     fees: "",
     website_url: "http://www.msit.in/",
-    image_url: "https://img.collegepravesh.com/2017/02/MSIT-Delhi.jpg",
+    image_url: "http://www.msit.in/",
   },
   {
     id: 129,
+    geocode: { longitude: 77.1123, latitude: 28.7369 },
     name: "Bhagwan Parshuram Institute of Technology, Delhi",
     address:
       "Bhagwan Parshuram Institute of Technology, PSP-4, Dr. K.N. Katju Marg, Sector-17, Rohini, New Delhi - 110089",
@@ -1839,10 +1958,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2017/02/BPIT-Delhi-Logo.png",
     fees: "",
     website_url: "http://www.bpitindia.com/",
-    image_url: "https://img.collegepravesh.com/2017/02/BPIT-Delhi.jpg",
+    image_url: "http://www.bpitindia.com/",
   },
   {
     id: 130,
+    geocode: { longitude: 77.4987, latitude: 12.9237 },
     name: "R.V. College of Engineering, Bangalore",
     address:
       "Rashtreeya Vidyalaya College of Engineering, Mysuru Road, R. V. Vidyanikethan Post, Bengaluru, Karnataka - 560059",
@@ -1853,10 +1973,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2016/06/RVCE-Logo.png",
     fees: "",
     website_url: "https://www.rvce.edu.in/",
-    image_url: "https://img.collegepravesh.com/2016/06/RVCE.jpg",
+    image_url: "https://www.rvce.edu.in/",
   },
   {
     id: 131,
+    geocode: { longitude: 77.5655, latitude: 12.941 },
     name: "BMS College of Engineering, Bangalore",
     address:
       "Businayana Mukundadas Sreenivasaiah College of Engineering, Bull Temple Rd, Basavanagudi, Bengaluru, Karnataka - 560019",
@@ -1867,10 +1988,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2017/02/BMSCE-Logo.png",
     fees: "",
     website_url: "http://bmsce.ac.in/",
-    image_url: "https://img.collegepravesh.com/2017/02/BMSCE-Bangalore.jpg",
+    image_url: "http://bmsce.ac.in/",
   },
   {
     id: 132,
+    geocode: { longitude: 77.5649, latitude: 13.0306 },
     name: "Ramaiah Institute of Technology, Bangalore",
     address:
       "Ramaiah Institute of Technology, MSR Nagar, MSRIT Post, Bangalore, Karnataka - 560054",
@@ -1881,10 +2003,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2017/02/RIT-Bangalore-Logo.png",
     fees: "",
     website_url: "http://www.msrit.edu/",
-    image_url: "https://img.collegepravesh.com/2017/02/MSRIT-Bangalore.jpg",
+    image_url: "http://www.msrit.edu/",
   },
   {
     id: 133,
+    geocode: { longitude: 77.5358, latitude: 12.9354 },
     name: "PES University Ring Road Campus, Bangalore",
     address:
       "PES University Ring Road Campus, 100 Feet Ring Road, BSK III Stage, Bengaluru, Karnataka - 560085",
@@ -1895,10 +2018,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2017/02/PES-University-logo.jpg",
     fees: "",
     website_url: "http://pes.edu/",
-    image_url: "https://img.collegepravesh.com/2017/02/PESU-Bangalore.jpg",
+    image_url: "http://pes.edu/",
   },
   {
     id: 134,
+    geocode: { longitude: 77.6647, latitude: 12.8615 },
     name: "PES University Electronic City Campus, Bangalore",
     address:
       "PES University Electronic City Campus, Formerly PES Institute of Technology South Campus, Hosur Road, Electronic City, Bangalore, Karnataka - 560100",
@@ -1909,10 +2033,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2017/02/PES-University-logo.jpg",
     fees: "",
     website_url: "http://pesitsouth.pes.edu/",
-    image_url: "https://img.collegepravesh.com/2017/02/PESIT-BCS.jpg",
+    image_url: "http://pesitsouth.pes.edu/",
   },
   {
     id: 135,
+    geocode: { longitude: 77.5674, latitude: 13.1334 },
     name: "BMS Institute of Technology and Management, Bangalore",
     address:
       "BMS Institute of Technology and Management, Doddaballapur Main Road, Avalahalli, Yelahanka, Bengaluru, Karnataka - 560064",
@@ -1924,10 +2049,11 @@ let college_data = [
       "https://img.collegepravesh.com/2017/02/BMSITM-Bangalore-Logo.png",
     fees: "",
     website_url: "https://bmsit.ac.in/",
-    image_url: "https://img.collegepravesh.com/2017/02/BMSIT-Bangalore.jpg",
+    image_url: "https://bmsit.ac.in/",
   },
   {
     id: 136,
+    geocode: { longitude: 77.5869, latitude: 12.9754 },
     name: "University Visvesvaraya College of Engineering, Bangalore",
     address:
       "University Visvesvaraya College of Engineering, K R Circle, Dr Ambedkar Veedhi, Bengaluru, Karnataka - 560001",
@@ -1939,10 +2065,11 @@ let college_data = [
       "https://img.collegepravesh.com/2017/02/Bangalore-University-Logo.png",
     fees: "",
     website_url: "http://bangaloreuniversity.ac.in/engineering-uvce/",
-    image_url: "https://img.collegepravesh.com/2017/02/UVCE-Bangalore.jpg",
+    image_url: "http://bangaloreuniversity.ac.in/engineering-uvce/",
   },
   {
     id: 137,
+    geocode: { longitude: 77.61, latitude: 13.151 },
     name: "Sir M Visvesvaraya Institute of Technology, Bangalore",
     address:
       "Sir Mokshagundam Visvesvaraya Institute of Technology, Krishnadeveraya Nagar, International Airport Road, Yelahanka, Hunasamaranahalli, Bengaluru, Karnataka - 562157",
@@ -1953,10 +2080,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2017/02/Sir-MVIT-Logo.jpg",
     fees: "",
     website_url: "http://www.sirmvit.edu/",
-    image_url: "https://img.collegepravesh.com/2017/02/Sir-MVIT.jpg",
+    image_url: "http://www.sirmvit.edu/",
   },
   {
     id: 138,
+    geocode: { longitude: 77.7622, latitude: 12.9841 },
     name: "MVJ College of Engineering, Bangalore",
     address:
       "M.V.Jayaraman College of Engineering, Channasandra Main Road, Near ITPB, Whitefield, Kadugodi, Bengaluru, Karnataka - 560067",
@@ -1967,10 +2095,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2017/02/MVJCE-Bangalore-Logo.png",
     fees: "",
     website_url: "http://www.mvjce.edu.in/",
-    image_url: "https://img.collegepravesh.com/2017/02/MVJCE-Bangalore.jpg",
+    image_url: "http://www.mvjce.edu.in/",
   },
   {
     id: 139,
+    geocode: { longitude: 76.6411, latitude: 12.284 },
     name: "The National Institute of Engineering, Mysore",
     address:
       "The National Institute of Engineering, Mananthavadi Rd, Vidayaranya Puram, Mysuru, Karnataka - 570008",
@@ -1981,10 +2110,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2017/02/NIE-Mysore-Logo.png",
     fees: "",
     website_url: "http://www.nie.ac.in/",
-    image_url: "https://img.collegepravesh.com/2017/02/NIE-Mysore.jpg",
+    image_url: "http://www.nie.ac.in/",
   },
   {
     id: 140,
+    geocode: { longitude: 88.4488, latitude: 22.9914 },
     name: "Kalyani Government Engineering College, Kalyani",
     address:
       "Kalyani Government Engineering College, Kalyani, Nadia, West Bengal - 741235",
@@ -1995,10 +2125,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2017/02/KGEC-Kalyani-Logo.png",
     fees: "",
     website_url: "https://www.kgec.edu.in/",
-    image_url: "https://img.collegepravesh.com/2017/02/KGEC-Kalyani.jpg",
+    image_url: "https://www.kgec.edu.in/",
   },
   {
     id: 141,
+    geocode: { longitude: 73.8508, latitude: 18.4575 },
     name: "Pune Institute of Computer Technology, Pune",
     address:
       "Pune Institute of Computer Technology, Sr. No 27, Pune-Satara Road, Behind Bharati Vidyapeeth College, Dhankawadi, Pune, Maharashtra - 411043",
@@ -2009,10 +2140,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2017/02/PICT-Logo.jpg",
     fees: "",
     website_url: "https://pict.edu/",
-    image_url: "https://img.collegepravesh.com/2017/02/PICT-Pune.jpg",
+    image_url: "https://pict.edu/",
   },
   {
     id: 142,
+    geocode: { longitude: 77.3159, latitude: 28.3675 },
     name: "J.C. Bose University of Science and Technology, YMCA, Faridabad",
     address:
       "J.C. Bose University of Science and Technology, YMCA, NH-2, Sector 6, Mathura Road, Opp. Sanjay Memorial Industrial Estate, Faridabad, Haryana - 121006",
@@ -2024,10 +2156,11 @@ let college_data = [
       "https://img.collegepravesh.com/2018/12/JCB-UST-YMCA-Faridabad-Logo.png",
     fees: "",
     website_url: "https://jcboseust.ac.in/",
-    image_url: "https://img.collegepravesh.com/2017/03/YMCA-UST-Faridabad.jpg",
+    image_url: "https://jcboseust.ac.in/",
   },
   {
     id: 143,
+    geocode: { longitude: 73.8751, latitude: 18.6069 },
     name: "Army Institute of Technology, Pune",
     address:
       "Army Institute of Technology, Alandi Road, Dighi Hills, Pune, Maharashtra - 411015",
@@ -2038,10 +2171,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2017/04/AIT-Pune-Logo.png",
     fees: "",
     website_url: "https://www.aitpune.com/",
-    image_url: "https://img.collegepravesh.com/2017/04/AIT-Pune.jpg",
+    image_url: "https://www.aitpune.com/",
   },
   {
     id: 144,
+    geocode: { longitude: 74.6015, latitude: 16.8457 },
     name: "Walchand College of Engineering, Sangli",
     address:
       "Walchand College of Engineering, Sangli Miraj Road, Vishrambag, Sangli, Maharashtra - 416415",
@@ -2052,10 +2186,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2018/11/WCE-Sangli-Logo.png",
     fees: "",
     website_url: "http://www.walchandsangli.ac.in/",
-    image_url: "https://img.collegepravesh.com/2017/05/WCE-Sangli.jpg",
+    image_url: "http://www.walchandsangli.ac.in/",
   },
   {
     id: 145,
+    geocode: { longitude: 77.574, latitude: 12.9552 },
     name: "Bangalore Institute of Technology, Bangalore",
     address:
       "Bangalore Institute of Technology, KR Road, V V Puram, Bengaluru, Karnataka - 560004",
@@ -2066,10 +2201,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2017/02/BIT-Bangalore-Logo.png",
     fees: "",
     website_url: "http://bit-bangalore.edu.in/",
-    image_url: "https://img.collegepravesh.com/2017/02/BIT-Bangalore.jpg",
+    image_url: "http://bit-bangalore.edu.in/",
   },
   {
     id: 146,
+    geocode: { longitude: 72.836, latitude: 19.1235 },
     name: "Sardar Patel College of Engineering, Mumbai",
     address:
       "Bharatiya Vidya Bhavan's Sardar Patel College of Engineering, Bhavan’s Campus, Munshi Nagar, Andheri (West), Mumbai, Maharashtra - 400058",
@@ -2080,10 +2216,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2017/05/SPCE-Mumbai-Logo.png",
     fees: "",
     website_url: "http://www.spce.ac.in/",
-    image_url: "https://img.collegepravesh.com/2017/05/SPCE-Mumbai.jpg",
+    image_url: "http://www.spce.ac.in/",
   },
   {
     id: 147,
+    geocode: { longitude: 72.8372, latitude: 19.1074 },
     name: "Dwarkadas J. Sanghvi College of Engineering, Mumbai",
     address:
       "Shri Vile Parle Kelvani Mandal's Dwarkadas J. Sanghvi College of Engineering, Plot No. U-15, J.V.P.D. Scheme, Bhaktivedanta Swami Marg, Vile Parle (West), Mumbai, Maharashtra - 400056",
@@ -2094,10 +2231,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2017/05/DJSCE-Mumbai-Logo.png",
     fees: "",
     website_url: "http://djsce.ac.in/",
-    image_url: "https://img.collegepravesh.com/2017/05/DJSCE-Mumbai.jpg",
+    image_url: "http://djsce.ac.in/",
   },
   {
     id: 148,
+    geocode: { longitude: 73.8682, latitude: 18.4636 },
     name: "Vishwakarma Institute of Technology, Pune",
     address:
       "Bansilal Ramnath Agarwal Charitable Trust's Vishwakarma Institute of Technology, 666, Upper Indiranagar, Bibwewadi, Pune, Maharashtra - 411037",
@@ -2108,10 +2246,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2017/05/VIT-Pune-Logo.png",
     fees: "",
     website_url: "http://vit.edu/",
-    image_url: "https://img.collegepravesh.com/2017/05/VIT-Pune.jpg",
+    image_url: "http://vit.edu/",
   },
   {
     id: 149,
+    geocode: { longitude: 73.8198, latitude: 18.5077 },
     name: "Dr. Vishwanath Karad MIT World Peace University, Pune",
     address:
       "Dr. Vishwanath Karad MIT World Peace University, Ground Floor, Saraswati Vishwa A, Paud Road, Kothrud, Pune, Maharashtra - 411038",
@@ -2122,10 +2261,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2017/05/MIT-WPU-Logo.png",
     fees: "",
     website_url: "https://mitwpu.edu.in/",
-    image_url: "https://img.collegepravesh.com/2017/05/MIT-Pune.jpg",
+    image_url: "https://mitwpu.edu.in/",
   },
   {
     id: 150,
+    geocode: { longitude: 75.8713, latitude: 22.7252 },
     name: "Shri Govindram Seksaria Institute of Technology and Science, Indore",
     address:
       "Shri Govindram Seksaria Institute of Technology and Science, 23 Sir M. Visvesvaraya Marg, Vallabh Nagar, Indore, Madhya Pradesh - 452003",
@@ -2136,10 +2276,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2017/05/SGSITS-Indore-Logo.png",
     fees: "",
     website_url: "http://www.sgsits.ac.in/",
-    image_url: "https://img.collegepravesh.com/2017/05/SGSITS-Indore.png",
+    image_url: "http://www.sgsits.ac.in/",
   },
   {
     id: 151,
+    geocode: { longitude: 75.8798, latitude: 22.6812 },
     name: "Institute of Engineering and Technology Devi Ahilya Vishawvidyalaya, Indore",
     address:
       "Institute of Engineering and Technology Devi Ahilya Vishawvidyalaya, Khandwa Road, Devi Ahilya Vishwavidyalaya, Indore, Madhya Pradesh - 452017",
@@ -2150,10 +2291,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2017/05/IET-DAVV-Indore-Logo.png",
     fees: "",
     website_url: "http://www.ietdavv.edu.in/",
-    image_url: "https://img.collegepravesh.com/2017/05/IET-DAVV-Indore.jpg",
+    image_url: "http://www.ietdavv.edu.in/",
   },
   {
     id: 152,
+    geocode: { longitude: 87.0444, latitude: 25.2543 },
     name: "Indian Institute of Information Technology, Bhagalpur",
     address:
       "Indian Institute of Information Technology Bhagalpur, Bhagalpur College of Engineering (BCE), Sabour, Bhagalpur, Bihar - 813210",
@@ -2164,10 +2306,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2017/06/IIIT-Bhagalpur-Logo.png",
     fees: "",
     website_url: "http://iiitbh.ac.in/",
-    image_url: "https://img.collegepravesh.com/2018/06/IIIT-Bhagalpur.jpg",
+    image_url: "http://iiitbh.ac.in/",
   },
   {
     id: 153,
+    geocode: { longitude: 77.4086, latitude: 23.2177 },
     name: "Indian Institute of Information Technology, Bhopal",
     address:
       "Indian Institute of Information Technology Bhopal, Maulana Azad National Institute of Technology, Link Road Number 3, Near River Town, Harshvardhan Nagar, Bhopal, Madhya Pradesh - 462003",
@@ -2178,10 +2321,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2017/06/IIIT-Bhopal-Logo.png",
     fees: "",
     website_url: "https://iiitbhopal.ac.in/",
-    image_url: "https://img.collegepravesh.com/2018/06/IIIT-Bhopal.png",
+    image_url: "https://iiitbhopal.ac.in/",
   },
   {
     id: 154,
+    geocode: { longitude: 72.7835, latitude: 21.1643 },
     name: "Indian Institute of Information Technology, Surat",
     address:
       "Indian Institute of Information Technology Surat, Sardar Vallabhbhai National Institute of Technology, Ichchhanath, Surat, Gujarat - 395007",
@@ -2192,10 +2336,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2017/06/IIIT-Surat-Logo.jpg",
     fees: "",
     website_url: "http://www.iiitsurat.ac.in/",
-    image_url: "https://img.collegepravesh.com/2017/06/IIIT-Surat.png",
+    image_url: "http://www.iiitsurat.ac.in/",
   },
   {
     id: 155,
+    geocode: { longitude: "NULL", latitude: "NULL" },
     name: "Dr. SPM International Institute of Information Technology, Naya Raipur",
     address:
       "Dr. Shyama Prasad Mukherjee International Institute of Information Technology, Plot No. 7, Sector 24, Near Purkhoti Muktangan, Naya Raipur, Chhattisgarh - 493661",
@@ -2207,10 +2352,11 @@ let college_data = [
       "https://img.collegepravesh.com/2017/09/DSPM-IIIT-Naya-Raipur-Logo.png",
     fees: "",
     website_url: "https://iiitnr.ac.in/",
-    image_url: "https://img.collegepravesh.com/2017/06/IIIT-Naya-Raipur.jpg",
+    image_url: "https://iiitnr.ac.in/",
   },
   {
     id: 156,
+    geocode: { longitude: 81.5093, latitude: 26.2656 },
     name: "Rajiv Gandhi Institute of Petroleum Technology, Amethi",
     address:
       "Rajiv Gandhi Institute of Petroleum Technology, Bahadurpur, Mukhetia More, Harbanshganj, Jais, Amethi, Uttar Pradesh - 229304",
@@ -2221,10 +2367,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2017/08/RGIPT-Amethi-Logo.png",
     fees: "",
     website_url: "http://rgipt.ac.in/",
-    image_url: "https://img.collegepravesh.com/2017/08/RGIPT-Amethi.jpg",
+    image_url: "http://rgipt.ac.in/",
   },
   {
     id: 157,
+    geocode: { longitude: 6.9063, latitude: 8.5459 },
     name: "College of Engineering, Trivandrum",
     address:
       "College of Engineering Trivandrum, Sreekaryam - Kulathoor Road, Ambady Nagar, Chavadimukku, Engineering College P O, Thiruvananthapuram, Kerala - 695016",
@@ -2235,10 +2382,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2017/11/CET-Trivandrum-Logo.jpg",
     fees: "",
     website_url: "http://cet.ac.in/",
-    image_url: "https://img.collegepravesh.com/2017/11/CET-Trivandrum.jpg",
+    image_url: "http://cet.ac.in/",
   },
   {
     id: 158,
+    geocode: { longitude: 72.8574, latitude: 19.0238 },
     name: "Institute of Chemical Technology, Mumbai",
     address:
       "Institute of Chemical Technology, Nathalal Parekh Marg, Matunga, Mumbai, Maharashtra - 400019",
@@ -2249,10 +2397,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2018/05/ICT-Mumbai-Logo.png",
     fees: "",
     website_url: "http://www.ictmumbai.edu.in/",
-    image_url: "https://img.collegepravesh.com/2018/05/ICT-Mumbai.jpg",
+    image_url: "http://www.ictmumbai.edu.in/",
   },
   {
     id: 159,
+    geocode: { longitude: 91.4628, latitude: 23.9705 },
     name: "Indian Institute of Information Technology, Agartala",
     address:
       "Indian Institute of Information Technology Agartala, National Institute of Technology, Barjala, Jirania, Agartala, Tripura - 799046",
@@ -2263,10 +2412,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2018/07/IIIT-Agartala-Logo.png",
     fees: "",
     website_url: "https://www.iiitagartala.ac.in/",
-    image_url: "https://img.collegepravesh.com/2018/07/IIIT-Agartala.png",
+    image_url: "https://www.iiitagartala.ac.in/",
   },
   {
     id: 160,
+    geocode: { longitude: 77.1655, latitude: 28.5417 },
     name: "School of Engineering, Jawaharlal Nehru University, Delhi",
     address:
       "School of Engineering, Jawaharlal Nehru University, New Mehrauli Road, New Delhi - 110067",
@@ -2277,10 +2427,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2018/07/JNU-Delhi-Logo.png",
     fees: "₹75,500 ",
     website_url: "https://www.jnu.ac.in/se",
-    image_url: "https://img.collegepravesh.com/2018/07/JNU-Delhi.jpg",
+    image_url: "https://www.jnu.ac.in/se",
   },
   {
     id: 161,
+    geocode: { longitude: 77.3331, latitude: 28.5439 },
     name: "Amity School of Engineering and Technology, Noida",
     address:
       "Amity School of Engineering and Technology, Amity University Campus, Sector - 125, Noida, Uttar Pradesh - 201313",
@@ -2292,11 +2443,11 @@ let college_data = [
       "https://img.collegepravesh.com/2017/12/Amity-University-Logo.png",
     fees: "",
     website_url: "http://amity.edu/aset/",
-    image_url:
-      "https://img.collegepravesh.com/2017/12/Amity-University-Noida.jpg",
+    image_url: "http://amity.edu/aset/",
   },
   {
     id: 162,
+    geocode: { longitude: 77.3331, latitude: 28.5439 },
     name: "Amity School of Engineering, Noida",
     address:
       "Amity School of Engineering, Amity University Campus, Sector - 125, Noida, Uttar Pradesh - 201313",
@@ -2308,11 +2459,11 @@ let college_data = [
       "https://img.collegepravesh.com/2017/12/Amity-University-Logo.png",
     fees: "",
     website_url: "http://amity.edu/ase/",
-    image_url:
-      "https://img.collegepravesh.com/2017/12/Amity-University-Noida.jpg",
+    image_url: "http://amity.edu/ase/",
   },
   {
     id: 163,
+    geocode: { longitude: 77.268, latitude: 28.6542 },
     name: "Netaji Subhas University of Technology (East Campus), Delhi",
     address:
       "Netaji Subhas University of Technology East Campus (Formerly Ambedkar Institute of Advanced Communication Technologies and Research), Geeta Colony, New Delhi, Delhi - 110031",
@@ -2323,10 +2474,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2015/10/NSUT-Delhi-Logo.png",
     fees: "",
     website_url: "http://nsuteastcampus.aiactr.ac.in/",
-    image_url: "https://img.collegepravesh.com/2018/09/AIACTR-Delhi.jpg",
+    image_url: "http://nsuteastcampus.aiactr.ac.in/",
   },
   {
     id: 164,
+    geocode: { longitude: 76.6134, latitude: 12.3133 },
     name: "Sri Jayachamarajendra College of Engineering, Mysore",
     address:
       "Sri Jayachamarajendra College of Engineering (Constituent College of JSS Science and Technology University), JSS TI Campus, Mysuru, Karnataka - 57006",
@@ -2337,10 +2489,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2018/10/SJCE-Mysore-Logo.png",
     fees: "",
     website_url: "https://sjce.ac.in/",
-    image_url: "https://img.collegepravesh.com/2018/10/SJCE-Mysore.jpg",
+    image_url: "https://sjce.ac.in/",
   },
   {
     id: 165,
+    geocode: { longitude: 77.1261, latitude: 13.3269 },
     name: "Siddaganga Institute of Technology, Tumkur",
     address:
       "Siddaganga Institute of Technology, SIT Campus Main Road, Bengaluru - Honnavar Road, Chandana Complex, Tumakuru, Karnataka - 572103",
@@ -2351,10 +2504,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2018/10/SIT-Tumkur-Logo.png",
     fees: "",
     website_url: "http://www.sit.ac.in/",
-    image_url: "https://img.collegepravesh.com/2018/10/SIT-Tumkur.jpg",
+    image_url: "http://www.sit.ac.in/",
   },
   {
     id: 166,
+    geocode: { longitude: 75.1214, latitude: 15.3688 },
     name: "KLE Technological University, Hubli",
     address:
       "KLE Technological University (Formerly BVBCET), B.V. Bhoomaraddi Campus, Vidyanagar, Hubballi, Karnataka - 580031",
@@ -2366,10 +2520,11 @@ let college_data = [
       "https://img.collegepravesh.com/2018/10/KLE-Tech-University-Logo.png",
     fees: "",
     website_url: "https://www.kletech.ac.in/",
-    image_url: "https://img.collegepravesh.com/2018/10/KLE-Tech-University.jpg",
+    image_url: "https://www.kletech.ac.in/",
   },
   {
     id: 167,
+    geocode: { longitude: 77.5666, latitude: 12.9092 },
     name: "Dayananda Sagar College of Engineering, Bangalore",
     address:
       "Dayananda Sagar College of Engineering, Shavige Malleshwara Hills, Kumaraswamy Layout, Bengaluru, Karnataka - 560078",
@@ -2380,10 +2535,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2018/10/DSI-Bangalore-Logo.png",
     fees: "",
     website_url: "http://www.dsce.edu.in/",
-    image_url: "https://img.collegepravesh.com/2018/10/DSCE-Bangalore.jpg",
+    image_url: "http://www.dsce.edu.in/",
   },
   {
     id: 168,
+    geocode: { longitude: 6.632, latitude: 8.9142 },
     name: "TKM College of Engineering, Kollam",
     address:
       "Thangal Kunju Musaliar College of Engineering, Karicode, Kollam, Kerala - 691005",
@@ -2394,10 +2550,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2018/10/TKMCE-Kollam-Logo.png",
     fees: "",
     website_url: "http://tkmce.ac.in/",
-    image_url: "https://img.collegepravesh.com/2018/10/TKMCE-Kollam.jpg",
+    image_url: "http://tkmce.ac.in/",
   },
   {
     id: 169,
+    geocode: { longitude: 76.2247, latitude: 10.5545 },
     name: "Government Engineering College, Thrissur",
     address:
       "Government Engineering College Thrissur (formerly Government Engineering College Trichur), Thrissur, Kerala - 680009",
@@ -2408,10 +2565,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2018/10/GEC-Thrissur-Logo.png",
     fees: "",
     website_url: "http://gectcr.ac.in/",
-    image_url: "https://img.collegepravesh.com/2018/10/GEC-Thrissur.jpg",
+    image_url: "http://gectcr.ac.in/",
   },
   {
     id: 170,
+    geocode: { longitude: 76.3285, latitude: 10.0284 },
     name: "Government Model Engineering College, Kochi",
     address:
       "Government Model Engineering College, Thrikkakara, Kochi, Kerala - 682021",
@@ -2422,10 +2580,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2018/10/MEC-Kochi-Logo.png",
     fees: "",
     website_url: "http://www.mec.ac.in/",
-    image_url: "https://img.collegepravesh.com/2018/10/MEC-Thrikkakara.jpg",
+    image_url: "http://www.mec.ac.in/",
   },
   {
     id: 171,
+    geocode: { longitude: 72.8361, latitude: 19.1232 },
     name: "Sardar Patel Institute of Technology, Mumbai",
     address:
       "Bharatiya Vidya Bhavan's Sardar Patel Institute of Technology, Bhavan’s Campus, Munshi Nagar, Andheri (West), Mumbai, Maharashtra - 400058",
@@ -2436,10 +2595,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2018/11/SPIT-Mumbai-Logo.png",
     fees: "",
     website_url: "https://www.spit.ac.in/",
-    image_url: "https://img.collegepravesh.com/2018/11/SPIT-Mumbai.jpg",
+    image_url: "https://www.spit.ac.in/",
   },
   {
     id: 172,
+    geocode: { longitude: 72.8995, latitude: 19.0735 },
     name: "K.J. Somaiya College of Engineering, Mumbai",
     address:
       "K. J. Somaiya College of Engineering, Vidyanagar, Vidyavihar, Mumbai, Maharashtra - 400077",
@@ -2450,10 +2610,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2018/11/KJSCE-Somaiya-Logo.png",
     fees: "",
     website_url: "https://kjsce.somaiya.edu/kjsce/",
-    image_url: "https://img.collegepravesh.com/2018/11/KJSCE-Mumbai.jpg",
+    image_url: "https://kjsce.somaiya.edu/kjsce/",
   },
   {
     id: 173,
+    geocode: { longitude: 79.987, latitude: 23.1919 },
     name: "Jabalpur Engineering College, Jabalpur",
     address:
       "Jabalpur Engineering College, Gokalpur, Jabalpur, Madhya Pradesh - 482011",
@@ -2464,10 +2625,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2018/11/JEC-Jabalpur-Logo.png",
     fees: "",
     website_url: "https://www.jecjabalpur.ac.in/",
-    image_url: "https://img.collegepravesh.com/2018/11/JEC-Jabalpur.png",
+    image_url: "https://www.jecjabalpur.ac.in/",
   },
   {
     id: 174,
+    geocode: { longitude: 78.2053, latitude: 26.2314 },
     name: "Madhav Institute of Technology and Science, Gwalior",
     address:
       "Madhav Institute of Technology and Science, Race Course Road, Near Gola ka Mandir, Thatipur, Gwalior, Madhya Pradesh - 474005",
@@ -2478,10 +2640,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2018/11/MITS-Gwalior-Logo.jpg",
     fees: "",
     website_url: "http://mitsgwalior.in/",
-    image_url: "https://img.collegepravesh.com/2018/11/MITS-Gwalior.jpg",
+    image_url: "http://mitsgwalior.in/",
   },
   {
     id: 175,
+    geocode: { longitude: "NULL", latitude: "NULL" },
     name: "Institute of Engineering and Management, Kolkata",
     address:
       "Institute of Engineering and Management, Gurukul, Y-12, Block-EP, Sector-V, Salt Lake Electronics Complex, Kolkata, West Bengal - 700091",
@@ -2492,10 +2655,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2018/11/IEM-Kolkata-Logo.png",
     fees: "",
     website_url: "https://iem.edu.in/",
-    image_url: "https://img.collegepravesh.com/2018/11/IEM-Kolkata.jpg",
+    image_url: "https://iem.edu.in/",
   },
   {
     id: 176,
+    geocode: { longitude: 83.3197, latitude: 17.7289 },
     name: "Indian Institute of Petroleum and Energy, Visakhapatnam",
     address:
       "Indian Institute of Petroleum and Energy Vizag Temporary Campus, 2nd Floor, AU Engineering College Main Block, Andhra University, Visakhapatnam, Andhra Pradesh - 530003",
@@ -2506,10 +2670,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2018/12/IIPE-Vizag-Logo.png",
     fees: "",
     website_url: "https://iipe.ac.in/",
-    image_url: "https://img.collegepravesh.com/2018/12/IIPE-Vizag.jpg",
+    image_url: "https://iipe.ac.in/",
   },
   {
     id: 177,
+    geocode: { longitude: "NULL", latitude: "NULL" },
     name: "Dr. S. S. Bhatnagar University Institute of Chemical Engineering and Technology, Chandigarh",
     address:
       "Dr. S. S. Bhatnagar University Institute of Chemical Engineering and Technology, Panjab University, Sector 14, Chandigarh - 160014",
@@ -2521,10 +2686,11 @@ let college_data = [
       "https://img.collegepravesh.com/2019/01/SSB-UICET-Chandigarh-Logo.png",
     fees: "",
     website_url: "http://www.cet.puchd.ac.in/",
-    image_url: "https://img.collegepravesh.com/2019/01/UICET-Chandigarh.jpg",
+    image_url: "http://www.cet.puchd.ac.in/",
   },
   {
     id: 178,
+    geocode: { longitude: 77.366, latitude: 16.2487 },
     name: "Indian Institute of Information Technology, Raichur",
     address:
       "Indian Institute of Information Technology Raichur - Transit Campus, Government Engineering College, Yermarus, Yegnur, Raichur, Karnataka - 584134",
@@ -2535,11 +2701,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2020/05/IIIT-Raichur-Logo.png",
     fees: "",
     website_url: "https://iiitr.ac.in/",
-    image_url:
-      "https://img.collegepravesh.com/2021/11/IIIT-Raichur-Transit-Campus.jpg",
+    image_url: "https://iiitr.ac.in/",
   },
   {
     id: 179,
+    geocode: { longitude: 73.8162, latitude: 18.4861 },
     name: "Cummins College of Engineering for Women, Pune",
     address:
       "MKSSS’s Cummins College of Engineering for Women, Karvenagar, Pune, Maharashtra - 411052",
@@ -2550,10 +2716,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2019/10/MKSSS-CCEW-Pune-Logo.png",
     fees: "",
     website_url: "https://www.cumminscollege.org/",
-    image_url: "https://img.collegepravesh.com/2019/10/MKSSS-CCEW-Pune.jpg",
+    image_url: "https://www.cumminscollege.org/",
   },
   {
     id: 180,
+    geocode: { longitude: 88.4188, latitude: 22.5172 },
     name: "Heritage Institute of Technology, Kolkata",
     address:
       "Heritage Institute of Technology, Chowbaga Road, Anandapur, P.O. East Kolkata Township, Kolkata, West Bengal - 700107",
@@ -2564,10 +2731,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2019/11/HIT-Kolkata-Logo.png",
     fees: "",
     website_url: "https://www.heritageit.edu/",
-    image_url: "https://img.collegepravesh.com/2019/11/HIT-Kolkata.jpg",
+    image_url: "https://www.heritageit.edu/",
   },
   {
     id: 181,
+    geocode: { longitude: 88.3629, latitude: 22.5751 },
     name: "University of Calcutta, Kolkata",
     address:
       "University College of Science and Technology, Calcutta University Technology Campus, JD–2, Sector–III, Salt Lake, Kolkata, West Bengal - 700106",
@@ -2579,11 +2747,11 @@ let college_data = [
       "https://img.collegepravesh.com/2020/03/University-of-Calcutta-Logo.png",
     fees: "",
     website_url: "https://www.caluniv.ac.in/",
-    image_url:
-      "https://img.collegepravesh.com/2020/03/University-of-Calcutta.jpg",
+    image_url: "https://www.caluniv.ac.in/",
   },
   {
     id: 182,
+    geocode: { longitude: "NULL", latitude: "NULL" },
     name: "IIIT Vadodara - International Campus Diu",
     address:
       "Indian Institute of Information Technology Vadodara - International Campus Diu (IIITV-ICD), Education Hub, Kevdi, Diu - 362520",
@@ -2594,10 +2762,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2020/10/IIITV-ICD-Diu-Logo.png",
     fees: "",
     website_url: "http://diu.iiitvadodara.ac.in/",
-    image_url: "https://img.collegepravesh.com/2020/10/IIITV-ICD-Diu.jpg",
+    image_url: "http://diu.iiitvadodara.ac.in/",
   },
   {
     id: 183,
+    geocode: { longitude: 76.9086, latitude: 28.5942 },
     name: "Netaji Subhas University of Technology (West Campus), Delhi",
     address:
       "Netaji Subhas University of Technology West Campus (Formerly Chaudhary Brahm Prakash Government Engineering College), Jaffarpur Kalan, Delhi - 110073",
@@ -2608,10 +2777,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2015/10/NSUT-Delhi-Logo.png",
     fees: "",
     website_url: "http://www.gecdelhi.ac.in/",
-    image_url: "https://img.collegepravesh.com/2020/10/CBPGEC-Delhi.jpg",
+    image_url: "http://www.gecdelhi.ac.in/",
   },
   {
     id: 184,
+    geocode: { longitude: 78.5187, latitude: 17.4066 },
     name: "University College of Engineering, Osmania University, Hyderabad",
     address:
       "University College of Engineering, Osmania University, Amberpet, Hyderabad, Telangana - 500007",
@@ -2622,10 +2792,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2021/06/UCE-Hyderabad-Logo.png",
     fees: "",
     website_url: "http://www.uceou.edu/",
-    image_url: "https://img.collegepravesh.com/2021/06/UCEOU-Hyderabad.jpg",
+    image_url: "http://www.uceou.edu/",
   },
   {
     id: 185,
+    geocode: { longitude: 78.3194, latitude: 17.392 },
     name: "Chaitanya Bharathi Institute of Technology, Hyderabad",
     address:
       "Chaitanya Bharathi Institute of Technology, Gandipet, Hyderabad, Telangana - 500075",
@@ -2636,10 +2807,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2021/06/CBIT-Hyderabad-Logo.png",
     fees: "",
     website_url: "https://www.cbit.ac.in/",
-    image_url: "https://img.collegepravesh.com/2021/06/CBIT-Hyderabad.jpg",
+    image_url: "https://www.cbit.ac.in/",
   },
   {
     id: 186,
+    geocode: { longitude: 78.3826, latitude: 17.3805 },
     name: "Vasavi College of Engineering, Hyderabad",
     address:
       "Vasavi College of Engineering, Ibrahimbagh, Hyderabad, Telangana - 500031",
@@ -2650,10 +2822,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2021/06/VCE-Hyderabad-Logo.png",
     fees: "",
     website_url: "https://www.vce.ac.in/",
-    image_url: "https://img.collegepravesh.com/2021/06/VCE-Hyderabad.jpg",
+    image_url: "https://www.vce.ac.in/",
   },
   {
     id: 187,
+    geocode: { longitude: "NULL", latitude: "NULL" },
     name: "VNR Vignana Jyothi Institute of Engineering and Technology, Hyderabad",
     address:
       "Vallurupalli Nageswara Rao Vignana Jyothi Institute of Engineering and Technology, Vignana Jyothi Nagar, Pragathi Nagar, Bachupally, Nizampet, Hyderabad, Telangana - 500090",
@@ -2665,10 +2838,11 @@ let college_data = [
       "https://img.collegepravesh.com/2021/06/VNR-VJIET-Hyderabad-Logo.png",
     fees: "",
     website_url: "http://www.vnrvjiet.ac.in/",
-    image_url: "https://img.collegepravesh.com/2021/06/VNR-VJIET-Hyderabad.jpg",
+    image_url: "http://www.vnrvjiet.ac.in/",
   },
   {
     id: 188,
+    geocode: { longitude: "NULL", latitude: "NULL" },
     name: "Gokaraju Rangaraju Institute of Engineering and Technology, Hyderabad",
     address:
       "Gokaraju Rangaraju Institute of Engineering and Technology, Nizampet Road, Bachupally, Kukatpally, Hyderabad, Telangana - 500090",
@@ -2679,10 +2853,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2021/06/GRIET-Hyderabad-Logo.png",
     fees: "",
     website_url: "http://www.griet.ac.in/",
-    image_url: "https://img.collegepravesh.com/2021/06/GRIET-Hyderabad.jpg",
+    image_url: "http://www.griet.ac.in/",
   },
   {
     id: 189,
+    geocode: { longitude: 78.5972, latitude: 17.1962 },
     name: "CVR College of Engineering, Ibrahimpatnam",
     address:
       "CVR College Of Engineering, Vastunagar, Mangalpalli (V), Ibrahimpatnam (M), Rangareddy (D), Telangana - 501510",
@@ -2694,10 +2869,11 @@ let college_data = [
       "https://img.collegepravesh.com/2021/06/CVRCE-Ibrahimpatnam-Logo.png",
     fees: "",
     website_url: "http://cvr.ac.in/",
-    image_url: "https://img.collegepravesh.com/2021/06/CVRCE-Ibrahimpatnam.jpg",
+    image_url: "http://cvr.ac.in/",
   },
   {
     id: 190,
+    geocode: { longitude: 83.3201, latitude: 17.7288 },
     name: "Andhra University College of Engineering, Visakhapatnam",
     address:
       "Andhra University College of Engineering, AU North Campus, Waltair Junction, Visakhapatnam, Andhra Pradesh - 530003",
@@ -2710,10 +2886,12 @@ let college_data = [
     fees: "",
     website_url:
       "https://www.andhrauniversity.edu.in/college/college-of-engineering/engineering-home.html",
-    image_url: "https://img.collegepravesh.com/2021/07/AUCE-Visakhapatnam.jpg",
+    image_url:
+      "https://www.andhrauniversity.edu.in/college/college-of-engineering/engineering-home.html",
   },
   {
     id: 191,
+    geocode: { longitude: 82.2526, latitude: 16.9716 },
     name: "University College of Engineering, Kakinada",
     address:
       "University College of Engineering, JNTU Kakinada, Nagamallithota, Kakinada, Andhra Pradesh - 533003",
@@ -2724,10 +2902,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2017/08/JNTU-Kakinada-Logo.png",
     fees: "",
     website_url: "https://www.jntucek.ac.in/",
-    image_url: "https://img.collegepravesh.com/2021/07/UCEK-JNTU-Kakinada.jpg",
+    image_url: "https://www.jntucek.ac.in/",
   },
   {
     id: 192,
+    geocode: { longitude: 79.4857, latitude: 13.6593 },
     name: "SVU College of Engineering, Tirupati",
     address:
       "S.V.U. College of Engineering, Sri Venkateswara University, Tirupati, Andhra Pradesh - 517502",
@@ -2738,10 +2917,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2021/07/SVUCE-Tirupati-Logo.png",
     fees: "",
     website_url: "https://svuce.edu.in/",
-    image_url: "https://img.collegepravesh.com/2021/07/SVU-Tirupati.jpg",
+    image_url: "https://svuce.edu.in/",
   },
   {
     id: 193,
+    geocode: { longitude: "NULL", latitude: "NULL" },
     name: "University School of Automation & Robotics, Delhi",
     address:
       "University School of Automation & Robotics, Guru Gobind Singh Indraprastha University East Delhi Campus, Surajmal Vihar, Shahdara, Delhi - 110032",
@@ -2752,11 +2932,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2015/09/GGSIPU-Logo.png",
     fees: "",
     website_url: "http://ipu.ac.in/eastcampusmain.php",
-    image_url:
-      "https://img.collegepravesh.com/2021/07/USAR-Delhi-GGSIPU-East.png",
+    image_url: "http://ipu.ac.in/eastcampusmain.php",
   },
   {
     id: 194,
+    geocode: { longitude: 86.4737, latitude: 23.6546 },
     name: "Birsa Institute of Technology, Sindri",
     address:
       "Birsa Institute of Technology, Dhanbad Rd, Sindri, Jharkhand - 828123",
@@ -2767,10 +2947,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2021/07/BIT-Sindri-Logo.png",
     fees: "",
     website_url: "https://www.bitsindri.ac.in/",
-    image_url: "https://img.collegepravesh.com/2021/07/BIT-Sindri.jpg",
+    image_url: "https://www.bitsindri.ac.in/",
   },
   {
     id: 195,
+    geocode: { longitude: 80.0444, latitude: 12.823 },
     name: "SRM Institute of Science and Technology, Chennai",
     address:
       "SRM Institute of Science and Technology (formerly known as SRM University), SRM Nagar, Kattankulathur, Chengalpattu District, Tamil Nadu - 603203",
@@ -2781,10 +2962,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2017/11/SRMIST-Logo.png",
     fees: "",
     website_url: "https://www.srmist.edu.in/",
-    image_url: "https://img.collegepravesh.com/2021/03/SRM-University.jpg",
+    image_url: "https://www.srmist.edu.in/",
   },
   {
     id: 196,
+    geocode: { longitude: 76.9029, latitude: 10.9003 },
     name: "Amrita School of Engineering, Coimbatore",
     address:
       "Amrita School of Engineering, Amrita Vishwa Vidyapeetham (Coimbatore Campus), Amritanagar, Ettimadai, Coimbatore, Tamil Nadu - 641112",
@@ -2796,10 +2978,11 @@ let college_data = [
       "https://img.collegepravesh.com/2021/04/Amrita-Vishwa-Vidyapeetham-Logo.png",
     fees: "",
     website_url: "https://www.amrita.edu/",
-    image_url: "https://img.collegepravesh.com/2021/07/ASE-Coimbatore.jpg",
+    image_url: "https://www.amrita.edu/",
   },
   {
     id: 197,
+    geocode: { longitude: 88.7038, latitude: 26.5459 },
     name: "Jalpaiguri Government Engineering College, Jalpaiguri",
     address:
       "Jalpaiguri Government Engineering College, Jalpaiguri, West Bengal - 735102",
@@ -2810,10 +2993,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2021/08/JGEC-Jalpaiguri-Logo.png",
     fees: "",
     website_url: "https://jgec.ac.in/",
-    image_url: "https://img.collegepravesh.com/2021/08/JGEC-Jalpaiguri.jpg",
+    image_url: "https://jgec.ac.in/",
   },
   {
     id: 198,
+    geocode: { longitude: 88.4173, latitude: 22.5964 },
     name: "Maulana Abul Kalam Azad University of Technology, Kolkata",
     address:
       "Maulana Abul Kalam Azad University of Technology, BF-142, Sector-1, Salt Lake City, Kolkata, West Bengal - 700064",
@@ -2824,10 +3008,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2021/08/MAKAUT-Kolkata-Logo.png",
     fees: "",
     website_url: "https://makautwb.ac.in/",
-    image_url: "https://img.collegepravesh.com/2021/08/MAKAUT-Kolkata.jpg",
+    image_url: "https://makautwb.ac.in/",
   },
   {
     id: 199,
+    geocode: { longitude: "NULL", latitude: "NULL" },
     name: "Manipal Institute of Technology, Bengaluru",
     address:
       "Manipal Institute of Technology Bengaluru Campus, BSF Campus, Yelahanka, Bengaluru, Karnataka - 560064",
@@ -2838,10 +3023,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2018/10/MAHE-Logo.png",
     fees: "",
     website_url: "https://manipal.edu/mitblr.html",
-    image_url: "https://img.collegepravesh.com/2021/08/MIT-Bengaluru.png",
+    image_url: "https://manipal.edu/mitblr.html",
   },
   {
     id: 200,
+    geocode: { longitude: 78.3322, latitude: 17.4551 },
     name: "School of Computer and Information Sciences, University of Hyderabad",
     address:
       "School of Computer and Information Sciences, University of Hyderabad, Prof. CR Rao Road, Gachibowli, Hyderabad, Telangana - 500046",
@@ -2852,10 +3038,11 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2021/11/UOH-Hyderabad-Logo.png",
     fees: "",
     website_url: "https://scis.uohyd.ac.in/",
-    image_url: "https://img.collegepravesh.com/2021/11/SCIS-UOH-Hyderabad.jpg",
+    image_url: "https://scis.uohyd.ac.in/",
   },
   {
     id: 201,
+    geocode: { longitude: 76.6134, latitude: 12.3133 },
     name: "JSS Science and Technology University, Mysore",
     address:
       "Jagadguru Sri Shivarathreeshwara Science and Technology University, JSS TI Campus, Mysuru, Karnataka - 57006",
@@ -2866,6 +3053,33 @@ let college_data = [
     logo_url: "https://img.collegepravesh.com/2018/10/JSSSTU-Mysore-Logo.jpg",
     fees: "",
     website_url: "http://jssstuniv.in/",
-    image_url: "https://img.collegepravesh.com/2022/01/JSSSTU-Mysore.jpg",
+    image_url: "http://jssstuniv.in/",
   },
 ];
+
+// convert code
+// let arr=[];
+
+// college_data.forEach((elm)=>{
+//     let obj={
+//     id: elm.id,
+//     geocode:{
+//         longitude: p[elm.id].longitude,
+//         latitude: p[elm.id].latitude
+//     },
+//     name: elm.name,
+//     address:elm.address,
+//     known_as: elm.known_as,
+//     institute_type: elm.institute_type,
+//     year_established: elm.year_established,
+//     location: elm.location,
+//     logo_url: elm.logo_url,
+//     fees: elm.fees,
+//     website_url: elm.website_url,
+//     image_url: elm.website_url,
+
+//     };
+//     arr.push(obj);
+// })
+
+// console.log(arr);
