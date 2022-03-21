@@ -119,6 +119,7 @@ function addMarkers() {
 /**
  * Add a listing for each store to the sidebar.
  **/
+let all_colllege_details_of_map_page=[];
 function buildLocationList(stores) {
   for (const store of stores.features) {
     /* Add a new listing section to the sidebar. */
@@ -163,6 +164,7 @@ function buildLocationList(stores) {
       }
       this.parentNode.classList.add("active");
     });
+    all_colllege_details_of_map_page.push(listing);
   }
 }
 
@@ -189,5 +191,31 @@ function createPopUp(currentFeature) {
     .addTo(map);
 }
 
+
+function serach_helper(to_be_match){
+  let arr=[];
+  console.log(to_be_match);
+  if(to_be_match!=""){
+    arr=all_colllege_details_of_map_page.filter((elm)=>{
+      let target=elm.children[0].innerHTML;
+      if(target.includes(to_be_match)){
+        arr.push(elm);
+      }
+    })
+  }else arr=all_colllege_details_of_map_page;
+  let parent_div=document.getElementById("listings");
+  parent_div.innerHTML="";
+
+  arr.forEach((elm)=>{
+    parent_div.append(elm);
+  })
+}
+window.onload=()=>{
+  console.log(all_colllege_details_of_map_page);
+  setTimeout(() => {
+    serach_helper("Indian Institute of Technology")
+  }, 2000);
+  
+}
 
 
