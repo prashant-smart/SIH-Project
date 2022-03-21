@@ -1,41 +1,77 @@
-.college_detail_body {
-    padding: 0px;
-    margin: 0px;
+.college_detail_container {
+    padding-left: 5rem;
+    padding-right: 5rem;
+    display: flex;
+    background-color: rgb(253, 253, 238);
 }
 
-.college_detail_header {
-    background-color: rgb(40, 50, 59);
-    text-align: center;
-    margin: 0px;
-    padding: 0px;
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
-
-.college_detail_header_logo {
-    background-color: white;
+.college_detail_header_top {
+    width: 100%;
+    aspect-ratio: 2.5;
     margin-top: 2rem;
-    display: inline-block;
+    display: block;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 24px;
 }
 
-.college_detail_header_name {
+.college_detail_header_down_logo {
     text-align: center;
-    font-size: 2rem;
-    margin: 0px;
-    padding-top: 1rem;
-    padding-bottom: 0.5rem;
-    color: white;
+    display: block;
+    transform: translateY(-100px);
 }
 
-.college_detail_header_address {
-    text-align: center;
-    font-size: 1rem;
-    margin: 0px;
-    padding-top: 0.5rem;
-    padding-bottom: 2rem;
-    color: white;
-}
-
-tr td {
+#college_detail_header_down_logo {
+    height: 200px;
+    width: 200px;
     padding: 1rem;
+    background-color: white;
+    border-radius: 200px;
+    transition: .2s;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 15px;
+}
+
+#college_detail_header_down_logo:hover {
+    transform: scale(1.03);
+}
+
+#college_detail_header_name {
+    font-size: 2.5rem;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 0px;
+    transform: translateY(-50px);
+}
+
+.college_detail_body {
+    padding: 1rem;
+}
+
+.college_detail_element {
+    padding: 2rem;
+    background-color: white;
+    margin: 1.5rem;
+    transition: .2s;
+    box-shadow: 10px black;
+    border-radius: 24px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 15px;
+}
+
+.college_detail_element_title {
+    text-align: left;
+    font-size: 1.3rem;
+    color: black;
+    width: 200px;
+}
+
+.college_detail_element_description {
+    text-align: left;
+    font-size: 1.2rem;
+    color: black;
+}
+
+.college_detail_element:hover {
+    transform: scale(1.03);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
