@@ -48,3 +48,15 @@ document.getElementsByClassName("college_detail_element_description")[9].innerHT
 document.getElementById("college_detail_header_name").innerHTML = "<strong>" + data.name.toUpperCase(); + "</strong";
 document.getElementById("college_detail_header_down_logo").src = data.logo_url;
 document.getElementsByClassName("college_detail_header_top")[0].style.backgroundImage = `url(${data.image_url})`;
+
+
+
+
+mapbtn = document.getElementsByClassName("mapbtn")[0];
+if(data.geocode.latitude==="NULL"||data.geocode.latitude==='NULL'){
+    mapbtn.classList.add("disabled")
+}
+mapbtn.onclick = function() {
+    localStorage.setItem("MAP_INDEX", data.id);
+}
+mapbtn.addEventListener("onclick", function() {})

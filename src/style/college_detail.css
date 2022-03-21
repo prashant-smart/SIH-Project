@@ -19,12 +19,12 @@
 .college_detail_header_down_logo {
     text-align: center;
     display: block;
-    transform: translateY(-100px);
+    transform: translateY(-10vh);
 }
 
 #college_detail_header_down_logo {
-    height: 200px;
-    width: 200px;
+    height: 20vh;
+    width: 20vh;
     padding: 1rem;
     background-color: white;
     border-radius: 200px;

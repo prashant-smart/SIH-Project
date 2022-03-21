@@ -1,6 +1,6 @@
 let college_data = [{
         id: 0,
-        geocode: { longitude: "NULL", latitude: "NULL" },
+        geocode: { longitude: 85.6712, latitude: 20.1483 },
         name: "Indian Institute of Technology, Bhubaneswar",
         address: "Indian Institute of Technology, Argul Campus, Jatani, Khordha, Bhubaneswar, Odisha - 752050",
         known_as: "IIT BBS",
@@ -350,7 +350,7 @@ let college_data = [{
     },
     {
         id: 25,
-        geocode: { longitude: "NULL", latitude: "NULL" },
+        geocode: { longitude: 77.4099, latitude: 23.2152 },
         name: "Maulana Azad National Institute of Technology, Bhopal",
         address: "Maulana Azad National Institute of Technology, Link Road Number 3, Bhopal, Madhya Pradesh - 462003",
         known_as: "MANIT",
@@ -980,7 +980,7 @@ let college_data = [{
     },
     {
         id: 70,
-        geocode: { longitude: 6.6501, latitude: 9.7552 },
+        geocode: { longitude: 76.6501, latitude: 9.7552 },
         name: "Indian Institute of Information Technology, Kottayam",
         address: "Indian Institute of Information Technology Kottayam, Valavoor P.O, Pala, Kottayam, Kerala - 686635",
         known_as: "IIIT Kottayam",
@@ -1372,7 +1372,7 @@ let college_data = [{
     },
     {
         id: 98,
-        geocode: { longitude: 7.0338, latitude: 8.6265 },
+        geocode: { longitude: 77.0338, latitude: 8.6265 },
         name: "Indian Institute of Space Science and Technology, Thiruvananthapuram",
         address: "Indian Institute of Space Science and Technology (Dept. of Space, Govt. of India), Valiamala, Thiruvananthapuram, Kerala - 695547",
         known_as: "IIST Thiruvananthapuram",
@@ -1470,7 +1470,7 @@ let college_data = [{
     },
     {
         id: 105,
-        geocode: { longitude: 7.1353, latitude: 8.6824 },
+        geocode: { longitude: 76.1353, latitude: 8.6824 },
         name: "Indian Institute of Science Education and Research, Thiruvananthapuram",
         address: "Indian Institute of Science Education and Research Thiruvananthapuram, Maruthamala PO, Vithura, Thiruvananthapuram, Kerala - 695551",
         known_as: "IISER-TVM",
@@ -2198,7 +2198,7 @@ let college_data = [{
     },
     {
         id: 157,
-        geocode: { longitude: 6.9063, latitude: 8.5459 },
+        geocode: { longitude: 76.9063, latitude: 8.5459 },
         name: "College of Engineering, Trivandrum",
         address: "College of Engineering Trivandrum, Sreekaryam - Kulathoor Road, Ambady Nagar, Chavadimukku, Engineering College P O, Thiruvananthapuram, Kerala - 695016",
         known_as: "CET Trivandrum",
@@ -2352,7 +2352,7 @@ let college_data = [{
     },
     {
         id: 168,
-        geocode: { longitude: 6.632, latitude: 8.9142 },
+        geocode: { longitude: 76.632, latitude: 8.9142 },
         name: "TKM College of Engineering, Kollam",
         address: "Thangal Kunju Musaliar College of Engineering, Karicode, Kollam, Kerala - 691005",
         known_as: "TKMCE Kollam",
