@@ -30,7 +30,7 @@ let f = data.fees;
 if (f == '') {
     f = "No Data Available.";
 }
-document.getElementsByClassName("college_detail_element_description")[6].innerHTML = f;
+document.getElementsByClassName("college_detail_element_description")[6].innerHTML = f == '' ? 'NA' : f;
 
 
 document.getElementsByClassName("college_detail_element_title")[7].innerHTML = "<strong>" + "Longitude : " + "</strong";

@@ -7,7 +7,7 @@
 
 .college_detail_header_top {
     width: 100%;
-    height: 350px;
+    aspect-ratio: 2.5;
     margin-top: 2rem;
     display: block;
     background-size: 100%;
@@ -28,7 +28,12 @@
     padding: 1rem;
     background-color: white;
     border-radius: 200px;
-    border: 0.5px solid black;
+    transition: .2s;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 15px;
+}
+
+#college_detail_header_down_logo:hover {
+    transform: scale(1.03);
 }
 
 #college_detail_header_name {
@@ -56,15 +61,13 @@
 .college_detail_element_title {
     text-align: left;
     font-size: 1.3rem;
-    display: inline-block;
     color: black;
     width: 200px;
 }
 
 .college_detail_element_description {
-    text-align: center;
+    text-align: left;
     font-size: 1.2rem;
-    display: inline-block;
     color: black;
 }
 
