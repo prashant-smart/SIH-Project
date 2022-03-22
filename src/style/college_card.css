@@ -8,19 +8,16 @@
 .college_card:hover {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     /* transition: box-shadow 200ms; */
-    transform:scale(1.03);
-
+    transform: scale(1.03);
 }
 
 .college_card {
     height: 27rem;
-    border-radius:8px;
+    border-radius: 8px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     transition: 200ms;
     width: 18rem;
-    margin: 21px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 1rem 2rem;
     /* border: 0.5px solid rgb(226, 226, 226); */
 }
 
@@ -46,7 +43,9 @@
     padding: 8px;
     border: 0.5px solid rgb(139, 139, 139);
 }
-.college_card_name,.college_card_location{
+
+.college_card_name,
+.college_card_location {
     position: relative;
     bottom: 31px;
 }
