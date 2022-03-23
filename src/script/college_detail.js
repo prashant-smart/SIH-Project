@@ -53,10 +53,30 @@ document.getElementsByClassName("college_detail_header_top")[0].style.background
 
 
 mapbtn = document.getElementsByClassName("mapbtn")[0];
-if(data.geocode.latitude==="NULL"||data.geocode.latitude==='NULL'){
+if (data.geocode.latitude === "NULL" || data.geocode.latitude === 'NULL') {
     mapbtn.classList.add("disabled")
 }
 mapbtn.onclick = function() {
     localStorage.setItem("MAP_INDEX", data.id);
 }
 mapbtn.addEventListener("onclick", function() {})
+
+
+
+var image_gallery_container = document.getElementsByClassName("image_gallery_container")[0];
+
+if (data.photo_album == null) {
+    image_gallery_container.innerHTML = '<h3>No Images available</h3>';
+} else {
+
+    data.photo_album.forEach(element => {
+        var div = document.createElement('div');
+        div.className = "mySlides";
+        div.innerHTML =
+            `
+        <img src=${element} style = "width: 90%; aspect-ratio:2">
+    `;
+        image_gallery_container.appendChild(div);
+    });
+
+}

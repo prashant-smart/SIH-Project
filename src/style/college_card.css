@@ -15,7 +15,6 @@
     background-color: white;
     height: 24rem;
     border-radius: 8px;
-    
     transition: 200ms;
     width: 18rem;
     margin: 1rem 2rem;
@@ -50,14 +49,17 @@
     position: relative;
     bottom: 31px;
 }
-body{
+
+body {
     background-color: #23B5D3;
 }
+
 .college_card {
-    box-shadow: #F353B8 0px 7px 29px 0px;
+    box-shadow: #f55bbc91 0px 7px 29px 0px;
     background-color: white;
 }
-.btn{
+
+.btn {
     position: relative;
     bottom: 25px;
 }
