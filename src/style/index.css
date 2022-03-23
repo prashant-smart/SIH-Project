@@ -17,12 +17,16 @@
 
 .d-flex {
     display: block;
-    width: 50%;
+    width: 100%;
+    justify-content: center;
     height: 100%;
-    margin: auto auto;
 }
 
 .search-bar-homepage {
-    height: 10%;
-    margin: auto auto;
+    display: inline-block;
+    height: 4rem;
+    width: 40rem;
+    border-radius: 4px;
+    padding: 1rem;
+    margin: auto 3rem;
 }
