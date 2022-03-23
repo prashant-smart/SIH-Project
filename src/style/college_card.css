@@ -12,9 +12,10 @@
 }
 
 .college_card {
-    height: 27rem;
+    background-color: white;
+    height: 24rem;
     border-radius: 8px;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    
     transition: 200ms;
     width: 18rem;
     margin: 1rem 2rem;
@@ -48,4 +49,15 @@
 .college_card_location {
     position: relative;
     bottom: 31px;
+}
+body{
+    background-color: #23B5D3;
+}
+.college_card {
+    box-shadow: #F353B8 0px 7px 29px 0px;
+    background-color: white;
+}
+.btn{
+    position: relative;
+    bottom: 25px;
 }
