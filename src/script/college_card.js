@@ -14,7 +14,7 @@ function fill_cards(array, container) {
         <img class="college_card_logo_image" src="${element.logo_url}" alt="Card image cap">
           <h5 class="college_card_name">${element.known_as}</h5>
           <p class="college_card_location" >${element.location}</p>
-          <a href="src/component/college_detail.html" id = "${element.id}"class="btn btn-primary college_card_button" onclick="btnClicked(this.id)">Know more</a>
+          <a href="/src/component/college_detail.html" id = "${element.id}"class="btn btn-primary college_card_button" onclick="btnClicked(this.id)">Know more</a>
           </div>`;
         container.appendChild(div);
     })
