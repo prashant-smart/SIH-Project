@@ -1,0 +1,33 @@
+.main_menu_header {
+    display: block;
+    background-image: url("../utils/main_menu_background.jpg");
+    background-size: 100%;
+    aspect-ratio: 3.25;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: multiply;
+}
+
+.college_card_container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    margin: 6rem 0rem;
+}
+
+.d-flex {
+    display: block;
+    width: 100%;
+    justify-content: center;
+    height: 100%;
+}
+
+.search-bar-homepage {
+    display: inline-block;
+    height: 4rem;
+    width: 40rem;
+    border-radius: 4px;
+    padding: 1rem;
+    margin: auto 3rem;
+}

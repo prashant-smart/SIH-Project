@@ -1,9 +1,3 @@
-body {
-    font-family: "Quicksand", sans-serif;
-    background: #d7d7f3;
-    background: linear-gradient(to right, #91eae4, #86a8e7, #c9c9fc);
-}
-
 .news_card {
     display: flex;
     flex-direction: column;
@@ -13,7 +7,7 @@ body {
     background: #3f2204;
     border-radius: 1rem;
     margin: 2rem 2rem;
-    transition: 0.5s;
+    transition: 0.4s;
     box-shadow: #7ceefd 0px 7px 29px 0px;
     background: linear-gradient(to right, #FFFFFF, #ECE9E6);
 }
@@ -53,5 +47,5 @@ img {
 
 .news_card:hover {
     box-shadow: #ff657a 0px 7px 29px 0px;
-    transform: scale(1.04);
+    transform: translateY(-24px);
 }
