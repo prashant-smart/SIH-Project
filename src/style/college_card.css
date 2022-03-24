@@ -40,12 +40,8 @@
     bottom: 31px;
 }
 
-body {
-    background-color: #23B5D3;
-}
-
 .college_card {
-    box-shadow: rgb(106, 188, 255) 0px 5px 15px;
+    box-shadow: rgb(161, 213, 255) 0px 5px 15px;
     background-color: white;
 }
 
