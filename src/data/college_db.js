@@ -1,4 +1,5 @@
-let college_data = [{
+let college_data = [
+    {
         id: 0,
         geocode: { longitude: 85.6712, latitude: 20.1483 },
         name: "Indian Institute of Technology, Bhubaneswar",
