@@ -20,6 +20,7 @@ function fill_cards(array, container) {
     })
 }
 
+
 function btnClicked(index) {
     localStorage.setItem("COLLEGE_INDEX", index);
 }
