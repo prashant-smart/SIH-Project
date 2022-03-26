@@ -1,5 +1,6 @@
 .main_menu_header {
-    display: block;
+    display: flex;
+    flex-direction: column;
     background-image: url("../utils/main_menu_background.jpg");
     background-size: 100%;
     aspect-ratio: 3.25;
@@ -17,10 +18,10 @@
 }
 
 .d-flex {
-    display: block;
-    width: 100%;
-    justify-content: center;
-    height: 100%;
+    margin-top: 1rem;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .search-bar-homepage {
@@ -30,4 +31,14 @@
     border-radius: 4px;
     padding: 1rem;
     margin: auto 3rem;
+}
+
+#header_title {
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    margin-top: auto;
+    margin-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
 }
