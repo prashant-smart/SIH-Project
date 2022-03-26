@@ -1,8 +1,6 @@
 let theads_container = document.getElementsByClassName("comment-thread")[0];
 function tag_html(elm) {
-  if (elm.tag != null) {
     return `<span class="badge bg-primary">${elm.tag}</span>`;
-  }
 }
 function threads_card(elm) {
   let last_upadate_date = new Date(elm.date_of_last_update).getTime();
@@ -49,9 +47,9 @@ function threads_card(elm) {
           } onClick="delete_callback(this.id)" aria-hidden="true"></i>
           <i class="fas fa-edit mx-3 edit_article"  id=${
             elm.id
-          } onClick="upvote_callback(this.id)" aria-hidden="true"></i>
+          } onClick="upvote_callback(this.id)" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever=${elm.id} aria-hidden="true"></i>
           <button class="reply_btn" id=${elm.id} type="button">Reply</button>
-          <button class="report_btn" id=${elm.id} type="button">Flag</button>
+          <button class="report_btn" id=${elm.id} type="button">Report</button>
         </div>
 
     `;
@@ -77,7 +75,7 @@ function edit_threads_upvote_helper(elm, id) {
   if (elm.id == id) {
     elm.points++;
     return;
-  } else if (elm.reply != null) {
+  } else if (elm.reply.length > 0) {
     elm.reply.forEach((e) => {
       edit_threads_upvote_helper(e, id);
     });
@@ -111,15 +109,14 @@ function downvote_callback(id) {
 }
 
 //delete helper fucntion--------------
-function edit_threads_delete_helper(id, elm) {
+function threads_delete_helper(id, elm) {
   if (elm.id == id) {
-    console.log(elm);
     return 0;
   }
   let obj = [];
   if (elm.reply.length > 0) {
     elm.reply.forEach((e) => {
-      if (edit_threads_delete_helper(id, e)) {
+      if (threads_delete_helper(id, e)) {
         obj.push(e);
       }
     });
@@ -130,7 +127,7 @@ function edit_threads_delete_helper(id, elm) {
 function delete_callback(id) {
   let new_thread_data = [];
   thread_data.forEach((elm) => {
-    if (edit_threads_delete_helper(id, elm)) {
+    if (threads_delete_helper(id, elm)) {
       new_thread_data.push(elm);
     }
   });
@@ -138,3 +135,55 @@ function delete_callback(id) {
   theads_container.innerHTML = "";
   fill_threads_container();
 }
+// update helper function-------------------
+
+function threads_edit_helper(elm,id,desc_text,tag_text){
+    if(elm.id==id){
+        
+            desc_text.value=elm.content
+            tag_text.value=elm.tag
+        return ;
+    }else if(elm.reply.length>0){
+        elm.reply.forEach((e)=>{
+            threads_edit_helper(e,id,desc_text,tag_text);
+        })
+    }
+}
+let btn_id
+var exampleModal = document.getElementById('exampleModal')
+let update_btn= document.getElementsByClassName('update_btn')[0];
+exampleModal.addEventListener('show.bs.modal', function (event) {
+  var button = event.relatedTarget
+  var recipient = button.getAttribute('data-bs-whatever')
+  let id=parseInt(recipient);
+  var description = exampleModal.querySelector('#message-text')
+  var tag = exampleModal.querySelector('#recipient-name')
+  thread_data.forEach((elm)=>{
+    threads_edit_helper(elm,id,description,tag);
+  })
+  btn_id=id;
+})
+
+function threads_update_helper(elm,id,desc_text,tag_text){
+    if(elm.id===id){
+        console.log(elm);
+        elm.content=desc_text.value
+        elm.tag=tag_text.value
+        return ;
+    }else if(elm.reply.length>0){
+        elm.reply.forEach((e)=>{
+            threads_update_helper(e,id,desc_text,tag_text);
+        })
+    }
+}
+
+update_btn.addEventListener('click',function (event) {
+    let id=btn_id;
+  var description = exampleModal.querySelector('#message-text')
+  var tag = exampleModal.querySelector('#recipient-name')
+  thread_data.forEach((elm)=>{
+      threads_update_helper(elm,id,description,tag);
+    })
+  theads_container.innerHTML='';
+  fill_threads_container();
+})

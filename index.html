@@ -50,6 +50,19 @@
                         <a class="nav-link active" href="#" onclick="window.scrollTo(0,document.body.scrollHeight);">Contact Us</a>
                     </li>
                 </ul>
+                <!-- google translate -->
+                <div id="google_translate_element"></div>
+
+                <script type="text/javascript">
+                    function googleTranslateElementInit() {
+                        new google.translate.TranslateElement({
+                            pageLanguage: 'en'
+                        }, 'google_translate_element');
+                    }
+                </script>
+
+                <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
             </div>
         </div>
     </nav>
@@ -78,13 +91,14 @@
                 </div>
             </div>
         </div>
-        <!-- cards for homepage -------------------------------------- -->
     </div>
 
 
     <div class="main_menu_header">
-        <p id="header_title">Get All Indian Universites Information, News and Cutoff</p>
+        <p id="header_title">Get All Indian Universites Information, News and Cutoff.</p>
     </div>
+
+    <!-- cards for homepage -------------------------------------- -->
 
     <div class="box">
         <a href="src/component/colleges.html">
@@ -109,7 +123,7 @@
             </div>
         </a>
 
-        <a href="#">
+        <a href="src/component/cutoff.html">
             <div class="card">
                 <div class="imgBx">
                     <img src="https://image.cnbcfm.com/api/v1/image/105874696-1556279627825gettyimages-947895256.jpeg?v=1571852572&w=740&h=416&ffmt=webp" alt="images">
@@ -119,11 +133,40 @@
                 </div>
             </div>
         </a>
+
+        <a href="src/component/compare_table.html">
+            <div class="card">
+                <div class="imgBx">
+                    <img src="https://media.istockphoto.com/photos/students-smiling-together-picture-id143071391?k=20&m=143071391&s=170667a&w=0&h=agvLtCXn5wOnUZaSJwZi-4DwDm_ttdFnOcHKwHayOKU=" alt="images">
+                </div>
+                <div class="details">
+                    <h2>Compare Colleges</h2>
+                </div>
+            </div>
+        </a>
+
+        <a href="src/component/map.html">
+            <div class="card">
+                <div class="imgBx">
+                    <img src="https://www.unoriginalmom.com/wp-content/uploads/2015/05/map-paper-strip-heart-tutorial-14.jpg" alt="images">
+                </div>
+                <div class="details">
+                    <h2>View on Maps</h2>
+                </div>
+            </div>
+        </a>
+        <a href="src/component/thread.html">
+            <div class="card">
+                <div class="imgBx">
+                    <img src="https://s35691.pcdn.co/wp-content/uploads/2015/11/group-discussion.151207.jpg" alt="images">
+                </div>
+                <div class="details">
+                    <h2>Discuss</h2>
+                </div>
+            </div>
+        </a>
     </div>
 
-    <div class="college_card_container">
-
-    </div>
     <!-- Footer------------------------ -->
     <footer class="footer">
         <div class="container">
@@ -138,6 +181,8 @@
                                 <li><a href="">Scholarship</a></li>
                                 <li><a href="">Cuttoff</a></li>
                             </ul>
+                            <h6 class="text-md-right ">Phone Number : 011 26131498</h6>
+                            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/e/eb/All_India_Council_for_Technical_Education_logo.png/220px-All_India_Council_for_Technical_Education_logo.png" width="125px" height="125px">
                         </div>
                         <div class="col-6">
                             <ul class="list-unstyled">
@@ -178,6 +223,7 @@
 
 </body>
 
+<script src="src/data/college_db.js"></script>
 <script src="src/script/type_writer.js"></script>
 
 </html>

@@ -14,7 +14,7 @@ let thread_data=[
                 'date_of_last_update':'Sat Mar 26 2022 17:20:26 GMT+0530',
                 'content':'Took the words right out of my mouth!',
                 'reply':{},
-                'tag':null
+                'tag':''
             },
             {
                 'id':c++,
@@ -33,7 +33,7 @@ let thread_data=[
                         'tag':'nsut east campus'
                     }
                 ],
-                'tag':null 
+                'tag':'' 
             }
         ],
         'tag':'nsut'
