@@ -5,15 +5,18 @@ table {
 .table_container {
     display: flex;
     margin: 5rem 1rem;
+    width: fit-content;
     outline: 4px solid black;
 }
 
-table {
-    width: 100%;
-}
+table {}
 
 td {
     padding: auto;
+}
+
+th {
+    padding: 0rem 0.5rem;
 }
 
 tr,
