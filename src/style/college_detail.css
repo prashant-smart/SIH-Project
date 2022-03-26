@@ -1,7 +1,12 @@
 .college_detail_container {
-    padding-left: 5rem;
-    padding-right: 5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
     display: flex;
+}
+
+.college_detail_header {
+    text-align: center;
+    width: 100%;
 }
 
 .college_detail_header_top {
@@ -44,7 +49,8 @@
 }
 
 .college_detail_body {
-    padding: 1rem;
+    padding: 0.5rem;
+    width: 100%;
 }
 
 .college_detail_element {
@@ -79,9 +85,6 @@
     .college_detail_container {
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
-}
-
-.college_detail_header {
-    text-align: center;
 }

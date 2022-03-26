@@ -1,7 +1,6 @@
 var i = 0;
-var txt = 'Get All Indian Universites Information, News and Cutoff';
+var txt = document.getElementById("header_title").innerHTML;
 var speed = 50;
-
 document.getElementById("header_title").innerHTML = '';
 
 function typeWriter() {
