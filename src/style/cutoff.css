@@ -1,0 +1,47 @@
+table {
+    font-size: 13px;
+}
+
+.table_container {
+    display: flex;
+    margin: 5rem 1rem;
+    width: fit-content;
+    outline: 4px solid black;
+}
+
+table {}
+
+td {
+    padding: auto;
+}
+
+th {
+    padding: 0rem 0.5rem;
+}
+
+tr,
+td,
+th {
+    outline: 1px solid black;
+}
+
+td:hover {
+    outline: 3px solid black;
+}
+
+#header_title {
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    margin: auto;
+}
+
+.main_menu_header {
+    display: flex;
+    flex-direction: column;
+    background-image: url("https://image.cnbcfm.com/api/v1/image/105874696-1556279627825gettyimages-947895256.jpeg?v=1571852572&w=740&h=416&ffmt=webp");
+    background-size: 100%;
+    aspect-ratio: 4;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: multiply;
+}
