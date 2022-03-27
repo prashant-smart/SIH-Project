@@ -1,32 +1,6 @@
 let list1 = document.getElementById("list-items-1");
 let list2 = document.getElementById("list-items-2");
 
-// college 1
-let college_1_name = document.getElementById("college_1");
-let college_1_known_as = document.getElementById("college_1_known_as");
-let college_1_institute_type = document.getElementById(
-    "college_1_institute_type"
-);
-let college_1_year_established = document.getElementById(
-    "college_1_year_established"
-);
-let college_1_address = document.getElementById("college_1_address");
-let college_1_location = document.getElementById("college_1_location");
-let college_1_fees = document.getElementById("college_1_fees");
-
-// College 2
-let college_2_name = document.getElementById("college_2");
-let college_2_known_as = document.getElementById("college_2_known_as");
-let college_2_institute_type = document.getElementById(
-    "college_2_institute_type"
-);
-let college_2_year_established = document.getElementById(
-    "college_2_year_established"
-);
-let college_2_address = document.getElementById("college_2_address");
-let college_2_location = document.getElementById("college_2_location");
-let college_2_fees = document.getElementById("college_2_fees");
-
 college_data.forEach((elm) => {
     let option1 = document.createElement("option");
     option1.value = elm.name;

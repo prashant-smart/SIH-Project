@@ -59,9 +59,6 @@ if (data.geocode.latitude === "NULL" || data.geocode.latitude === 'NULL') {
 mapbtn.onclick = function() {
     localStorage.setItem("MAP_INDEX", data.id);
 }
-mapbtn.addEventListener("onclick", function() {})
-
-
 
 var image_gallery_container = document.getElementsByClassName("image_gallery_container")[0];
 
