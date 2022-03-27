@@ -1,5 +1,10 @@
-var slideIndex = 1;
-showSlides(slideIndex);
+var slides = document.getElementsByClassName("mySlides");
+
+if(slides.length>0){
+    var slideIndex = 1;
+    showSlides(slideIndex);
+}
+
 
 // Next/previous controls
 function plusSlides(n) {
@@ -21,5 +26,6 @@ function showSlides(n) {
     for (i = 0; i < slides.length; i++) {
         slides[i].style.display = "none";
     }
+    
     slides[slideIndex - 1].style.display = "block";
 }
