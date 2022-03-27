@@ -39,7 +39,7 @@ td:hover {
     flex-direction: column;
     background-image: url("https://image.cnbcfm.com/api/v1/image/105874696-1556279627825gettyimages-947895256.jpeg?v=1571852572&w=740&h=416&ffmt=webp");
     background-size: 100%;
-    aspect-ratio: 4;
+    height: 500px;
     background-color: rgba(0, 0, 0, 0.6);
     background-blend-mode: multiply;
 }
