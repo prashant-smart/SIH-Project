@@ -1,7 +1,8 @@
 .news_menu_header {
     background-image: url("/src/utils/news_background.png");
-    background-size: 100%;
+    background-size: contain;
     height: 400px;
+    display: flex;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.8);
     background-blend-mode: multiply;
@@ -17,9 +18,8 @@
 }
 
 .news_menu_header p {
-    font-size: 4rem;
-    font-weight: 500;
-    height: 400px;
-    padding-top: 150px;
+    font-size: 50px;
+    font-weight: bold;
+    margin: auto;
     color: white;
 }
