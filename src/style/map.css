@@ -157,3 +157,10 @@ body {
   .mapboxgl-popup-anchor-top > .mapboxgl-popup-tip {
     border-bottom-color: #91c949;
   }
+
+  .navbar{
+    z-index: 2;
+  }
+  .fade{
+    z-index: 100;
+  }
