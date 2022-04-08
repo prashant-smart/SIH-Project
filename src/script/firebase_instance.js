@@ -21,19 +21,22 @@ onValue(reference, (snapshot) => {
     snapshot.forEach((childSnapshot) => {
         //calling to fetch college data from api
         fetchCollegeData(childSnapshot.val());
+        while(college_data.size()){
+            
+        }
     });
 });
 
-
 function fetchCollegeData(link) {
     fetch(link)
-        .then((response) => {
-            return response.json();
-        })
-        .then((myJson) => {
-            console.log(myJson);
-        })
-        .catch(function(error) {
-            console.log('Looks like there was a problem: ', error);
-        });
+    .then((response) => {
+        return response.json();
+    })
+    .then((myJson) => {
+        college_data=myJson;
+        console.log(college_data);
+    })
+    .catch(function(error) {
+        console.log('Looks like there was a problem: ', error);
+    });
 }
