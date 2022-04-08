@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College A-Z | Colleges</title>
+    <link rel="stylesheet" href="../style/footer.css">
+    <link rel="stylesheet" href="../style/college_card.css">
+    <link rel="stylesheet" href="../style/college.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <!-- Navbar ----------------------------->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../../index.html">College A-Z</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">About us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">Subscribe</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Tools </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item " href="./compare_table.html">Compare College</a>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item " href="./map.html">Maps</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#" onclick="window.scrollTo(0,document.body.scrollHeight);">Contact Us</a>
+                    </li>
+                </ul>
+                <!-- google translate -->
+                <div id="google_translate_element"></div>
+
+                <script type="text/javascript">
+                    function googleTranslateElementInit() {
+                        new google.translate.TranslateElement({
+                            pageLanguage: 'en'
+                        }, 'google_translate_element');
+                    }
+                </script>
+
+                <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- Body------------------------------------- -->
+    <div class="container" style="display:flex;">
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Subscribe For Updates</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="mb-3">
+                                <label for="recipient-name" class="col-form-label">Mail</label>
+                                <input type="text" class="form-control" id="recipient-name" placeholder="example@gmail.com">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="sumbit" class="btn btn-primary" data-bs-dismiss="modal">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="main_menu_header">
+        <p id="header_title" class="type_writer">Search Your Future.</p>
+        <form class="d-flex">
+            <input class="search-bar-homepage" type="search" placeholder="Name,Location,Year" aria-label="Search">
+        </form>
+    </div>
+
+    <!-- cards for homepage -------------------------------------- -->
+    <div class="college_card_container">
+
+    </div>
+
+
+
+    <!-- Footer------------------------ -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <h5><i class="fa fa-road"></i> College A-Z CO INC.</h5>
+                    <div class="row">
+                        <div class="col-6">
+                            <ul class="list-unstyled">
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="./colleges.html">Colleges</a></li>
+                                <li><a href="#">Scholarship</a></li>
+                                <li><a href="./news.html">News</a></li>
+                                <li><a href="./cutoff.html">Cuttoff</a></li>
+                            </ul>
+                            <h6 class="text-md-right ">Phone Number : 011 26131498</h6>
+                            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/e/eb/All_India_Council_for_Technical_Education_logo.png/220px-All_India_Council_for_Technical_Education_logo.png" width="125px" height="125px">
+                        </div>
+                        <div class="col-6">
+                            <ul class="list-unstyled">
+                                <li><a href="#">Documentation</a></li>
+                                <li><a href="#">Support</a></li>
+                                <li><a href="#">Legal Terms</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <ul class="nav">
+                        <li class="nav-item"><a href="#" class="nav-link pl-0"><i class="fa fa-facebook fa-lg"></i></a>
+                        </li>
+                        <li class="nav-item"><a href="#" class="nav-link"><i class="fa fa-twitter fa-lg"></i></a></li>
+                        <li class="nav-item"><a href="https://github.com/prashant-smart/SIH-Project" class="nav-link"><i
+                                    class="fa fa-github fa-lg"></i></a></li>
+                        <li class="nav-item"><a href="#" class="nav-link"><i class="fa fa-instagram fa-lg"></i></a></li>
+                    </ul>
+                    <br>
+                </div>
+                <div class="col-md-2">
+                    <h5 class="text-md-right ">Contact Us</h5>
+                    <hr>
+                    <form action="mailto:kartik224blue@gmail.com" method="post" enctype="text/plain">
+                        <fieldset class="form-group">
+                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                        </fieldset>
+                        <fieldset class="form-group">
+                            <textarea class="form-control" id="exampleMessage" placeholder="Message"></textarea>
+                        </fieldset>
+                        <fieldset class="form-group text-xs-right">
+                            <input class="btn btn-outline-success" type="submit" />
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="../data/college_db.js"></script>
+<script src="../script/college_card.js"></script>
+<script src="../script/search.js"></script>
+<script src="../script/type_writer.js"></script>
+<script src="../script/firebase_instance.js" type="module"></script>
+
+</html>
