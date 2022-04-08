@@ -1,2 +1,0 @@
-
-let college_data;

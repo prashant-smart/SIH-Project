@@ -24,4 +24,7 @@ function fill_cards(array, container) {
 function btnClicked(index) {
     localStorage.setItem("COLLEGE_INDEX", index);
 }
+
+let college_data = JSON.parse(localStorage.getItem("COLLEGE_DATA"));
+console.log(college_data);
 fill_cards(college_data, college_card_container);
