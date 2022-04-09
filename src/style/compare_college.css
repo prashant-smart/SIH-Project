@@ -1,24 +1,120 @@
-.input {
-    width: 90%;
-    text-align: center;
-    margin-top: 1rem;
-    padding: 1rem;
+*, *:before, *:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
 }
-
-.container {
-    display: block;
-    margin: 0px;
+/* body {
+	color: #333;
+	font-size: 14px;
+	line-height: 1.25;
+	font-family: Arial, Helvetica, sans-serif;
+	background: #999;
+	min-width: 320px;
+	overflow-x: hidden;
+} */
+#mainContainer {
+	padding: 20px;
 }
-
-.compare_table {
-    display: flex;
-    text-align: center;
+.wrapper {
+	width: 100%;
+	max-width: 980px;
+	margin: 0 auto;
 }
-
-.compare_table_1,
-.compare_table_2 {
-    height: 100%;
-    width: 50%;
+.page {
+	background: #eee;
+	border-radius: 20px;
+}
+.content {
+	padding: 20px;
+}
+.group:before, .group:after {
+	content: "";
+	display: table;
+}
+.group:after {
+	clear: both;
+}
+.delete,#addrows {
+	position: relative;
+	float: right;
+	color: rgba(255, 255, 255, 0.85);
+	font-size: 1.1em;
+	line-height: 2.65;
+	padding: 0 15px;
+	border: none;
+	border-radius: 6.6666666667px;
+	opacity: 0.85;
+}
+.delete{
     display: inline-block;
-    margin: 1rem;
 }
+.delete:link, .delete:visited, .delete:hover, .delete:visited:hover,#addrows:link,#addrows:visited, #addrows:hover, #addrows:visited:hover {
+	cursor: pointer;
+}
+.delete:hover, .delete:visited:hover,#addrows:hover, #addrows:visited:hover {
+	color: #fff;
+	opacity: 1;
+}
+#addrows {
+	background: green;
+	padding-left: 40px;
+}
+#addrows::before {
+	position: absolute;
+	top: 48%;
+	left: 10px;
+	transform: translateY(-50%);
+	content: "+";
+	color: #fff;
+	font-size: 1.25em;
+	line-height: 0.65;
+	margin-right: 20px;
+	padding: 6px;
+	border-radius: 50%;
+	background: rgba(255, 255, 255, 0.35);
+}
+
+
+.delete {
+    top: 5px;
+    line-height: 1.15;
+    padding: 4px 10px;
+    margin-left: 20px;
+    border-radius: 37%;
+    background: firebrick;
+}
+.delete::before {
+	display: inline-block;
+	content: "x";
+	color: #fff;
+	font-size: 1.25em;
+	border-radius: 50%;
+	opacity: 0.85;
+}
+.rowsss {
+	padding: 10px 20px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	background: #ddd;
+}
+.rowsss:nth-child(even) {
+	background: #ccc;
+}
+.rowsss:last-child {
+	margin: 0;
+}
+.rowsss label, .rowsss input[type=text] {
+	float: left;
+	font-size: 1.35em;
+	line-height: 2;
+	border: none;
+}
+.rowsss label {
+	margin-right: 10px;
+}
+.rowsss input[type=text] {
+	width: 100%;
+	max-width: 50%;
+	border-radius: 5px;
+}
+

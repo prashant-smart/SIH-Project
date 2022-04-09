@@ -5,6 +5,7 @@ window.onload = function() {
 }
 
 function fill_cards(array, container) {
+    console.log(array);
     array.forEach((element) => {
         let div = document.createElement('div');
         div.className = 'college_card'
@@ -24,4 +25,6 @@ function fill_cards(array, container) {
 function btnClicked(index) {
     localStorage.setItem("COLLEGE_INDEX", index);
 }
+// console.log(college_data);
+
 fill_cards(college_data, college_card_container);

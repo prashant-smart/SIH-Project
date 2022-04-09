@@ -1,5 +1,7 @@
-let parent_container=document.getElementsByClassName('parent_container')[0];
-parent_container.style.display='none';
+
+
+let parent_container = document.getElementsByClassName('parent_container')[0];
+parent_container.style.display = 'none';
 
 import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.10/firebase-app.js";
 import { getDatabase, onValue, ref } from "https://www.gstatic.com/firebasejs/9.6.10/firebase-database.js";
@@ -15,30 +17,42 @@ const firebaseConfig = {
     measurementId: "G-JVWJ9Q3K14"
 };
 
+
+
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 const db = getDatabase();
 const reference = ref(db, 'api');
 
 onValue(reference, (snapshot) => {
+    var totalApi = snapshot.size;
+    var index = 0;
     snapshot.forEach((childSnapshot) => {
-        //calling to fetch college data from api
-        fetchCollegeData(childSnapshot.val());
+        fetchCollegeData(childSnapshot.val(), index, totalApi);
+        index++;
     });
 });
 
-function fetchCollegeData(link) {
-    let loader=document.getElementsByClassName('wrapper')[0];
+
+let college_data = [];
+
+function fetchCollegeData(link, index, totalApi) {
     fetch(link)
-    .then((response) => {
-        return response.json();
-    })
-    .then((myJson) => {
-        parent_container.style.display='block';
-        loader.style.display='none';
-        college_data=myJson;
-    })
-    .catch(function(error) {
-        console.log('Looks like there was a problem: ', error);
-    });
+        .then((response) => {
+            return response.json();
+        })
+        .then((myJson) => {
+            console.log("INDEX : ", index, "Total : ", totalApi);
+            college_data.push(myJson);
+            if (index == totalApi - 1) {
+                parent_container.style.display = 'block';
+                let loader = document.getElementsByClassName('wrapper')[0];
+                loader.style.display = 'none';
+                let s1 = JSON.stringify(college_data)
+                localStorage.setItem("college_data",s1 );
+            } 
+        })
+        .catch(function(error) {
+            console.log('Looks like there was a problem: ', error);
+        });
 }
