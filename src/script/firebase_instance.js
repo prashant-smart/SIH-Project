@@ -1,5 +1,3 @@
-
-
 let parent_container = document.getElementsByClassName('parent_container')[0];
 parent_container.style.display = 'none';
 
@@ -42,15 +40,14 @@ function fetchCollegeData(link, index, totalApi) {
             return response.json();
         })
         .then((myJson) => {
-            console.log("INDEX : ", index, "Total : ", totalApi);
+            myJson["id"] = index;
             college_data.push(myJson);
             if (index == totalApi - 1) {
                 parent_container.style.display = 'block';
                 let loader = document.getElementsByClassName('wrapper')[0];
                 loader.style.display = 'none';
-                let s1 = JSON.stringify(college_data)
-                localStorage.setItem("college_data",s1 );
-            } 
+                localStorage.setItem("COLLEGE_DATA", JSON.stringify(college_data));
+            }
         })
         .catch(function(error) {
             console.log('Looks like there was a problem: ', error);

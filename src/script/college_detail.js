@@ -1,5 +1,6 @@
 var index = localStorage.getItem("COLLEGE_INDEX");
-let data = college_data[index];
+
+let data = JSON.parse(localStorage.getItem("COLLEGE_DATA"))[index];
 
 document.getElementsByClassName("college_detail_element_title")[0].innerHTML = "<strong>" + "Name : " + "</strong";
 document.getElementsByClassName("college_detail_element_description")[0].innerHTML = data.name;

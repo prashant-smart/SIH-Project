@@ -10,69 +10,69 @@ body {
 /* Sticky footer position and size
 -------------------------------------------------- */
 html {
-  position: relative!important;
-  min-height: 100%!important;
+  position: relative;
+  min-height: 100%;
 }
 body {
   /* Margin bottom by footer height */
-  margin-bottom: 300px!important;
+  margin-bottom: 300px;
 }
 .footer {
   /* position: absolute; */
-  bottom: 0!important;
-  width: 100%!important;
+  bottom: 0;
+  width: 100%;
   /* Set the fixed height of the footer here */
-  height: auto!important;
+  height: auto;
 }
 
 /* Taller footer on small screens */
 @media (max-width: 567em) {
     body {
-      margin-bottom: 700px!important;
+      margin-bottom: 700px;
     }
     .footer {
-      height: auto!important;
+      height: auto;
     }
 }
 
 /* Sticky footer style and color
 -------------------------------------------------- */
 footer {
-  padding-top: 30px!important;
-  background-color: #292c2f!important;
-  color: #bbb!important;
+  padding-top: 30px;
+  background-color: #292c2f;
+  color: #bbb;
 }
 
 footer a {
-  color: #999!important;
-  text-decoration:none!important;
+  color: #999;
+  text-decoration:none;
 }
 
 footer a:hover, footer a:focus {
-  color: #aaa!important;
-  text-decoration:none!important;
-  border-bottom:1px dotted #999!important;
+  color: #aaa;
+  text-decoration:none;
+  border-bottom:1px dotted #999;
 }
 
 footer .form-control {
-    background-color: #1f2022!important;
-    box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1)!important;
-    border: none!important;
-    resize: none!important;
-    color: #d1d2d2!important;
-    padding: 0.7em 1em!important;
+    background-color: #1f2022;
+    box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+    border: none;
+    resize: none;
+    color: #d1d2d2;
+    padding: 0.7em 1em;
 }
 
 .form-group{
-    margin: 14px!important;
+    margin: 14px;
 }
 
 .col-md-2 {
-    width: 36rem!important;
+    width: 36rem;
 }
-.rows {
+/* .rows {
 
   display: flex;
   flex-wrap: wrap;
 
-}
+} */
