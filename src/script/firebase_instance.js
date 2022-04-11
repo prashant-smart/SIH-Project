@@ -40,6 +40,11 @@ function fetchCollegeData(link, index, totalApi) {
             return response.json();
         })
         .then((myJson) => {
+            console.log(myJson);
+            if (myJson['isValid'] == '0') {
+                college_data.push([]);
+                return;
+            }
             myJson["id"] = index;
             college_data.push(myJson);
             if (index == totalApi - 1) {
