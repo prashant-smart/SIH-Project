@@ -1,7 +1,7 @@
 .college_detail_element {
     background-color: white;
     margin: 2rem 0rem;
-    transition: .2s;
+    transition: 0.3s;
     box-shadow: 10px black;
     border-radius: 8px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 0.5px 5px 0px;
@@ -9,7 +9,7 @@
 
 .college_detail_element_title {
     text-align: left;
-    transition: .2s;
+    transition: 0.3s;
     font-size: 1.3rem;
     color: black;
     padding: 2rem 2rem 0.5rem 2rem;
@@ -17,7 +17,7 @@
 }
 
 .college_detail_element_description {
-    transition: .2s;
+    transition: 0.3s;
     text-align: left;
     padding: 0.5rem 2rem 2rem 2rem;
     font-size: 1.2rem;
@@ -39,5 +39,6 @@
 }
 
 .college_detail_element:hover {
-    background-color: rgb(36, 22, 71);
+    transform: scale(1.03);
+    background-color: rgb(71, 62, 95);
 }

@@ -1,3 +1,4 @@
+let college_data = JSON.parse(localStorage.getItem("COLLEGE_DATA"));
 mapboxgl.accessToken =
     "pk.eyJ1IjoiYXJ5YW5ubm5ubiIsImEiOiJjbDB6OXBvazEwbHdhM2pueDFhbzZqcjI2In0.e1hpRNxdYXG_7AJWEcMQBg";
 
