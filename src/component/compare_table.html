@@ -5,12 +5,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>College A-Z | Compare</title>
+    <title>College A-Z | Cuttoff</title>
     <link rel="stylesheet" href="../style/footer.css">
-    <link rel="stylesheet" href="../style/compare_college.css">
+    <link rel="stylesheet" href="../style/cutoff.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
 </head>
 
 <body>
@@ -19,7 +23,9 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="../../index.html">College A-Z</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -31,10 +37,12 @@
                         <a class="nav-link active" href="#">About us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">Subscribe</a>
+                        <a class="nav-link active" href="#" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">Subscribe</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Tools </a>
+                        <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false"> Tools </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <li><a class="dropdown-item " href="./compare_table.html">Compare College</a>
                             </li>
@@ -45,7 +53,8 @@
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="#" onclick="window.scrollTo(0,document.body.scrollHeight);">Contact Us</a>
+                        <a class="nav-link active" href="#"
+                            onclick="window.scrollTo(0,document.body.scrollHeight);">Contact Us</a>
                     </li>
                 </ul>
                 <!-- google translate -->
@@ -59,7 +68,8 @@
                     }
                 </script>
 
-                <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+                <script type="text/javascript"
+                    src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
             </div>
         </div>
@@ -78,7 +88,8 @@
                         <form>
                             <div class="mb-3">
                                 <label for="recipient-name" class="col-form-label">Mail</label>
-                                <input type="text" class="form-control" id="recipient-name" placeholder="example@gmail.com">
+                                <input type="text" class="form-control" id="recipient-name"
+                                    placeholder="example@gmail.com">
                             </div>
                         </form>
                     </div>
@@ -91,52 +102,117 @@
         </div>
     </div>
 
-    <!-- --------------------------compare page html----------- -->
-    <div id="mainContainer">
-        <div class="wrapper">
-            <header>
-                <div class="content group">
-                    <button id="addrows"></button>
-                </div>
-            </header>
-            <div class="page">
-                <div class="content group">
-                    <div id="list"></div>
-                </div>
-            </div>
-        </div>
+    <div class="main_menu_header">
+        <p id="header_title" class="type_writer">Compare Table</p>
     </div>
+
+
+    <div class="table-responsive">
+        <table class="table table-striped text-successtable-border border-light">
+            <thead class="border-light">
+                <tr>
+                    <th scope="col"></th>
+                    <th scope="col"><strong>Basic</strong></th>
+                    <th scope="col"><strong>Standard</strong></th>
+                    <th scope="col"><strong>Premium</strong></th>
+                    <th scope="col"><strong>Managed</strong></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">HDD Storage</th>
+                    <td>700 MB</td>
+                    <td>1,5 GB</td>
+                    <td>50 GB</td>
+                    <td>up to 5T</i></td>
+                </tr>
+                <tr>
+                    <th scope="row">Web Server</th>
+                    <td><i class="fas fa-check"></i></td>
+                    <td><i class="fas fa-check"></i></td>
+                    <td><i class="fas fa-check"></i></td>
+                    <td><i class="fas fa-check"></i></td>
+                </tr>
+                <tr>
+                    <th scope="row">Database</th>
+                    <td>-</td>
+                    <td>Optional</td>
+                    <td><i class="fas fa-check"></i></td>
+                    <td><i class="fas fa-check"></i></td>
+                </tr>
+                <tr>
+                    <th scope="row">DNS</th>
+                    <td>-</td>
+                    <td>-</td>
+                    <td><i class="fas fa-check"></i></td>
+                    <td><i class="fas fa-check"></i></td>
+                </tr>
+                <tr>
+                    <th scope="row">Backups</th>
+                    <td>-</td>
+                    <td>-</td>
+                    <td><i class="fas fa-check"></i></td>
+                    <td><i class="fas fa-check"></i></td>
+                </tr>
+                <tr>
+                    <th scope="row">Tech Support</th>
+                    <td>None</td>
+                    <td>35$/incident</td>
+                    <td>15$/incident</td>
+                    <td>24/7 included</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td class="fw-bold">Free</td>
+                    <td class="fw-bold">$99/mo</td>
+                    <td class="fw-bold">$179/mo</td>
+                    <td class="fw-bold"><a href>Contact us</a></td>
+                </tr>
+                <tr>
+                    <th class=""></th>
+                    <th class=""><button class="btn btn-primary">Sign-up</button></th>
+                    <th class=""><button class="btn btn-primary">Buy Now</button></th>
+                    <th class=""><button class="btn btn-primary">Buy Now</button></th>
+                    <th class=""></th>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
     <!-- Footer------------------------ -->
     <footer class="footer">
         <div class="container">
-            <div class="rows">
+            <div class="row">
                 <div class="col-md-5">
-                    <h5><i class="fa fa-road"></i> COLLEGE INFO CO INC.</h5>
-                    <div class="rows">
+                    <h5><i class="fa fa-road"></i> College A-Z CO INC.</h5>
+                    <div class="row">
                         <div class="col-6">
                             <ul class="list-unstyled">
-                                <li><a href="">About Us</a></li>
-                                <li><a href="">Colleges</a></li>
-                                <li><a href="">Scholarship</a></li>
-                                <li><a href="">Cuttoff</a></li>
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="./colleges.html">Colleges</a></li>
+                                <li><a href="#">Scholarship</a></li>
+                                <li><a href="./news.html">News</a></li>
+                                <li><a href="./cutoff.html">Cuttoff</a></li>
                             </ul>
                             <h6 class="text-md-right ">Phone Number : 011 26131498</h6>
-                            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/e/eb/All_India_Council_for_Technical_Education_logo.png/220px-All_India_Council_for_Technical_Education_logo.png" width="125px" height="125px">
+                            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/e/eb/All_India_Council_for_Technical_Education_logo.png/220px-All_India_Council_for_Technical_Education_logo.png"
+                                width="125px" height="125px">
                         </div>
                         <div class="col-6">
                             <ul class="list-unstyled">
-                                <li><a href="">Documentation</a></li>
-                                <li><a href="">Support</a></li>
-                                <li><a href="">Legal Terms</a></li>
+                                <li><a href="#">Documentation</a></li>
+                                <li><a href="#">Support</a></li>
+                                <li><a href="#">Legal Terms</a></li>
                             </ul>
                         </div>
                     </div>
                     <ul class="nav">
-                        <li class="nav-item"><a href="" class="nav-link pl-0"><i class="fa fa-facebook fa-lg"></i></a>
+                        <li class="nav-item"><a href="#" class="nav-link pl-0"><i class="fa fa-facebook fa-lg"></i></a>
                         </li>
-                        <li class="nav-item"><a href="" class="nav-link"><i class="fa fa-twitter fa-lg"></i></a></li>
-                        <li class="nav-item"><a href="" class="nav-link"><i class="fa fa-github fa-lg"></i></a></li>
-                        <li class="nav-item"><a href="" class="nav-link"><i class="fa fa-instagram fa-lg"></i></a></li>
+                        <li class="nav-item"><a href="#" class="nav-link"><i class="fa fa-twitter fa-lg"></i></a></li>
+                        <li class="nav-item"><a href="https://github.com/prashant-smart/SIH-Project" class="nav-link"><i
+                                    class="fa fa-github fa-lg"></i></a></li>
+                        <li class="nav-item"><a href="#" class="nav-link"><i class="fa fa-instagram fa-lg"></i></a></li>
                     </ul>
                     <br>
                 </div>
@@ -155,11 +231,13 @@
                         </fieldset>
                     </form>
                 </div>
-
             </div>
         </div>
     </footer>
+
 </body>
+
 <script src="../script/compare_table.js"></script>
+<script src="../script/type_writer.js"></script>
 
 </html>
